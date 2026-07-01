@@ -25,6 +25,8 @@ def sniff_format(text: str, content_type: str = "", url: str = "") -> SourceForm
 
     lowered = f"{content_type} {url}".lower()
     sample = text.lstrip()[:200].lower()
+    if "text/html" in lowered and not url.lower().endswith((".json", ".txt", ".m3u", ".m3u8")):
+        return SourceFormat.UNKNOWN
     if "mpegurl" in lowered or url.lower().endswith((".m3u", ".m3u8")) or sample.startswith("#extm3u"):
         return SourceFormat.M3U
     if "json" in lowered or sample.startswith("{") or sample.startswith("["):
