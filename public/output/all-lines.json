@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T03:14:05.293938+00:00",
+  "generated_at": "2026-07-01T03:19:14.034552+00:00",
   "normal": [
     {
       "name": "dxawi.github.io",
       "url": "https://dxawi.github.io/0/0.json",
-      "score": 100.0,
+      "score": 99.94,
       "label": "快",
-      "elapsed_ms": 7,
+      "elapsed_ms": 128,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false,
       "format": "tvbox_json",
@@ -15,9 +15,9 @@
     {
       "name": "www.yingm.cc",
       "url": "https://www.yingm.cc/dm/dm.json",
-      "score": 99.88,
+      "score": 99.91,
       "label": "快",
-      "elapsed_ms": 248,
+      "elapsed_ms": 190,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false,
       "format": "tvbox_json",
@@ -26,9 +26,9 @@
     {
       "name": "12586.kstore.space",
       "url": "https://12586.kstore.space/123.txt",
-      "score": 98.94,
+      "score": 98.97,
       "label": "快",
-      "elapsed_ms": 128,
+      "elapsed_ms": 54,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false,
       "format": "txt",
@@ -39,24 +39,13 @@
     {
       "name": "home.jundie.top:81",
       "url": "http://home.jundie.top:81/top98.json",
-      "score": 99.86,
+      "score": 99.89,
       "label": "快",
-      "elapsed_ms": 281,
+      "elapsed_ms": 217,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": true,
       "format": "tvbox_json",
       "valid_item_count": 40
-    },
-    {
-      "name": "cdn-www.cnblogs.com",
-      "url": "https://cdn-www.cnblogs.com/js/blog-common.min.js?v=RFetZGrSQTwmcW6anQWlU044F8CCvhZ7MkLSxIC9Yng",
-      "score": 97.47,
-      "label": "快",
-      "elapsed_ms": 1064,
-      "origin": "discovery:cnblogs-tvbox-index",
-      "adult": true,
-      "format": "txt",
-      "valid_item_count": 6
     }
   ]
 }

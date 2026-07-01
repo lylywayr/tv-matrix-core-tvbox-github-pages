@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generated_at": "2026-07-01T03:14:05.293938+00:00",
-    "total": 133,
-    "online": 5,
+    "generated_at": "2026-07-01T03:19:14.034552+00:00",
+    "total": 132,
+    "online": 4,
     "offline": 128,
-    "online_rate": 0.0376,
-    "average_score": 6.89,
+    "online_rate": 0.0303,
+    "average_score": 6.06,
     "artifacts": {
       "tvbox": "output/tvbox.json",
       "warehouse": "output/warehouse.json",
@@ -15,7 +15,7 @@
       "adult_m3u": "output/adult-live.m3u",
       "summary": "output/summary.json",
       "selected": "3",
-      "adult_selected": "2"
+      "adult_selected": "1"
     }
   },
   "sources": [
@@ -26,15 +26,6 @@
       "label": "快",
       "elapsed_ms": 4,
       "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json",
-      "adult": false
-    },
-    {
-      "name": "dxawi.github.io",
-      "url": "https://dxawi.github.io/0/0.json",
-      "score": 100.0,
-      "label": "快",
-      "elapsed_ms": 7,
-      "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
     {
@@ -74,6 +65,15 @@
       "adult": false
     },
     {
+      "name": "dxawi.github.io",
+      "url": "https://dxawi.github.io/0/0.json",
+      "score": 99.94,
+      "label": "快",
+      "elapsed_ms": 128,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false
+    },
+    {
       "name": "tvbox.catvod.com",
       "url": "https://tvbox.catvod.com/js/bili.js",
       "score": 99.93,
@@ -110,6 +110,15 @@
       "adult": false
     },
     {
+      "name": "www.yingm.cc",
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "score": 99.91,
+      "label": "快",
+      "elapsed_ms": 190,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false
+    },
+    {
       "name": "www.yemu.xyz",
       "url": "https://www.yemu.xyz/?url=",
       "score": 99.89,
@@ -125,15 +134,6 @@
       "label": "快",
       "elapsed_ms": 246,
       "origin": "github-file:heroaku/TVboxo",
-      "adult": false
-    },
-    {
-      "name": "www.yingm.cc",
-      "url": "https://www.yingm.cc/dm/dm.json",
-      "score": 99.88,
-      "label": "快",
-      "elapsed_ms": 248,
-      "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
     {
@@ -175,9 +175,9 @@
     {
       "name": "12586.kstore.space",
       "url": "https://12586.kstore.space/123.txt",
-      "score": 98.94,
+      "score": 98.97,
       "label": "快",
-      "elapsed_ms": 128,
+      "elapsed_ms": 54,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
@@ -321,18 +321,9 @@
     {
       "name": "home.jundie.top:81",
       "url": "http://home.jundie.top:81/top98.json",
-      "score": 99.86,
+      "score": 99.89,
       "label": "快",
-      "elapsed_ms": 281,
-      "origin": "discovery:cnblogs-tvbox-index",
-      "adult": true
-    },
-    {
-      "name": "cdn-www.cnblogs.com",
-      "url": "https://cdn-www.cnblogs.com/js/blog-common.min.js?v=RFetZGrSQTwmcW6anQWlU044F8CCvhZ7MkLSxIC9Yng",
-      "score": 97.47,
-      "label": "快",
-      "elapsed_ms": 1064,
+      "elapsed_ms": 217,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": true
     }
@@ -466,6 +457,44 @@
         "summary": "output/summary.json",
         "selected": "3",
         "adult_selected": "2"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T03:17:35.597068+00:00",
+      "total": 33,
+      "online": 1,
+      "offline": 32,
+      "online_rate": 0.0303,
+      "average_score": 5.98,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "0",
+        "adult_selected": "1"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T03:19:14.034552+00:00",
+      "total": 132,
+      "online": 4,
+      "offline": 128,
+      "online_rate": 0.0303,
+      "average_score": 6.06,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "3",
+        "adult_selected": "1"
       }
     }
   ]

@@ -1,5 +1,3 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="home.jundie.top:81",home.jundie.top:81 [快]
 http://home.jundie.top:81/top98.json
-#EXTINF:-1 tvg-name="cdn-www.cnblogs.com",cdn-www.cnblogs.com [快]
-https://cdn-www.cnblogs.com/js/blog-common.min.js?v=RFetZGrSQTwmcW6anQWlU044F8CCvhZ7MkLSxIC9Yng

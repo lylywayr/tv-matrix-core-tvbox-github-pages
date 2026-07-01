@@ -2,9 +2,9 @@
 
 全自动影视仓线路聚合与健康度验证系统。系统默认以自动发现为主、手动配置为辅：会从 GitHub 公共代码搜索和用户配置的公开聚合页中搜集候选线路，验证后只发布评分较优的一小批结果，避免 GitHub Actions 运行时间过长。
 
-![线路总数](https://img.shields.io/badge/total-133-blue)
-![在线率](https://img.shields.io/badge/online_rate-3.76%-brightgreen)
-![最后更新](https://img.shields.io/badge/updated-2026--07--01T03:14:05.293938+00:00-lightgrey)
+![线路总数](https://img.shields.io/badge/total-132-blue)
+![在线率](https://img.shields.io/badge/online_rate-3.03%-brightgreen)
+![最后更新](https://img.shields.io/badge/updated-2026--07--01T03:19:14.034552+00:00-lightgrey)
 
 ## 快速引用
 
@@ -16,20 +16,20 @@
 - 18+ M3U: `https://lylywayr.github.io/tv-matrix-core-tvbox-github-pages/output/adult-live.m3u`
 - 全部可用清单: `https://lylywayr.github.io/tv-matrix-core-tvbox-github-pages/output/all-lines.json`
 - 本次精选发布数量: `3`
-- 本次18+精选发布数量: `2`
+- 本次18+精选发布数量: `1`
 
 ## 当前状态
 
-- 已验证候选数: 133
-- 在线候选数: 5
+- 已验证候选数: 132
+- 在线候选数: 4
 - 离线候选数: 128
-- 平均健康分: 6.89
+- 平均健康分: 6.06
 
 ## 近期在线率趋势
 
 ```text
-▁▁▁▂▂▁▁▁
-0% 0% 0% 22% 18% 8% 9% 4%
+▁▁▁▂▂▁▁▁▁▁
+0% 22% 18% 8% 9% 4% 3% 3%
 ```
 
 ## 本次普通可用线路
@@ -37,23 +37,23 @@
 | 名称 | 标签 | 健康分 | 延迟 | 线路链接 |
 | --- | --- | ---: | ---: | --- |
 | GitHub box.json | 快 | 100.0 | 4ms | `https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json` |
-| dxawi.github.io | 快 | 100.0 | 7ms | `https://dxawi.github.io/0/0.json` |
 | www.seedhub.cc | 快 | 99.99 | 14ms | `https://www.seedhub.cc` |
 | GitHub tvbox.json | 快 | 99.99 | 15ms | `https://raw.githubusercontent.com/phoenix7750/iptv/b5321a52539e837847f1e2c96578482dd3bf7915/tvbox.json` |
 | m3u.ibert.me | 快 | 99.98 | 34ms | `https://m3u.ibert.me/txt/fmml_ipv6.txt` |
 | www.xb6v.com | 快 | 99.95 | 96ms | `https://www.xb6v.com` |
+| dxawi.github.io | 快 | 99.94 | 128ms | `https://dxawi.github.io/0/0.json` |
 | tvbox.catvod.com | 快 | 99.93 | 138ms | `https://tvbox.catvod.com/js/bili.js` |
 | tvbox.catvod.com | 快 | 99.93 | 140ms | `https://tvbox.catvod.com/js/aqy.js` |
 | www.xb6v.com | 快 | 99.93 | 142ms | `http://www.xb6v.com` |
 | jx.xmflv.com | 快 | 99.92 | 152ms | `https://jx.xmflv.com/?url=` |
+| www.yingm.cc | 快 | 99.91 | 190ms | `https://www.yingm.cc/dm/dm.json` |
 | www.yemu.xyz | 快 | 99.89 | 224ms | `https://www.yemu.xyz/?url=` |
 | v.aikanbot.com | 快 | 99.88 | 246ms | `https://v.aikanbot.com` |
-| www.yingm.cc | 快 | 99.88 | 248ms | `https://www.yingm.cc/dm/dm.json` |
 | www.rebovod.com | 快 | 99.73 | 549ms | `https://www.rebovod.com` |
 | huohu.yihn.cc | 快 | 99.55 | 899ms | `http://huohu.yihn.cc` |
 | tvbox.catvod.com | 快 | 99.48 | 46ms | `https://tvbox.catvod.com/js/tx.js` |
 | tvbox.catvod.com | 快 | 98.98 | 46ms | `https://tvbox.catvod.com/js/mgtv.js` |
-| 12586.kstore.space | 快 | 98.94 | 128ms | `https://12586.kstore.space/123.txt` |
+| 12586.kstore.space | 快 | 98.97 | 54ms | `https://12586.kstore.space/123.txt` |
 | tvbox.catvod.com | 快 | 98.47 | 51ms | `https://tvbox.catvod.com/js/yk.js` |
 | tvbox.catvod.com | 快 | 96.98 | 50ms | `https://tvbox.catvod.com/js/ik.js` |
 | tvbox.catvod.com | 快 | 96.48 | 47ms | `https://tvbox.catvod.com/js/sg.js` |
@@ -74,8 +74,7 @@
 
 | 名称 | 标签 | 健康分 | 延迟 | 线路链接 |
 | --- | --- | ---: | ---: | --- |
-| home.jundie.top:81 | 快 | 99.86 | 281ms | `http://home.jundie.top:81/top98.json` |
-| cdn-www.cnblogs.com | 快 | 97.47 | 1064ms | `https://cdn-www.cnblogs.com/js/blog-common.min.js?v=RFetZGrSQTwmcW6anQWlU044F8CCvhZ7MkLSxIC9Yng` |
+| home.jundie.top:81 | 快 | 99.89 | 217ms | `http://home.jundie.top:81/top98.json` |
 
 ## 自动与手动来源
 
