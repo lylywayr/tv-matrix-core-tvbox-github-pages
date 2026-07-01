@@ -10,7 +10,15 @@ fixed_sources:
 
 discovery:
   enabled: true
-  max_candidates_per_run: 120
+  max_candidates_per_run: 320
+  max_urls_per_seed: 20
+  seed_urls:
+    - name: gaotianliuyun-js
+      url: https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json
+      priority: 9
+    - name: freedtv-box
+      url: https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json
+      priority: 8
   pages:
     - name: xduo-api-index
       url: https://xduo.app/box/api/
@@ -34,7 +42,7 @@ discovery:
       - '"FongMi" "影视仓" "sites" extension:json'
 
 validation:
-  concurrency: 24
+  concurrency: 32
   base_timeout_seconds: 8
   max_timeout_seconds: 20
   retries: 2
@@ -56,4 +64,4 @@ output:
   site_base_url: ""
   keep_backups: 3
   change_threshold_online_rate: 0.02
-  max_valid_outputs: 30
+  max_valid_outputs: 80

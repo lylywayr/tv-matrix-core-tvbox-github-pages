@@ -29,3 +29,18 @@ def test_parse_multi_warehouse_urls():
     parsed = parse_content('{"urls":[{"name":"A","url":"https://example.com/tvbox.json"}]}')
     assert parsed.format == SourceFormat.TVBOX_JSON
     assert parsed.valid_items
+
+
+def test_parse_jsonc_tvbox_config():
+    parsed = parse_content(
+        '{// comment\n"sites":[{"name":"A","api":"csp_A",},],}',
+        url="https://example.com/config.json",
+    )
+    assert parsed.valid_items
+
+
+def test_mixed_config_with_one_adult_entry_stays_normal():
+    parsed = parse_content(
+        '{"sites":[{"name":"A","api":"csp_A"},{"name":"福利","api":"csp_B"},{"name":"C","api":"csp_C"},{"name":"D","api":"csp_D"},{"name":"E","api":"csp_E"}]}'
+    )
+    assert parsed.adult is False

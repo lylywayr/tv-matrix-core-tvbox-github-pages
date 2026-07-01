@@ -36,6 +36,8 @@ async def run_pipeline(root: Path, config_path: Path) -> None:
         history = state.data.get("sources", {}).get(result.candidate.url, {})
         result.score = score_result(result, history, config.scoring)
         result.label = label_for_score(result.score, result.elapsed_ms)
+        if result.ok and result.label == "离线":
+            result.label = "慢"
         state.record_result(result)
     state.mark_sleeping_sources(int(config.scoring.get("sleep_after_failures", 5)))
     try:

@@ -15,7 +15,7 @@ CONFIG_URL_RE = re.compile(
     re.IGNORECASE,
 )
 ADULT_RE = re.compile(
-    r"18\+|成人|福利|情色|伦理|午夜|AV|里番|国产自拍|日本无码|国产自拍|写真|擦边|成人视频|adult|porn|sex|xxx",
+    r"18\+|tvbox18|(?:^|[\W_])s?18(?:[\W_]|$)|成人|福利|情色|伦理|午夜|AV|里番|国产自拍|日本无码|国产自拍|写真|擦边|成人视频|adult|porn|sex|xxx",
     re.IGNORECASE,
 )
 
@@ -50,7 +50,7 @@ def parse_content(text: str, content_type: str = "", url: str = "") -> ParsedCon
 
     fmt = sniff_format(text, content_type, url)
     if fmt == SourceFormat.TVBOX_JSON:
-        return _parse_tvbox_json(text)
+        return _parse_tvbox_json(text, url)
     if fmt == SourceFormat.M3U:
         return _parse_m3u(text)
     if fmt == SourceFormat.TXT:
@@ -77,14 +77,19 @@ def looks_adult(*values: str | None) -> bool:
     return any(value and ADULT_RE.search(value) for value in values)
 
 
-def _parse_tvbox_json(text: str) -> ParsedContent:
+def _parse_tvbox_json(text: str, url: str = "") -> ParsedContent:
     try:
         data: Any = json.loads(text)
     except json.JSONDecodeError:
-        return ParsedContent(format=SourceFormat.TVBOX_JSON, valid_items=[])
+        try:
+            data = json.loads(_strip_jsonc(text))
+        except json.JSONDecodeError:
+            return ParsedContent(format=SourceFormat.TVBOX_JSON, valid_items=[])
 
     items: list[dict[str, Any]] = []
-    adult = looks_adult(text)
+    adult_hits = 0
+    total_named_entries = 0
+    adult = looks_adult(url, _title_from_json(data))
     if isinstance(data, dict):
         for key in ("urls", "sites", "lives", "parses", "spider", "rules"):
             value = data.get(key)
@@ -93,7 +98,10 @@ def _parse_tvbox_json(text: str) -> ParsedContent:
                     if isinstance(entry, dict):
                         api = str(entry.get("api") or entry.get("url") or entry.get("ext") or "")
                         name = str(entry.get("name") or "")
-                        adult = adult or looks_adult(name, api)
+                        if name or api:
+                            total_named_entries += 1
+                        if looks_adult(name, api):
+                            adult_hits += 1
                         if (api.startswith(("http://", "https://")) or key in {"urls", "sites", "lives"}) and (
                             key in {"urls", "sites", "lives", "parses"} or api
                         ):
@@ -106,6 +114,8 @@ def _parse_tvbox_json(text: str) -> ParsedContent:
     has_tvbox_shape = isinstance(data, dict) and any(
         isinstance(data.get(key), (list, str)) for key in ("urls", "sites", "lives", "parses", "spider")
     )
+    if total_named_entries:
+        adult = adult or (adult_hits / total_named_entries) >= 0.25
     return ParsedContent(
         format=SourceFormat.TVBOX_JSON,
         valid_items=items if has_tvbox_shape and items else [],
@@ -145,3 +155,45 @@ def _title_from_json(data: Any) -> str | None:
             if isinstance(value, str) and value:
                 return value[:80]
     return None
+
+
+def _strip_jsonc(text: str) -> str:
+    """Remove common JSONC comments and trailing commas without touching string literals."""
+
+    output = []
+    in_string = False
+    escape = False
+    i = 0
+    while i < len(text):
+        char = text[i]
+        nxt = text[i + 1] if i + 1 < len(text) else ""
+        if in_string:
+            output.append(char)
+            if escape:
+                escape = False
+            elif char == "\\":
+                escape = True
+            elif char == '"':
+                in_string = False
+            i += 1
+            continue
+        if char == '"':
+            in_string = True
+            output.append(char)
+            i += 1
+            continue
+        if char == "/" and nxt == "/":
+            i += 2
+            while i < len(text) and text[i] not in "\r\n":
+                i += 1
+            continue
+        if char == "/" and nxt == "*":
+            i += 2
+            while i + 1 < len(text) and not (text[i] == "*" and text[i + 1] == "/"):
+                i += 1
+            i += 2
+            continue
+        output.append(char)
+        i += 1
+    cleaned = "".join(output)
+    return re.sub(r",\s*([}\]])", r"\1", cleaned)

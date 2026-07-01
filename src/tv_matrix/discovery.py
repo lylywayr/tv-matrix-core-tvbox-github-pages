@@ -33,10 +33,59 @@ async def discover_candidates(config: dict, robots: RobotsCache) -> list[SourceC
     headers = {"User-Agent": USER_AGENT, "Accept": "text/html,text/plain,application/json,*/*"}
     found: dict[str, SourceCandidate] = {}
     async with aiohttp.ClientSession(timeout=timeout, headers=headers) as session:
+        await _discover_from_seed_urls(config, session, found, max_candidates)
         await _discover_from_pages(config, robots, session, found, max_candidates)
         if len(found) < max_candidates:
             await _discover_from_github(config, session, found, max_candidates)
     return list(found.values())
+
+
+async def _discover_from_seed_urls(
+    config: dict,
+    session: aiohttp.ClientSession,
+    found: dict[str, SourceCandidate],
+    max_candidates: int,
+) -> None:
+    """Discover candidates from curated automatic seed URLs.
+
+    Seed URLs are not manual user input. They are maintained as an automatic
+    discovery bootstrap list gathered from public TVBox/影视仓 projects.
+    """
+
+    max_urls_per_seed = int(config.get("max_urls_per_seed", 80))
+    normalized_seeds = []
+    for item in config.get("seed_urls", []):
+        if isinstance(item, str):
+            url, name, priority = item, urlparse(item).netloc, 7
+        else:
+            url = str(item.get("url"))
+            name = str(item.get("name") or urlparse(url).netloc)
+            priority = int(item.get("priority", 7))
+        if not url.startswith(("http://", "https://")):
+            continue
+        normalized_seeds.append((url, name, priority))
+        found.setdefault(
+            url,
+            SourceCandidate(
+                name=name,
+                url=url,
+                origin="seed",
+                priority=priority,
+                tags=["auto-seed"],
+            ),
+        )
+        if len(found) >= max_candidates:
+            return
+
+    for url, name, priority in normalized_seeds:
+        if len(found) >= max_candidates:
+            return
+        try:
+            async with session.get(url) as response:
+                text = await response.text(errors="ignore")
+        except Exception:
+            continue
+        _add_urls(found, discover_urls_from_text(text)[:max_urls_per_seed], f"seed-nested:{name}", priority - 1)
 
 
 async def _discover_from_pages(

@@ -1,0 +1,42 @@
+{
+  "name": "TV-Matrix-Core 优选普通仓",
+  "generated_at": "2026-07-01T03:46:43.342651+00:00",
+  "urls": [
+    {
+      "name": "01. www.yingm.cc [快/99.98]",
+      "url": "https://www.yingm.cc/dm/dm.json"
+    },
+    {
+      "name": "02. home.jundie.top:81 [快/99.98]",
+      "url": "http://home.jundie.top:81/top98.json"
+    },
+    {
+      "name": "03. freedtv-box [快/99.87]",
+      "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json"
+    },
+    {
+      "name": "04. cnnbgo [快/99.86]",
+      "url": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json"
+    },
+    {
+      "name": "05. gaotianliuyun-js [快/99.85]",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json"
+    },
+    {
+      "name": "06. dxawi.github.io [快/99.82]",
+      "url": "https://dxawi.github.io/0/0.json"
+    },
+    {
+      "name": "07. 12586.kstore.space [快/98.99]",
+      "url": "https://12586.kstore.space/123.txt"
+    },
+    {
+      "name": "08. raw.liucn.cc [离线/19.8]",
+      "url": "https://raw.liucn.cc/box/m.json"
+    },
+    {
+      "name": "09. liu673cn-box [离线/18.92]",
+      "url": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json"
+    }
+  ]
+}
