@@ -103,7 +103,7 @@ def generate_artifacts(
     all_lines_text = json.dumps(all_lines, ensure_ascii=False, indent=2)
     summary_text = json.dumps(asdict(summary), ensure_ascii=False, indent=2)
     has_backup = (output_dir / "backups").exists()
-    _validate_tvbox(tvbox, allow_empty=not results or not has_backup)
+    _validate_tvbox(tvbox, allow_empty=not valid or not has_backup)
     atomic_write(output_dir / "tvbox.json", tvbox_text)
     atomic_write(output_dir / "warehouse.json", warehouse_text)
     atomic_write(output_dir / "adult-warehouse.json", adult_warehouse_text)
