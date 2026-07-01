@@ -1,13 +1,22 @@
-# Default runtime config. Replace examples with real public sources that permit crawling.
+# Default runtime config. Manual sources are supported, but automatic discovery is enabled by default.
 fixed_sources: []
 
 discovery:
-  enabled: false
-  max_candidates_per_run: 50
+  enabled: true
+  max_candidates_per_run: 120
   pages: []
+  github_code_search:
+    enabled: true
+    max_files_per_query: 8
+    max_urls_per_file: 30
+    queries:
+      - '"tvbox" "sites" "api" extension:json'
+      - '"影视仓" "sites" "api" extension:json'
+      - '"TVBox" "m3u" extension:txt'
+      - '"接口" "jar" "sites" extension:json'
 
 validation:
-  concurrency: 24
+  concurrency: 18
   base_timeout_seconds: 8
   max_timeout_seconds: 20
   retries: 2
@@ -26,6 +35,7 @@ scoring:
     content_quality: 0.05
 
 output:
-  site_base_url: ""
+  site_base_url: "https://lylywayr.github.io/tv-matrix-core-tvbox-github-pages/"
   keep_backups: 3
   change_threshold_online_rate: 0.02
+  max_valid_outputs: 30

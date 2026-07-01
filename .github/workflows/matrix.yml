@@ -33,6 +33,7 @@ jobs:
         env:
           TV_MATRIX_SHARD: ${{ matrix.shard }}
           TV_MATRIX_SHARDS: 4
+          GITHUB_TOKEN: ${{ github.token }}
         run: python -m tv_matrix.cli --root . run --config config/sources.yml
       - name: Upload shard artifact
         uses: actions/upload-artifact@v4
@@ -62,6 +63,8 @@ jobs:
       - name: Preserve previous summary
         run: cp output/summary.json .old-summary.json 2>/dev/null || true
       - name: Normalize generated files
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: python -m tv_matrix.cli --root . run --config config/sources.yml
       - name: Commit changed artifacts
         run: |

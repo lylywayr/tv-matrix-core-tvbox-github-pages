@@ -1,6 +1,6 @@
 # TV-Matrix-Core
 
-全自动影视仓线路聚合与健康度验证系统。系统从配置源和公开发现页采集候选线路，执行网络层、内容层和可选 TCP 探测，基于历史表现评分，并发布 TVBox/M3U 产物与 GitHub Pages 面板。
+全自动影视仓线路聚合与健康度验证系统。系统默认以自动发现为主、手动配置为辅：会从 GitHub 公共代码搜索和用户配置的公开聚合页中搜集候选线路，验证后只发布评分较优的一小批结果，避免 GitHub Actions 运行时间过长。
 
 ![线路总数](https://img.shields.io/badge/total-0-blue)
 ![在线率](https://img.shields.io/badge/online_rate-0.00%-brightgreen)
@@ -8,15 +8,16 @@
 
 ## 快速引用
 
-- TVBox JSON: `output/tvbox.json`
-- M3U: `output/live.m3u`
-- 静态导航页: `public/index.html`
+- GitHub Pages: `https://lylywayr.github.io/tv-matrix-core-tvbox-github-pages`
+- TVBox JSON: `https://lylywayr.github.io/tv-matrix-core-tvbox-github-pages/output/tvbox.json`
+- M3U: `https://lylywayr.github.io/tv-matrix-core-tvbox-github-pages/output/live.m3u`
+- 本次精选发布数量: `0`
 
 ## 当前状态
 
-- 总线路数: 0
-- 在线线路数: 0
-- 离线线路数: 0
+- 已验证候选数: 0
+- 在线候选数: 0
+- 离线候选数: 0
 - 平均健康分: 0.0
 
 ## 近期在线率趋势
@@ -26,11 +27,17 @@
 0% 0%
 ```
 
-## 线路统计
+## 本次可用线路
 
-| 名称 | 状态 | 健康分 | 延迟 | 连续失败 |
-| --- | --- | ---: | ---: | ---: |
-| 暂无配置源 | - | - | - | - |
+| 名称 | 标签 | 健康分 | 延迟 | 线路链接 |
+| --- | --- | ---: | ---: | --- |
+| 暂无可用线路 | - | - | - | - |
+
+## 自动与手动来源
+
+- 自动发现默认开启，配置位于 `config/sources.yml` 的 `discovery.github_code_search`。
+- 手动来源仍保留在 `fixed_sources`，适合放入你确认稳定、允许抓取和发布的线路。
+- 最终产物会按健康分排序，并受 `output.max_valid_outputs` 限制。
 
 ## 本地命令
 
@@ -40,10 +47,6 @@ python -m tv_matrix.cli run --config config/sources.yml
 python -m tv_matrix.cli validate --url https://example.com/tvbox.json
 python -m tv_matrix.cli rollback
 ```
-
-## 配置
-
-复制 `config/sources.example.yml` 为 `config/sources.yml`，填入你有权抓取和发布的公开源。抓取逻辑会读取 robots.txt，并遵守 Crawl-delay。
 
 ## AI 维护指南
 

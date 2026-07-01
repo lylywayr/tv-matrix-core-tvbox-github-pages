@@ -39,7 +39,12 @@ async def run_pipeline(root: Path, config_path: Path) -> None:
         state.record_result(result)
     state.mark_sleeping_sources(int(config.scoring.get("sleep_after_failures", 5)))
     try:
-        summary = generate_artifacts(results, root / "output", int(config.output.get("keep_backups", 3)))
+        summary = generate_artifacts(
+            results,
+            root / "output",
+            int(config.output.get("keep_backups", 3)),
+            int(config.output.get("max_valid_outputs", 30)),
+        )
     except Exception as exc:
         _write_alert(root, f"artifact_generation_failed: {exc}")
         try:

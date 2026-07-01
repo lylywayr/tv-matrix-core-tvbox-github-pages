@@ -21,10 +21,20 @@ def atomic_write(path: Path, content: str) -> None:
     tmp.replace(path)
 
 
-def generate_artifacts(results: list[ValidationResult], output_dir: Path, keep_backups: int) -> RunSummary:
+def generate_artifacts(
+    results: list[ValidationResult],
+    output_dir: Path,
+    keep_backups: int,
+    max_valid_outputs: int | None = None,
+) -> RunSummary:
     """Generate TVBox JSON, M3U, machine summary, and backups."""
 
-    valid = [result for result in results if result.ok]
+    all_valid = sorted(
+        [result for result in results if result.ok],
+        key=lambda result: (result.score, -(result.elapsed_ms or 999999)),
+        reverse=True,
+    )
+    valid = all_valid[:max_valid_outputs] if max_valid_outputs else all_valid
     generated_at = datetime.now(UTC).isoformat()
     tvbox = {
         "name": "TV-Matrix-Core",
@@ -53,21 +63,23 @@ def generate_artifacts(results: list[ValidationResult], output_dir: Path, keep_b
     summary = RunSummary(
         generated_at=generated_at,
         total=len(results),
-        online=len(valid),
-        offline=len(results) - len(valid),
-        online_rate=round(len(valid) / len(results), 4) if results else 0.0,
+        online=len(all_valid),
+        offline=len(results) - len(all_valid),
+        online_rate=round(len(all_valid) / len(results), 4) if results else 0.0,
         average_score=round(sum(r.score for r in results) / len(results), 2) if results else 0.0,
         artifacts={
             "tvbox": "output/tvbox.json",
             "m3u": "output/live.m3u",
             "summary": "output/summary.json",
+            "selected": str(len(valid)),
         },
     )
 
     output_dir.mkdir(parents=True, exist_ok=True)
     tvbox_text = json.dumps(tvbox, ensure_ascii=False, indent=2)
     summary_text = json.dumps(asdict(summary), ensure_ascii=False, indent=2)
-    _validate_tvbox(tvbox, allow_empty=not results)
+    has_backup = (output_dir / "backups").exists()
+    _validate_tvbox(tvbox, allow_empty=not results or not has_backup)
     atomic_write(output_dir / "tvbox.json", tvbox_text)
     atomic_write(output_dir / "live.m3u", "\n".join(m3u_lines) + "\n")
     atomic_write(output_dir / "summary.json", summary_text)
