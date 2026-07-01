@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "generated_at": "2026-07-01T02:30:23.442718+00:00",
+    "total": 0,
+    "online": 0,
+    "offline": 0,
+    "online_rate": 0.0,
+    "average_score": 0.0,
+    "artifacts": {
+      "tvbox": "output/tvbox.json",
+      "m3u": "output/live.m3u",
+      "summary": "output/summary.json"
+    }
+  },
+  "sources": [],
+  "runs": [
+    {
+      "generated_at": "2026-07-01T02:30:05.142951+00:00",
+      "total": 0,
+      "online": 0,
+      "offline": 0,
+      "online_rate": 0.0,
+      "average_score": 0.0,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "m3u": "output/live.m3u",
+        "summary": "output/summary.json"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T02:30:23.442718+00:00",
+      "total": 0,
+      "online": 0,
+      "offline": 0,
+      "online_rate": 0.0,
+      "average_score": 0.0,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "m3u": "output/live.m3u",
+        "summary": "output/summary.json"
+      }
+    }
+  ]
+}
