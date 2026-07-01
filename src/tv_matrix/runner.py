@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import asyncio
 import os
+from dataclasses import asdict
 from pathlib import Path
 
 from .config import load_config
@@ -41,9 +42,12 @@ async def run_pipeline(root: Path, config_path: Path) -> None:
         summary = generate_artifacts(results, root / "output", int(config.output.get("keep_backups", 3)))
     except Exception as exc:
         _write_alert(root, f"artifact_generation_failed: {exc}")
-        rollback_latest(root / "output")
+        try:
+            rollback_latest(root / "output")
+        except FileNotFoundError:
+            pass
         raise
-    state.add_run(summary.__dict__)
+    state.add_run(asdict(summary))
     state.save()
     render_readme(root, state.data, str(config.output.get("site_base_url", "")))
     render_site(root, state.data)

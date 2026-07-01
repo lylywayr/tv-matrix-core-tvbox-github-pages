@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import shutil
+from dataclasses import asdict
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -65,7 +66,7 @@ def generate_artifacts(results: list[ValidationResult], output_dir: Path, keep_b
 
     output_dir.mkdir(parents=True, exist_ok=True)
     tvbox_text = json.dumps(tvbox, ensure_ascii=False, indent=2)
-    summary_text = json.dumps(summary.__dict__, ensure_ascii=False, indent=2)
+    summary_text = json.dumps(asdict(summary), ensure_ascii=False, indent=2)
     _validate_tvbox(tvbox, allow_empty=not results)
     atomic_write(output_dir / "tvbox.json", tvbox_text)
     atomic_write(output_dir / "live.m3u", "\n".join(m3u_lines) + "\n")
