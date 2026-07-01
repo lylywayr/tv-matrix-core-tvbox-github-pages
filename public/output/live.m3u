@@ -1,1 +1,61 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="GitHub box.json",GitHub box.json [快]
+https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json
+#EXTINF:-1 tvg-name="www.seedhub.cc",www.seedhub.cc [快]
+https://www.seedhub.cc
+#EXTINF:-1 tvg-name="GitHub tvbox.json",GitHub tvbox.json [快]
+https://raw.githubusercontent.com/phoenix7750/iptv/b5321a52539e837847f1e2c96578482dd3bf7915/tvbox.json
+#EXTINF:-1 tvg-name="m3u.ibert.me",m3u.ibert.me [快]
+https://m3u.ibert.me/txt/fmml_ipv6.txt
+#EXTINF:-1 tvg-name="www.xb6v.com",www.xb6v.com [快]
+https://www.xb6v.com
+#EXTINF:-1 tvg-name="tvbox.catvod.com",tvbox.catvod.com [快]
+https://tvbox.catvod.com/js/bili.js
+#EXTINF:-1 tvg-name="tvbox.catvod.com",tvbox.catvod.com [快]
+https://tvbox.catvod.com/js/aqy.js
+#EXTINF:-1 tvg-name="www.xb6v.com",www.xb6v.com [快]
+http://www.xb6v.com
+#EXTINF:-1 tvg-name="jx.xmflv.com",jx.xmflv.com [快]
+https://jx.xmflv.com/?url=
+#EXTINF:-1 tvg-name="www.yemu.xyz",www.yemu.xyz [快]
+https://www.yemu.xyz/?url=
+#EXTINF:-1 tvg-name="v.aikanbot.com",v.aikanbot.com [快]
+https://v.aikanbot.com
+#EXTINF:-1 tvg-name="www.rebovod.com",www.rebovod.com [快]
+https://www.rebovod.com
+#EXTINF:-1 tvg-name="huohu.yihn.cc",huohu.yihn.cc [快]
+http://huohu.yihn.cc
+#EXTINF:-1 tvg-name="tvbox.catvod.com",tvbox.catvod.com [快]
+https://tvbox.catvod.com/js/tx.js
+#EXTINF:-1 tvg-name="tvbox.catvod.com",tvbox.catvod.com [快]
+https://tvbox.catvod.com/js/mgtv.js
+#EXTINF:-1 tvg-name="tvbox.catvod.com",tvbox.catvod.com [快]
+https://tvbox.catvod.com/js/yk.js
+#EXTINF:-1 tvg-name="tvbox.catvod.com",tvbox.catvod.com [快]
+https://tvbox.catvod.com/js/ik.js
+#EXTINF:-1 tvg-name="tvbox.catvod.com",tvbox.catvod.com [快]
+https://tvbox.catvod.com/js/sg.js
+#EXTINF:-1 tvg-name="tvbox.catvod.com",tvbox.catvod.com [快]
+https://tvbox.catvod.com/js/drpy2.min.js
+#EXTINF:-1 tvg-name="jx.m3u8.tv",jx.m3u8.tv [快]
+https://jx.m3u8.tv/jiexi/?url=
+#EXTINF:-1 tvg-name="jx.aidouer.net",jx.aidouer.net [快]
+https://jx.aidouer.net/?url=
+#EXTINF:-1 tvg-name="jx.xyflv.cc",jx.xyflv.cc [快]
+https://jx.xyflv.cc/?url=
+#EXTINF:-1 tvg-name="bind.315999.xyz",bind.315999.xyz [快]
+https://bind.315999.xyz/89.txt
+#EXTINF:-1 tvg-name="www.gsjtlxy.top",www.gsjtlxy.top [快]
+https://www.gsjtlxy.top/xgapp.php/v3/
+#EXTINF:-1 tvg-name="lanyinghz.oss-cn-hangzhou.aliyuncs.com",lanyinghz.oss-cn-hangzhou.aliyuncs.com [快]
+https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt
+#EXTINF:-1 tvg-name="staraugust123456.oss-cn-hangzhou.aliyuncs.com",staraugust123456.oss-cn-hangzhou.aliyuncs.com [快]
+https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt
+#EXTINF:-1 tvg-name="muouapp.oss-cn-hangzhou.aliyuncs.com",muouapp.oss-cn-hangzhou.aliyuncs.com [快]
+https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt
+#EXTINF:-1 tvg-name="tiantangyoulu.oss-cn-beijing.aliyuncs.com",tiantangyoulu.oss-cn-beijing.aliyuncs.com [快]
+https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt
+#EXTINF:-1 tvg-name="aysappto.oss-cn-chengdu.aliyuncs.com",aysappto.oss-cn-chengdu.aliyuncs.com [快]
+https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt
+#EXTINF:-1 tvg-name="app.789dd.cn",app.789dd.cn [快]
+http://app.789dd.cn

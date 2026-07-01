@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-07-01T02:30:23.442718+00:00",
-  "total": 0,
-  "online": 0,
-  "offline": 0,
-  "online_rate": 0.0,
-  "average_score": 0.0,
+  "generated_at": "2026-07-01T02:49:53.774349+00:00",
+  "total": 139,
+  "online": 30,
+  "offline": 109,
+  "online_rate": 0.2158,
+  "average_score": 22.77,
   "artifacts": {
     "tvbox": "output/tvbox.json",
     "m3u": "output/live.m3u",
-    "summary": "output/summary.json"
+    "summary": "output/summary.json",
+    "selected": "30"
   }
 }

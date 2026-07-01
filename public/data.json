@@ -1,18 +1,260 @@
 {
   "summary": {
-    "generated_at": "2026-07-01T02:30:23.442718+00:00",
-    "total": 0,
-    "online": 0,
-    "offline": 0,
-    "online_rate": 0.0,
-    "average_score": 0.0,
+    "generated_at": "2026-07-01T02:49:53.774349+00:00",
+    "total": 139,
+    "online": 30,
+    "offline": 109,
+    "online_rate": 0.2158,
+    "average_score": 22.77,
     "artifacts": {
       "tvbox": "output/tvbox.json",
       "m3u": "output/live.m3u",
-      "summary": "output/summary.json"
+      "summary": "output/summary.json",
+      "selected": "30"
     }
   },
-  "sources": [],
+  "sources": [
+    {
+      "name": "GitHub box.json",
+      "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
+      "score": 100.0,
+      "label": "快",
+      "elapsed_ms": 4,
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json"
+    },
+    {
+      "name": "www.seedhub.cc",
+      "url": "https://www.seedhub.cc",
+      "score": 99.99,
+      "label": "快",
+      "elapsed_ms": 14,
+      "origin": "github-file:gaotianliuyun/gao"
+    },
+    {
+      "name": "GitHub tvbox.json",
+      "url": "https://raw.githubusercontent.com/phoenix7750/iptv/b5321a52539e837847f1e2c96578482dd3bf7915/tvbox.json",
+      "score": 99.99,
+      "label": "快",
+      "elapsed_ms": 15,
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json"
+    },
+    {
+      "name": "m3u.ibert.me",
+      "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",
+      "score": 99.98,
+      "label": "快",
+      "elapsed_ms": 34,
+      "origin": "github-file:gaotianliuyun/gao"
+    },
+    {
+      "name": "www.xb6v.com",
+      "url": "https://www.xb6v.com",
+      "score": 99.95,
+      "label": "快",
+      "elapsed_ms": 96,
+      "origin": "github-file:gaotianliuyun/gao"
+    },
+    {
+      "name": "tvbox.catvod.com",
+      "url": "https://tvbox.catvod.com/js/bili.js",
+      "score": 99.93,
+      "label": "快",
+      "elapsed_ms": 138,
+      "origin": "github-file:phoenix7750/iptv"
+    },
+    {
+      "name": "tvbox.catvod.com",
+      "url": "https://tvbox.catvod.com/js/aqy.js",
+      "score": 99.93,
+      "label": "快",
+      "elapsed_ms": 140,
+      "origin": "github-file:phoenix7750/iptv"
+    },
+    {
+      "name": "www.xb6v.com",
+      "url": "http://www.xb6v.com",
+      "score": 99.93,
+      "label": "快",
+      "elapsed_ms": 142,
+      "origin": "github-file:yueer59/Tvbox"
+    },
+    {
+      "name": "jx.xmflv.com",
+      "url": "https://jx.xmflv.com/?url=",
+      "score": 99.92,
+      "label": "快",
+      "elapsed_ms": 152,
+      "origin": "github-file:yueer59/Tvbox"
+    },
+    {
+      "name": "www.yemu.xyz",
+      "url": "https://www.yemu.xyz/?url=",
+      "score": 99.89,
+      "label": "快",
+      "elapsed_ms": 224,
+      "origin": "github-file:yueer59/Tvbox"
+    },
+    {
+      "name": "v.aikanbot.com",
+      "url": "https://v.aikanbot.com",
+      "score": 99.88,
+      "label": "快",
+      "elapsed_ms": 246,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "www.rebovod.com",
+      "url": "https://www.rebovod.com",
+      "score": 99.73,
+      "label": "快",
+      "elapsed_ms": 549,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "huohu.yihn.cc",
+      "url": "http://huohu.yihn.cc",
+      "score": 99.55,
+      "label": "快",
+      "elapsed_ms": 899,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "tvbox.catvod.com",
+      "url": "https://tvbox.catvod.com/js/tx.js",
+      "score": 99.48,
+      "label": "快",
+      "elapsed_ms": 46,
+      "origin": "github-file:phoenix7750/iptv"
+    },
+    {
+      "name": "tvbox.catvod.com",
+      "url": "https://tvbox.catvod.com/js/mgtv.js",
+      "score": 98.98,
+      "label": "快",
+      "elapsed_ms": 46,
+      "origin": "github-file:phoenix7750/iptv"
+    },
+    {
+      "name": "tvbox.catvod.com",
+      "url": "https://tvbox.catvod.com/js/yk.js",
+      "score": 98.47,
+      "label": "快",
+      "elapsed_ms": 51,
+      "origin": "github-file:phoenix7750/iptv"
+    },
+    {
+      "name": "tvbox.catvod.com",
+      "url": "https://tvbox.catvod.com/js/ik.js",
+      "score": 96.98,
+      "label": "快",
+      "elapsed_ms": 50,
+      "origin": "github-file:phoenix7750/iptv"
+    },
+    {
+      "name": "tvbox.catvod.com",
+      "url": "https://tvbox.catvod.com/js/sg.js",
+      "score": 96.48,
+      "label": "快",
+      "elapsed_ms": 47,
+      "origin": "github-file:phoenix7750/iptv"
+    },
+    {
+      "name": "tvbox.catvod.com",
+      "url": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "score": 96.45,
+      "label": "快",
+      "elapsed_ms": 92,
+      "origin": "github-file:phoenix7750/iptv"
+    },
+    {
+      "name": "jx.m3u8.tv",
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "score": 95.98,
+      "label": "快",
+      "elapsed_ms": 50,
+      "origin": "github-file:FreeDTV/FreeD"
+    },
+    {
+      "name": "jx.aidouer.net",
+      "url": "https://jx.aidouer.net/?url=",
+      "score": 95.48,
+      "label": "快",
+      "elapsed_ms": 46,
+      "origin": "github-file:gaotianliuyun/gao"
+    },
+    {
+      "name": "jx.xyflv.cc",
+      "url": "https://jx.xyflv.cc/?url=",
+      "score": 95.48,
+      "label": "快",
+      "elapsed_ms": 48,
+      "origin": "github-file:gaotianliuyun/gao"
+    },
+    {
+      "name": "bind.315999.xyz",
+      "url": "https://bind.315999.xyz/89.txt",
+      "score": 95.45,
+      "label": "快",
+      "elapsed_ms": 108,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "www.gsjtlxy.top",
+      "url": "https://www.gsjtlxy.top/xgapp.php/v3/",
+      "score": 95.44,
+      "label": "快",
+      "elapsed_ms": 112,
+      "origin": "github-file:yueer59/Tvbox"
+    },
+    {
+      "name": "lanyinghz.oss-cn-hangzhou.aliyuncs.com",
+      "url": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
+      "score": 95.39,
+      "label": "快",
+      "elapsed_ms": 229,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "staraugust123456.oss-cn-hangzhou.aliyuncs.com",
+      "url": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+      "score": 95.39,
+      "label": "快",
+      "elapsed_ms": 229,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "muouapp.oss-cn-hangzhou.aliyuncs.com",
+      "url": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
+      "score": 95.38,
+      "label": "快",
+      "elapsed_ms": 234,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "tiantangyoulu.oss-cn-beijing.aliyuncs.com",
+      "url": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
+      "score": 95.38,
+      "label": "快",
+      "elapsed_ms": 240,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "aysappto.oss-cn-chengdu.aliyuncs.com",
+      "url": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+      "score": 95.38,
+      "label": "快",
+      "elapsed_ms": 250,
+      "origin": "github-file:heroaku/TVboxo"
+    },
+    {
+      "name": "app.789dd.cn",
+      "url": "http://app.789dd.cn",
+      "score": 95.22,
+      "label": "快",
+      "elapsed_ms": 551,
+      "origin": "github-file:heroaku/TVboxo"
+    }
+  ],
   "runs": [
     {
       "generated_at": "2026-07-01T02:30:05.142951+00:00",
@@ -38,6 +280,34 @@
         "tvbox": "output/tvbox.json",
         "m3u": "output/live.m3u",
         "summary": "output/summary.json"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T02:48:14.804797+00:00",
+      "total": 0,
+      "online": 0,
+      "offline": 0,
+      "online_rate": 0.0,
+      "average_score": 0.0,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "m3u": "output/live.m3u",
+        "summary": "output/summary.json",
+        "selected": "0"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T02:49:53.774349+00:00",
+      "total": 139,
+      "online": 30,
+      "offline": 109,
+      "online_rate": 0.2158,
+      "average_score": 22.77,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "m3u": "output/live.m3u",
+        "summary": "output/summary.json",
+        "selected": "30"
       }
     }
   ]

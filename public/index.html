@@ -40,10 +40,11 @@
       <button onclick="copyText(location.origin + location.pathname.replace(/index\.html$/, '') + 'output/tvbox.json')">复制 TVBox</button>
       <button onclick="copyText(location.origin + location.pathname.replace(/index\.html$/, '') + 'output/live.m3u')">复制 M3U</button>
       <a class="button" href="output/tvbox.json">打开 JSON</a>
+      <a class="button" href="output/live.m3u">打开 M3U</a>
     </div>
     <section class="grid">
       <table>
-        <thead><tr><th>名称</th><th>健康</th><th>延迟</th><th>地址</th></tr></thead>
+        <thead><tr><th>名称</th><th>健康</th><th>延迟</th><th>地址</th><th>操作</th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
       <aside class="panel"><canvas id="trend"></canvas></aside>
@@ -58,7 +59,8 @@
       rate.textContent = (((s.online_rate || 0) * 100).toFixed(1)) + '%';
       score.textContent = s.average_score || 0;
       updated.textContent = '最后更新: ' + (s.generated_at || '-');
-      rows.innerHTML = (data.sources || []).map(item => `<tr><td>${escapeHtml(item.name)}</td><td class="tag">${item.label} ${item.score}</td><td>${item.elapsed_ms || '-'}ms</td><td>${escapeHtml(item.url)}</td></tr>`).join('') || '<tr><td colspan="4">暂无可用线路</td></tr>';
+      rows.innerHTML = (data.sources || []).map(item => `<tr><td>${escapeHtml(item.name)}</td><td class="tag">${item.label} ${item.score}</td><td>${item.elapsed_ms || '-'}ms</td><td>${escapeHtml(item.url)}</td><td><button data-url="${escapeHtml(item.url)}">复制</button></td></tr>`).join('') || '<tr><td colspan="5">暂无可用线路</td></tr>';
+      rows.querySelectorAll('button[data-url]').forEach(button => button.addEventListener('click', () => copyText(button.dataset.url)));
       new Chart(document.getElementById('trend'), {
         type: 'line',
         data: { labels: (data.runs || []).map((_, i) => i + 1), datasets: [{ label: '在线率', data: (data.runs || []).map(r => (r.online_rate || 0) * 100), borderColor: '#0b57d0', backgroundColor: 'rgba(11,87,208,.12)', tension: .25, fill: true }] },

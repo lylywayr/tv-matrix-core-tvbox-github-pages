@@ -1,5 +1,2786 @@
 {
-  "sources": {},
+  "sources": {
+    "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json": {
+      "name": "GitHub api.json",
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json",
+      "priority": 4,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:36.871418+00:00",
+          "ok": false,
+          "elapsed_ms": 2,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:36.871418+00:00"
+    },
+    "https://api.likepoems.com/img/bing": {
+      "name": "api.likepoems.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.086480+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.086480+00:00"
+    },
+    "http://127.0.0.1:9978/file/TVBox/token.txt": {
+      "name": "127.0.0.1:9978",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:39.237974+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:39.237974+00:00"
+    },
+    "https://www.tvkuys.xyz/api.php/app/": {
+      "name": "www.tvkuys.xyz",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:39.539376+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:39.539376+00:00"
+    },
+    "https://www.gsjtlxy.top/xgapp.php/v3/": {
+      "name": "www.gsjtlxy.top",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.740887+00:00",
+          "ok": true,
+          "elapsed_ms": 112,
+          "content_quality": 0.1,
+          "score": 95.44,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.740887+00:00"
+    },
+    "https://ttsp.live/api.php/app/": {
+      "name": "ttsp.live",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:39.482364+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:39.482364+00:00"
+    },
+    "https://cokemv.org/xgapp.php/v3/": {
+      "name": "cokemv.org",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.402810+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.402810+00:00"
+    },
+    "http://www.30dian.cn/api.php/v1.vod": {
+      "name": "www.30dian.cn",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.874097+00:00",
+          "ok": false,
+          "elapsed_ms": 93,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.874097+00:00"
+    },
+    "https://api123.adys.app/xgapp.php/v3/": {
+      "name": "api123.adys.app",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.103013+00:00",
+          "ok": false,
+          "elapsed_ms": 64,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.103013+00:00"
+    },
+    "https://yayayaaapp.ynf.icu/api.php/app/": {
+      "name": "yayayaaapp.ynf.icu",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.127113+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.127113+00:00"
+    },
+    "https://cj.vodimg.top/api.php/provide/vod/": {
+      "name": "cj.vodimg.top",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:36.943330+00:00",
+          "ok": false,
+          "elapsed_ms": 5,
+          "content_quality": 0.1,
+          "score": 3.87,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:36.943330+00:00"
+    },
+    "http://zy.xzam.cn/api.php/provide/vod/": {
+      "name": "zy.xzam.cn",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.822918+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.822918+00:00"
+    },
+    "https://www.hongniuzy2.com/api.php/provide/vod/": {
+      "name": "www.hongniuzy2.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.320255+00:00",
+          "ok": false,
+          "elapsed_ms": 247,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.320255+00:00"
+    },
+    "http://api.guangsuapi.com/api.php/provide/vod/": {
+      "name": "api.guangsuapi.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.219484+00:00",
+          "ok": false,
+          "elapsed_ms": 107,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.219484+00:00"
+    },
+    "https://jszyapi.com/api.php/provide/vod/": {
+      "name": "jszyapi.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.097756+00:00",
+          "ok": false,
+          "elapsed_ms": 52,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.097756+00:00"
+    },
+    "https://caiji.kczyapi.com/api.php/provide/vod/": {
+      "name": "caiji.kczyapi.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.049961+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.049961+00:00"
+    },
+    "https://suoniapi.com/api.php/provide/vod/": {
+      "name": "suoniapi.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.285953+00:00",
+          "ok": false,
+          "elapsed_ms": 18,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.285953+00:00"
+    },
+    "https://cj.lziapi.com/api.php/provide/vod/": {
+      "name": "cj.lziapi.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.233922+00:00",
+          "ok": false,
+          "elapsed_ms": 82,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.233922+00:00"
+    },
+    "http://cj.ffzyapi.com/api.php/provide/vod/": {
+      "name": "cj.ffzyapi.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.872509+00:00",
+          "ok": false,
+          "elapsed_ms": 674,
+          "content_quality": 0.0,
+          "score": 3.67,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.872509+00:00"
+    },
+    "https://api.kuaifan.tv/api.php/provide/vod": {
+      "name": "api.kuaifan.tv",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:39.633238+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:39.633238+00:00"
+    },
+    "http://app.95189371.cn/ciyuancheng.php/v6/": {
+      "name": "app.95189371.cn",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.922000+00:00",
+          "ok": false,
+          "elapsed_ms": 1531,
+          "content_quality": 0.0,
+          "score": 3.56,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.922000+00:00"
+    },
+    "https://ownjpykxttjzuhy.jiesiwa.com": {
+      "name": "ownjpykxttjzuhy.jiesiwa.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:39.729503+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:39.729503+00:00"
+    },
+    "http://www.xb6v.com": {
+      "name": "www.xb6v.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.749034+00:00",
+          "ok": true,
+          "elapsed_ms": 142,
+          "content_quality": 1.0,
+          "score": 99.93,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 31
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.749034+00:00"
+    },
+    "https://api.tyun77.cn/api.php/provide/parseDicturl?url=": {
+      "name": "api.tyun77.cn",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:39.225130+00:00",
+          "ok": false,
+          "elapsed_ms": 232,
+          "content_quality": 0.9,
+          "score": 4.85,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 9
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:39.225130+00:00"
+    },
+    "https://www.yemu.xyz/?url=": {
+      "name": "www.yemu.xyz",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.166343+00:00",
+          "ok": true,
+          "elapsed_ms": 224,
+          "content_quality": 1.0,
+          "score": 99.89,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 139
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.166343+00:00"
+    },
+    "https://jx.xmflv.com/?url=": {
+      "name": "jx.xmflv.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.225822+00:00",
+          "ok": true,
+          "elapsed_ms": 152,
+          "content_quality": 1.0,
+          "score": 99.92,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 10
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.225822+00:00"
+    },
+    "https://jx.bozrc.com:4433/player/?url=": {
+      "name": "jx.bozrc.com:4433",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.170801+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.170801+00:00"
+    },
+    "https://jx.quankan.app/?url=": {
+      "name": "jx.quankan.app",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.546090+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.546090+00:00"
+    },
+    "https://jx.yparse.com/index.php?url=": {
+      "name": "jx.yparse.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.781893+00:00",
+          "ok": false,
+          "elapsed_ms": 426,
+          "content_quality": 0.0,
+          "score": 3.7,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.781893+00:00"
+    },
+    "https://jx.jsonplayer.com/player/?url=": {
+      "name": "jx.jsonplayer.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:49:20.198958+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:49:20.198958+00:00"
+    },
+    "https://www.kkvip2022.com/vip/jiexi1/?url=": {
+      "name": "www.kkvip2022.com",
+      "origin": "github-file:yueer59/Tvbox",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.039776+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.039776+00:00"
+    },
+    "https://raw.githubusercontent.com/phoenix7750/iptv/b5321a52539e837847f1e2c96578482dd3bf7915/tvbox.json": {
+      "name": "GitHub tvbox.json",
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json",
+      "priority": 4,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:37.889731+00:00",
+          "ok": true,
+          "elapsed_ms": 15,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 42
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:37.889731+00:00"
+    },
+    "https://tvbox.catvod.com/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.199525+00:00",
+          "ok": false,
+          "elapsed_ms": 72,
+          "content_quality": 0.1,
+          "score": 3.87,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.199525+00:00"
+    },
+    "https://imgs.catvod.com": {
+      "name": "imgs.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.393638+00:00",
+          "ok": false,
+          "elapsed_ms": 5,
+          "content_quality": 0.1,
+          "score": 3.87,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.393638+00:00"
+    },
+    "https://tvbox.catvod.com/logo.png": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.431542+00:00",
+          "ok": false,
+          "elapsed_ms": 264,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.431542+00:00"
+    },
+    "https://tvbox.catvod.com/js/drpy2.min.js": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.292490+00:00",
+          "ok": true,
+          "elapsed_ms": 92,
+          "content_quality": 0.3,
+          "score": 96.45,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 3
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.292490+00:00"
+    },
+    "https://tvbox.catvod.com/js/aqy.js": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.366752+00:00",
+          "ok": true,
+          "elapsed_ms": 140,
+          "content_quality": 1.0,
+          "score": 99.93,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 11
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.366752+00:00"
+    },
+    "https://tvbox.catvod.com/js/yk.js": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.344717+00:00",
+          "ok": true,
+          "elapsed_ms": 51,
+          "content_quality": 0.7,
+          "score": 98.47,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 7
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.344717+00:00"
+    },
+    "https://tvbox.catvod.com/js/tx.js": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.391654+00:00",
+          "ok": true,
+          "elapsed_ms": 46,
+          "content_quality": 0.9,
+          "score": 99.48,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 9
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.391654+00:00"
+    },
+    "https://tvbox.catvod.com/js/sg.js": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.414403+00:00",
+          "ok": true,
+          "elapsed_ms": 47,
+          "content_quality": 0.3,
+          "score": 96.48,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 3
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.414403+00:00"
+    },
+    "https://tvbox.catvod.com/js/mgtv.js": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.438608+00:00",
+          "ok": true,
+          "elapsed_ms": 46,
+          "content_quality": 0.8,
+          "score": 98.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 8
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.438608+00:00"
+    },
+    "https://tvbox.catvod.com/js/bili.js": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.531873+00:00",
+          "ok": true,
+          "elapsed_ms": 138,
+          "content_quality": 1.0,
+          "score": 99.93,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 12
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.531873+00:00"
+    },
+    "https://tvbox.catvod.com/js/ik.js": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.465405+00:00",
+          "ok": true,
+          "elapsed_ms": 50,
+          "content_quality": 0.4,
+          "score": 96.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 4
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.465405+00:00"
+    },
+    "https://tvbox.catvod.com/js/采集之王.js?type=url&params=https://tvbox.catvod.com/js/采集静态.json$1$1": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.477745+00:00",
+          "ok": false,
+          "elapsed_ms": 46,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.477745+00:00"
+    },
+    "https://tvbox.catvod.com/js/xiaohys.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.483598+00:00",
+          "ok": false,
+          "elapsed_ms": 44,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.483598+00:00"
+    },
+    "https://lbapi9.com/api.php/provide/vod/at/xml": {
+      "name": "lbapi9.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.679487+00:00",
+          "ok": false,
+          "elapsed_ms": 2004,
+          "content_quality": 0.0,
+          "score": 3.5,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.679487+00:00"
+    },
+    "https://tvbox.catvod.com/js/tianlong.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.523703+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.523703+00:00"
+    },
+    "https://tvbox.catvod.com/js/tiantian.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.528885+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.528885+00:00"
+    },
+    "https://tvbox.catvod.com/js/wangwang.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.569415+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.569415+00:00"
+    },
+    "https://tvbox.catvod.com/js/4k.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.574946+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.574946+00:00"
+    },
+    "https://tvbox.catvod.com/js/qingtian.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.577252+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.577252+00:00"
+    },
+    "https://tvbox.catvod.com/js/heihu.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.615152+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.615152+00:00"
+    },
+    "https://tvbox.catvod.com/js/5555kan.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.619894+00:00",
+          "ok": false,
+          "elapsed_ms": 44,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.619894+00:00"
+    },
+    "https://tvbox.catvod.com/js/guangun.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.623399+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.623399+00:00"
+    },
+    "https://tvbox.catvod.com/js/qiyou.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.661246+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.661246+00:00"
+    },
+    "https://tvbox.catvod.com/js/77ys.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.665742+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.665742+00:00"
+    },
+    "https://tvbox.catvod.com/js/pianba.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.668425+00:00",
+          "ok": false,
+          "elapsed_ms": 44,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.668425+00:00"
+    },
+    "https://tvbox.catvod.com/js/Movies.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.707188+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.707188+00:00"
+    },
+    "https://tvbox.catvod.com/js/sdsrty.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.711118+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.711118+00:00"
+    },
+    "https://tvbox.catvod.com/js/db.json": {
+      "name": "tvbox.catvod.com",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.714143+00:00",
+          "ok": false,
+          "elapsed_ms": 45,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.714143+00:00"
+    },
+    "https://www.ckplayer.vip/jiexi/?url=": {
+      "name": "www.ckplayer.vip",
+      "origin": "github-file:phoenix7750/iptv",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.890453+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.890453+00:00"
+    },
+    "https://raw.githubusercontent.com/heroaku/TVboxo/42edfca812780525e95a1c1c2d97d6ed664e27a4/apit.json": {
+      "name": "GitHub apit.json",
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json",
+      "priority": 4,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:38.715254+00:00",
+          "ok": false,
+          "elapsed_ms": 4,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:38.715254+00:00"
+    },
+    "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/714c5f6aa89af46f/071.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10": {
+      "name": "fs-im-kefu.7moor-fs1.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.502473+00:00",
+          "ok": false,
+          "elapsed_ms": 260,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.502473+00:00"
+    },
+    "http://v.rbotv.cn": {
+      "name": "v.rbotv.cn",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:39.785982+00:00",
+          "ok": false,
+          "elapsed_ms": 233,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:39.785982+00:00"
+    },
+    "http://app.789dd.cn": {
+      "name": "app.789dd.cn",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.277128+00:00",
+          "ok": true,
+          "elapsed_ms": 551,
+          "content_quality": 0.1,
+          "score": 95.22,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.277128+00:00"
+    },
+    "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt": {
+      "name": "muouapp.oss-cn-hangzhou.aliyuncs.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.607870+00:00",
+          "ok": true,
+          "elapsed_ms": 234,
+          "content_quality": 0.1,
+          "score": 95.38,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.607870+00:00"
+    },
+    "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt": {
+      "name": "daen-1256234123.cos.ap-shanghai.myqcloud.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.914607+00:00",
+          "ok": false,
+          "elapsed_ms": 1017,
+          "content_quality": 0.0,
+          "score": 3.62,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.914607+00:00"
+    },
+    "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt": {
+      "name": "lanyinghz.oss-cn-hangzhou.aliyuncs.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.081976+00:00",
+          "ok": true,
+          "elapsed_ms": 229,
+          "content_quality": 0.1,
+          "score": 95.39,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.081976+00:00"
+    },
+    "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt": {
+      "name": "ceshi307386.oss-cn-beijing.aliyuncs.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.204763+00:00",
+          "ok": false,
+          "elapsed_ms": 241,
+          "content_quality": 0.1,
+          "score": 3.84,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.204763+00:00"
+    },
+    "https://www.rebovod.com": {
+      "name": "www.rebovod.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.798663+00:00",
+          "ok": true,
+          "elapsed_ms": 549,
+          "content_quality": 1.0,
+          "score": 99.73,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 79
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.798663+00:00"
+    },
+    "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt": {
+      "name": "aysappto.oss-cn-chengdu.aliyuncs.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.267294+00:00",
+          "ok": true,
+          "elapsed_ms": 250,
+          "content_quality": 0.1,
+          "score": 95.38,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.267294+00:00"
+    },
+    "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt": {
+      "name": "tiantangyoulu.oss-cn-beijing.aliyuncs.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.265355+00:00",
+          "ok": true,
+          "elapsed_ms": 240,
+          "content_quality": 0.1,
+          "score": 95.38,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.265355+00:00"
+    },
+    "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt": {
+      "name": "staraugust123456.oss-cn-hangzhou.aliyuncs.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.177744+00:00",
+          "ok": true,
+          "elapsed_ms": 229,
+          "content_quality": 0.1,
+          "score": 95.39,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.177744+00:00"
+    },
+    "http://www.zjcvod.com": {
+      "name": "www.zjcvod.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.499731+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.499731+00:00"
+    },
+    "http://starani.qcanime.xyz": {
+      "name": "starani.qcanime.xyz",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:42.871661+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:42.871661+00:00"
+    },
+    "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt": {
+      "name": "dyyztvappapigoodgx.68.gy:12689",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.953916+00:00",
+          "ok": false,
+          "elapsed_ms": 68,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.953916+00:00"
+    },
+    "https://dy.58ys.vip": {
+      "name": "dy.58ys.vip",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.477237+00:00",
+          "ok": false,
+          "elapsed_ms": 224,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.477237+00:00"
+    },
+    "http://huohu.yihn.cc": {
+      "name": "huohu.yihn.cc",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.684039+00:00",
+          "ok": true,
+          "elapsed_ms": 899,
+          "content_quality": 1.0,
+          "score": 99.55,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 113
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.684039+00:00"
+    },
+    "https://bind.315999.xyz/89.txt": {
+      "name": "bind.315999.xyz",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:40.977248+00:00",
+          "ok": true,
+          "elapsed_ms": 108,
+          "content_quality": 0.1,
+          "score": 95.45,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:40.977248+00:00"
+    },
+    "https://apiapplbys.lbys.app:5678": {
+      "name": "apiapplbys.lbys.app:5678",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.618736+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.618736+00:00"
+    },
+    "https://git.acwing.com/YGFXZ/0/-/raw/main/采集之王_合_.js?type=url&params=https://git.acwing.com/YGFXZ/0/-/raw/main/采集静态.json": {
+      "name": "git.acwing.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.852740+00:00",
+          "ok": false,
+          "elapsed_ms": 239,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.852740+00:00"
+    },
+    "http://nikanba.live/api.php/provide/vod/?ac=list": {
+      "name": "nikanba.live",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.144163+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.144163+00:00"
+    },
+    "https://v.aikanbot.com": {
+      "name": "v.aikanbot.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.414396+00:00",
+          "ok": true,
+          "elapsed_ms": 246,
+          "content_quality": 1.0,
+          "score": 99.88,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 29
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.414396+00:00"
+    },
+    "https://github.com/heroaku/yg/raw/refs/heads/main/pg/lib/o.jar": {
+      "name": "github.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.111006+00:00",
+          "ok": false,
+          "elapsed_ms": 198,
+          "content_quality": 1.0,
+          "score": 4.98,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 176
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.111006+00:00"
+    },
+    "https://github.com/heroaku/TB/raw/refs/heads/main/TW/tvkj.jar": {
+      "name": "github.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.129122+00:00",
+          "ok": false,
+          "elapsed_ms": 205,
+          "content_quality": 1.0,
+          "score": 4.97,
+          "label": "离线",
+          "http_status": 451,
+          "valid_item_count": 156
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.129122+00:00"
+    },
+    "https://github.com/heroaku/svip/raw/refs/heads/main/py/%E5%A3%B9%E5%BD%B1%E8%A7%86.py": {
+      "name": "github.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.175749+00:00",
+          "ok": false,
+          "elapsed_ms": 218,
+          "content_quality": 1.0,
+          "score": 4.97,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 176
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.175749+00:00"
+    },
+    "https://github.com/heroaku/TVboxo/raw/refs/heads/main/Jar/NJS.jar;md5;A81AFC9C6A39CBD3DE57DD8FCA9031E3": {
+      "name": "github.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.287545+00:00",
+          "ok": false,
+          "elapsed_ms": 307,
+          "content_quality": 1.0,
+          "score": 4.96,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 177
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.287545+00:00"
+    },
+    "https://www.dandanyu.cc/vodtype/{cateId}.html": {
+      "name": "www.dandanyu.cc",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.909517+00:00",
+          "ok": false,
+          "elapsed_ms": 183,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.909517+00:00"
+    },
+    "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js": {
+      "name": "gitee.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.509621+00:00",
+          "ok": false,
+          "elapsed_ms": 466,
+          "content_quality": 0.0,
+          "score": 3.69,
+          "label": "离线",
+          "http_status": 423,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.509621+00:00"
+    },
+    "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/MGSP.js": {
+      "name": "gitee.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.310305+00:00",
+          "ok": false,
+          "elapsed_ms": 300,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 423,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.310305+00:00"
+    },
+    "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/AQY.js": {
+      "name": "gitee.com",
+      "origin": "github-file:heroaku/TVboxo",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.308943+00:00",
+          "ok": false,
+          "elapsed_ms": 301,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 423,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.308943+00:00"
+    },
+    "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/XYQ.json": {
+      "name": "GitHub XYQ.json",
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json",
+      "priority": 4,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.180341+00:00",
+          "ok": false,
+          "elapsed_ms": 4,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.180341+00:00"
+    },
+    "https://picsum.photos/1280/720/?blur=2": {
+      "name": "picsum.photos",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.329680+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.329680+00:00"
+    },
+    "http://127.0.0.1:9978/file/XYQTVBox/live.txt": {
+      "name": "127.0.0.1:9978",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.583799+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.583799+00:00"
+    },
+    "https://epg.112114.xyz/?ch={name}&date={date}": {
+      "name": "epg.112114.xyz",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.721634+00:00",
+          "ok": false,
+          "elapsed_ms": 227,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.721634+00:00"
+    },
+    "https://epg.112114.xyz/logo/{name}.png": {
+      "name": "epg.112114.xyz",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.730398+00:00",
+          "ok": false,
+          "elapsed_ms": 236,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.730398+00:00"
+    },
+    "https://m3u.ibert.me/txt/fmml_ipv6.txt": {
+      "name": "m3u.ibert.me",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.528140+00:00",
+          "ok": true,
+          "elapsed_ms": 34,
+          "content_quality": 1.0,
+          "score": 99.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 82
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.528140+00:00"
+    },
+    "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt": {
+      "name": "127.0.0.1:9978",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.689032+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.689032+00:00"
+    },
+    "https://zhaoziyuan1.cc/so?filename={wd}\\": {
+      "name": "zhaoziyuan1.cc",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.595510+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.595510+00:00"
+    },
+    "https://www.padmp4.com": {
+      "name": "www.padmp4.com",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.934133+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.934133+00:00"
+    },
+    "https://www.xb6v.com": {
+      "name": "www.xb6v.com",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.655678+00:00",
+          "ok": true,
+          "elapsed_ms": 96,
+          "content_quality": 1.0,
+          "score": 99.95,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 31
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.655678+00:00"
+    },
+    "https://www.seedhub.cc": {
+      "name": "www.seedhub.cc",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:41.668325+00:00",
+          "ok": true,
+          "elapsed_ms": 14,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 46
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:41.668325+00:00"
+    },
+    "https://www.kubady2.com": {
+      "name": "www.kubady2.com",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:42.180887+00:00",
+          "ok": false,
+          "elapsed_ms": 100,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 444,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:42.180887+00:00"
+    },
+    "https://www.meijutt.net": {
+      "name": "www.meijutt.net",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:44.194262+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:44.194262+00:00"
+    },
+    "https://www.czys.top": {
+      "name": "www.czys.top",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:44.206863+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:44.206863+00:00"
+    },
+    "https://www.yjys02.com": {
+      "name": "www.yjys02.com",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:44.254403+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:44.254403+00:00"
+    },
+    "http://39.108.238.168:20000": {
+      "name": "39.108.238.168:20000",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:49:50.786085+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:49:50.786085+00:00"
+    },
+    "https://jx.xyflv.cc/?url=": {
+      "name": "jx.xyflv.cc",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:42.043848+00:00",
+          "ok": true,
+          "elapsed_ms": 48,
+          "content_quality": 0.1,
+          "score": 95.48,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:42.043848+00:00"
+    },
+    "https://www.xyflv.cc/": {
+      "name": "www.xyflv.cc",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:44.586048+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:44.586048+00:00"
+    },
+    "https://jx.zhanlangbu.com/?url=": {
+      "name": "jx.zhanlangbu.com",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:45.302377+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:45.302377+00:00"
+    },
+    "https://jx.aidouer.net/?url=": {
+      "name": "jx.aidouer.net",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:42.224404+00:00",
+          "ok": true,
+          "elapsed_ms": 46,
+          "content_quality": 0.1,
+          "score": 95.48,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 1
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:42.224404+00:00"
+    },
+    "https://jiejie.uk/": {
+      "name": "jiejie.uk",
+      "origin": "github-file:gaotianliuyun/gao",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:44.627335+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:44.627335+00:00"
+    },
+    "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json": {
+      "name": "GitHub box.json",
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json",
+      "priority": 4,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:42.049095+00:00",
+          "ok": true,
+          "elapsed_ms": 4,
+          "content_quality": 1.0,
+          "score": 100.0,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 53
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:42.049095+00:00"
+    },
+    "https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;55c157414346e3ff571baad0a223bf15": {
+      "name": "fm.t4tv.hz.cz",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:46.709402+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:46.709402+00:00"
+    },
+    "http://饭太硬.top/深色壁纸/api.php": {
+      "name": "饭太硬.top",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:49:14.616103+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:49:14.616103+00:00"
+    },
+    "https://fm.t4tv.hz.cz/json/douban.json": {
+      "name": "fm.t4tv.hz.cz",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:46.709375+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:46.709375+00:00"
+    },
+    "https://fm.t4tv.hz.cz/json/wogg.json": {
+      "name": "fm.t4tv.hz.cz",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:46.709744+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:46.709744+00:00"
+    },
+    "https://fm.t4tv.hz.cz/json/jianpian.json": {
+      "name": "fm.t4tv.hz.cz",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:46.709285+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:46.709285+00:00"
+    },
+    "https://cj.lziapi.com/api.php/provide/vod": {
+      "name": "cj.lziapi.com",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.616679+00:00",
+          "ok": false,
+          "elapsed_ms": 305,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.616679+00:00"
+    },
+    "https://fm.t4tv.hz.cz/json/bili.json": {
+      "name": "fm.t4tv.hz.cz",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:46.709427+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:46.709427+00:00"
+    },
+    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js": {
+      "name": "mirror.ghproxy.com",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:46.362699+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:46.362699+00:00"
+    },
+    "https://fm.t4tv.hz.cz/json/webdav.json": {
+      "name": "fm.t4tv.hz.cz",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:46.709341+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:46.709341+00:00"
+    },
+    "https://dns.google/dns-query": {
+      "name": "dns.google",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.779323+00:00",
+          "ok": false,
+          "elapsed_ms": 2,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 400,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.779323+00:00"
+    },
+    "https://cloudflare-dns.com/dns-query": {
+      "name": "cloudflare-dns.com",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.764541+00:00",
+          "ok": false,
+          "elapsed_ms": 10,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 400,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.764541+00:00"
+    },
+    "https://dns.adguard.com/dns-query": {
+      "name": "dns.adguard.com",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:43.924666+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:43.924666+00:00"
+    },
+    "https://resolver2.dns.watch/dns-query": {
+      "name": "resolver2.dns.watch",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:47.108406+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:47.108406+00:00"
+    },
+    "https://dns.quad9.net/dns-quer": {
+      "name": "dns.quad9.net",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:44.053645+00:00",
+          "ok": false,
+          "elapsed_ms": 8,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 505,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:44.053645+00:00"
+    },
+    "https://jx.bingzhe.wang/api/v1/tvbox/parse?key=Rjb9UE4d4So4XY&url=": {
+      "name": "jx.bingzhe.wang",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:47.792534+00:00",
+          "ok": false,
+          "elapsed_ms": 1758,
+          "content_quality": 0.0,
+          "score": 3.53,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:47.792534+00:00"
+    },
+    "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&format=data&url=": {
+      "name": "110.42.2.247:880",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:49:53.771717+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:49:53.771717+00:00"
+    },
+    "http://27.124.4.42:4567//jhjson//ceshi.php?url=": {
+      "name": "27.124.4.42:4567",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:49:53.771489+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:49:53.771489+00:00"
+    },
+    "https://json.ovvo.pro/jx.php?url=": {
+      "name": "json.ovvo.pro",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:44.676729+00:00",
+          "ok": false,
+          "elapsed_ms": 192,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:44.676729+00:00"
+    },
+    "http://jx.wogg.link:63/jiexi/饭特析.php?url=": {
+      "name": "jx.wogg.link:63",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:49:53.771641+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:49:53.771641+00:00"
+    },
+    "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url=": {
+      "name": "110.42.2.247:880",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:49:53.771789+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:49:53.771789+00:00"
+    },
+    "https://www.playm3u8.cn/jiexi.php?url=": {
+      "name": "www.playm3u8.cn",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:45.168726+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:45.168726+00:00"
+    },
+    "http://api.wpsseo.cn/?v=": {
+      "name": "api.wpsseo.cn",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:47.221799+00:00",
+          "ok": false,
+          "elapsed_ms": 929,
+          "content_quality": 0.0,
+          "score": 3.63,
+          "label": "离线",
+          "http_status": 526,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:47.221799+00:00"
+    },
+    "https://jx.m3u8.tv/jiexi/?url=": {
+      "name": "jx.m3u8.tv",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:45.564301+00:00",
+          "ok": true,
+          "elapsed_ms": 50,
+          "content_quality": 0.2,
+          "score": 95.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 2
+        }
+      ],
+      "consecutive_failures": 0,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:45.564301+00:00"
+    },
+    "https://www.8090.la/8090/?url=": {
+      "name": "www.8090.la",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:48.083015+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:48.083015+00:00"
+    },
+    "https://jx.zui.cm/?url=": {
+      "name": "jx.zui.cm",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:49.535501+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:49.535501+00:00"
+    },
+    "https://jx.m3u8.pw/?url=": {
+      "name": "jx.m3u8.pw",
+      "origin": "github-file:FreeDTV/FreeD",
+      "priority": 5,
+      "records": [
+        {
+          "checked_at": "2026-07-01T02:48:49.183686+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0
+        }
+      ],
+      "consecutive_failures": 1,
+      "sleeping": false,
+      "last_checked_at": "2026-07-01T02:48:49.183686+00:00"
+    }
+  },
   "runs": [
     {
       "generated_at": "2026-07-01T02:30:05.142951+00:00",
@@ -25,6 +2806,34 @@
         "tvbox": "output/tvbox.json",
         "m3u": "output/live.m3u",
         "summary": "output/summary.json"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T02:48:14.804797+00:00",
+      "total": 0,
+      "online": 0,
+      "offline": 0,
+      "online_rate": 0.0,
+      "average_score": 0.0,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "m3u": "output/live.m3u",
+        "summary": "output/summary.json",
+        "selected": "0"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T02:49:53.774349+00:00",
+      "total": 139,
+      "online": 30,
+      "offline": 109,
+      "online_rate": 0.2158,
+      "average_score": 22.77,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "m3u": "output/live.m3u",
+        "summary": "output/summary.json",
+        "selected": "30"
       }
     }
   ]

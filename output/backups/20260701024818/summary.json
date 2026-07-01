@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T02:30:04.834435+00:00",
+  "generated_at": "2026-07-01T02:48:18.700574+00:00",
   "total": 0,
   "online": 0,
   "offline": 0,
@@ -8,6 +8,7 @@
   "artifacts": {
     "tvbox": "output/tvbox.json",
     "m3u": "output/live.m3u",
-    "summary": "output/summary.json"
+    "summary": "output/summary.json",
+    "selected": "0"
   }
 }
