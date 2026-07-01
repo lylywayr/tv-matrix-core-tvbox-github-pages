@@ -1,16 +1,21 @@
 {
   "summary": {
-    "generated_at": "2026-07-01T02:49:53.774349+00:00",
-    "total": 139,
-    "online": 30,
-    "offline": 109,
-    "online_rate": 0.2158,
-    "average_score": 22.77,
+    "generated_at": "2026-07-01T03:09:13.760594+00:00",
+    "total": 133,
+    "online": 10,
+    "offline": 123,
+    "online_rate": 0.0752,
+    "average_score": 9.83,
     "artifacts": {
       "tvbox": "output/tvbox.json",
+      "warehouse": "output/warehouse.json",
+      "adult_warehouse": "output/adult-warehouse.json",
+      "all_lines": "output/all-lines.json",
       "m3u": "output/live.m3u",
+      "adult_m3u": "output/adult-live.m3u",
       "summary": "output/summary.json",
-      "selected": "30"
+      "selected": "3",
+      "adult_selected": "7"
     }
   },
   "sources": [
@@ -20,7 +25,8 @@
       "score": 100.0,
       "label": "快",
       "elapsed_ms": 4,
-      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json"
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json",
+      "adult": false
     },
     {
       "name": "www.seedhub.cc",
@@ -28,7 +34,17 @@
       "score": 99.99,
       "label": "快",
       "elapsed_ms": 14,
-      "origin": "github-file:gaotianliuyun/gao"
+      "origin": "github-file:gaotianliuyun/gao",
+      "adult": false
+    },
+    {
+      "name": "dxawi.github.io",
+      "url": "https://dxawi.github.io/0/0.json",
+      "score": 99.99,
+      "label": "快",
+      "elapsed_ms": 14,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false
     },
     {
       "name": "GitHub tvbox.json",
@@ -36,7 +52,8 @@
       "score": 99.99,
       "label": "快",
       "elapsed_ms": 15,
-      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json"
+      "origin": "github-search:\"tvbox\" \"sites\" \"api\" extension:json",
+      "adult": false
     },
     {
       "name": "m3u.ibert.me",
@@ -44,7 +61,8 @@
       "score": 99.98,
       "label": "快",
       "elapsed_ms": 34,
-      "origin": "github-file:gaotianliuyun/gao"
+      "origin": "github-file:gaotianliuyun/gao",
+      "adult": false
     },
     {
       "name": "www.xb6v.com",
@@ -52,7 +70,8 @@
       "score": 99.95,
       "label": "快",
       "elapsed_ms": 96,
-      "origin": "github-file:gaotianliuyun/gao"
+      "origin": "github-file:gaotianliuyun/gao",
+      "adult": false
     },
     {
       "name": "tvbox.catvod.com",
@@ -60,7 +79,8 @@
       "score": 99.93,
       "label": "快",
       "elapsed_ms": 138,
-      "origin": "github-file:phoenix7750/iptv"
+      "origin": "github-file:phoenix7750/iptv",
+      "adult": false
     },
     {
       "name": "tvbox.catvod.com",
@@ -68,7 +88,8 @@
       "score": 99.93,
       "label": "快",
       "elapsed_ms": 140,
-      "origin": "github-file:phoenix7750/iptv"
+      "origin": "github-file:phoenix7750/iptv",
+      "adult": false
     },
     {
       "name": "www.xb6v.com",
@@ -76,7 +97,8 @@
       "score": 99.93,
       "label": "快",
       "elapsed_ms": 142,
-      "origin": "github-file:yueer59/Tvbox"
+      "origin": "github-file:yueer59/Tvbox",
+      "adult": false
     },
     {
       "name": "jx.xmflv.com",
@@ -84,7 +106,8 @@
       "score": 99.92,
       "label": "快",
       "elapsed_ms": 152,
-      "origin": "github-file:yueer59/Tvbox"
+      "origin": "github-file:yueer59/Tvbox",
+      "adult": false
     },
     {
       "name": "www.yemu.xyz",
@@ -92,7 +115,17 @@
       "score": 99.89,
       "label": "快",
       "elapsed_ms": 224,
-      "origin": "github-file:yueer59/Tvbox"
+      "origin": "github-file:yueer59/Tvbox",
+      "adult": false
+    },
+    {
+      "name": "www.yingm.cc",
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "score": 99.88,
+      "label": "快",
+      "elapsed_ms": 241,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false
     },
     {
       "name": "v.aikanbot.com",
@@ -100,7 +133,8 @@
       "score": 99.88,
       "label": "快",
       "elapsed_ms": 246,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "www.rebovod.com",
@@ -108,7 +142,8 @@
       "score": 99.73,
       "label": "快",
       "elapsed_ms": 549,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "huohu.yihn.cc",
@@ -116,7 +151,8 @@
       "score": 99.55,
       "label": "快",
       "elapsed_ms": 899,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "tvbox.catvod.com",
@@ -124,7 +160,8 @@
       "score": 99.48,
       "label": "快",
       "elapsed_ms": 46,
-      "origin": "github-file:phoenix7750/iptv"
+      "origin": "github-file:phoenix7750/iptv",
+      "adult": false
     },
     {
       "name": "tvbox.catvod.com",
@@ -132,7 +169,17 @@
       "score": 98.98,
       "label": "快",
       "elapsed_ms": 46,
-      "origin": "github-file:phoenix7750/iptv"
+      "origin": "github-file:phoenix7750/iptv",
+      "adult": false
+    },
+    {
+      "name": "12586.kstore.space",
+      "url": "https://12586.kstore.space/123.txt",
+      "score": 98.94,
+      "label": "快",
+      "elapsed_ms": 115,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false
     },
     {
       "name": "tvbox.catvod.com",
@@ -140,7 +187,8 @@
       "score": 98.47,
       "label": "快",
       "elapsed_ms": 51,
-      "origin": "github-file:phoenix7750/iptv"
+      "origin": "github-file:phoenix7750/iptv",
+      "adult": false
     },
     {
       "name": "tvbox.catvod.com",
@@ -148,7 +196,8 @@
       "score": 96.98,
       "label": "快",
       "elapsed_ms": 50,
-      "origin": "github-file:phoenix7750/iptv"
+      "origin": "github-file:phoenix7750/iptv",
+      "adult": false
     },
     {
       "name": "tvbox.catvod.com",
@@ -156,7 +205,8 @@
       "score": 96.48,
       "label": "快",
       "elapsed_ms": 47,
-      "origin": "github-file:phoenix7750/iptv"
+      "origin": "github-file:phoenix7750/iptv",
+      "adult": false
     },
     {
       "name": "tvbox.catvod.com",
@@ -164,7 +214,8 @@
       "score": 96.45,
       "label": "快",
       "elapsed_ms": 92,
-      "origin": "github-file:phoenix7750/iptv"
+      "origin": "github-file:phoenix7750/iptv",
+      "adult": false
     },
     {
       "name": "jx.m3u8.tv",
@@ -172,7 +223,8 @@
       "score": 95.98,
       "label": "快",
       "elapsed_ms": 50,
-      "origin": "github-file:FreeDTV/FreeD"
+      "origin": "github-file:FreeDTV/FreeD",
+      "adult": false
     },
     {
       "name": "jx.aidouer.net",
@@ -180,7 +232,8 @@
       "score": 95.48,
       "label": "快",
       "elapsed_ms": 46,
-      "origin": "github-file:gaotianliuyun/gao"
+      "origin": "github-file:gaotianliuyun/gao",
+      "adult": false
     },
     {
       "name": "jx.xyflv.cc",
@@ -188,7 +241,8 @@
       "score": 95.48,
       "label": "快",
       "elapsed_ms": 48,
-      "origin": "github-file:gaotianliuyun/gao"
+      "origin": "github-file:gaotianliuyun/gao",
+      "adult": false
     },
     {
       "name": "bind.315999.xyz",
@@ -196,7 +250,8 @@
       "score": 95.45,
       "label": "快",
       "elapsed_ms": 108,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "www.gsjtlxy.top",
@@ -204,7 +259,8 @@
       "score": 95.44,
       "label": "快",
       "elapsed_ms": 112,
-      "origin": "github-file:yueer59/Tvbox"
+      "origin": "github-file:yueer59/Tvbox",
+      "adult": false
     },
     {
       "name": "lanyinghz.oss-cn-hangzhou.aliyuncs.com",
@@ -212,7 +268,8 @@
       "score": 95.39,
       "label": "快",
       "elapsed_ms": 229,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "staraugust123456.oss-cn-hangzhou.aliyuncs.com",
@@ -220,7 +277,8 @@
       "score": 95.39,
       "label": "快",
       "elapsed_ms": 229,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "muouapp.oss-cn-hangzhou.aliyuncs.com",
@@ -228,7 +286,8 @@
       "score": 95.38,
       "label": "快",
       "elapsed_ms": 234,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "tiantangyoulu.oss-cn-beijing.aliyuncs.com",
@@ -236,7 +295,8 @@
       "score": 95.38,
       "label": "快",
       "elapsed_ms": 240,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "aysappto.oss-cn-chengdu.aliyuncs.com",
@@ -244,7 +304,8 @@
       "score": 95.38,
       "label": "快",
       "elapsed_ms": 250,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
     },
     {
       "name": "app.789dd.cn",
@@ -252,7 +313,73 @@
       "score": 95.22,
       "label": "快",
       "elapsed_ms": 551,
-      "origin": "github-file:heroaku/TVboxo"
+      "origin": "github-file:heroaku/TVboxo",
+      "adult": false
+    }
+  ],
+  "adult_sources": [
+    {
+      "name": "home.jundie.top:81",
+      "url": "http://home.jundie.top:81/top98.json",
+      "score": 99.87,
+      "label": "快",
+      "elapsed_ms": 266,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true
+    },
+    {
+      "name": "www.cnblogs.com",
+      "url": "https://www.cnblogs.com/johnjackson/p/17082254.html",
+      "score": 99.35,
+      "label": "快",
+      "elapsed_ms": 1292,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true
+    },
+    {
+      "name": "www.饭太硬.net",
+      "url": "http://www.饭太硬.net/tv",
+      "score": 98.99,
+      "label": "快",
+      "elapsed_ms": 26,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true
+    },
+    {
+      "name": "www.159e.cn",
+      "url": "https://www.159e.cn/1838.html",
+      "score": 98.81,
+      "label": "快",
+      "elapsed_ms": 2390,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true
+    },
+    {
+      "name": "我不是.摸鱼儿.top",
+      "url": "http://我不是.摸鱼儿.top",
+      "score": 97.74,
+      "label": "快",
+      "elapsed_ms": 528,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true
+    },
+    {
+      "name": "chat2db-ai.com",
+      "url": "https://chat2db-ai.com/",
+      "score": 97.69,
+      "label": "快",
+      "elapsed_ms": 625,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true
+    },
+    {
+      "name": "cdn-www.cnblogs.com",
+      "url": "https://cdn-www.cnblogs.com/js/blog-common.min.js?v=RFetZGrSQTwmcW6anQWlU044F8CCvhZ7MkLSxIC9Yng",
+      "score": 97.48,
+      "label": "快",
+      "elapsed_ms": 1045,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true
     }
   ],
   "runs": [
@@ -308,6 +435,44 @@
         "m3u": "output/live.m3u",
         "summary": "output/summary.json",
         "selected": "30"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T03:07:36.862563+00:00",
+      "total": 33,
+      "online": 6,
+      "offline": 27,
+      "online_rate": 0.1818,
+      "average_score": 19.94,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "2",
+        "adult_selected": "4"
+      }
+    },
+    {
+      "generated_at": "2026-07-01T03:09:13.760594+00:00",
+      "total": 133,
+      "online": 10,
+      "offline": 123,
+      "online_rate": 0.0752,
+      "average_score": 9.83,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "3",
+        "adult_selected": "7"
       }
     }
   ]

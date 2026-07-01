@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="home.jundie.top:81",home.jundie.top:81 [快]
+http://home.jundie.top:81/top98.json
+#EXTINF:-1 tvg-name="www.cnblogs.com",www.cnblogs.com [快]
+https://www.cnblogs.com/johnjackson/p/17082254.html
+#EXTINF:-1 tvg-name="www.饭太硬.net",www.饭太硬.net [快]
+http://www.饭太硬.net/tv
+#EXTINF:-1 tvg-name="www.159e.cn",www.159e.cn [快]
+https://www.159e.cn/1838.html
+#EXTINF:-1 tvg-name="我不是.摸鱼儿.top",我不是.摸鱼儿.top [快]
+http://我不是.摸鱼儿.top
+#EXTINF:-1 tvg-name="chat2db-ai.com",chat2db-ai.com [快]
+https://chat2db-ai.com/
+#EXTINF:-1 tvg-name="cdn-www.cnblogs.com",cdn-www.cnblogs.com [快]
+https://cdn-www.cnblogs.com/js/blog-common.min.js?v=RFetZGrSQTwmcW6anQWlU044F8CCvhZ7MkLSxIC9Yng

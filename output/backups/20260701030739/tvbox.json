@@ -1,0 +1,19 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-07-01T03:07:39.848293+00:00",
+  "sites": [
+    {
+      "key": "7233874061247779858",
+      "name": "dxawi.github.io [快]",
+      "type": 3,
+      "api": "https://dxawi.github.io/0/0.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.94,
+        "latency_ms": 122
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-07-01T03:07:36.862563+00:00",
+  "normal": [
+    {
+      "name": "www.yingm.cc",
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "score": 99.88,
+      "label": "快",
+      "elapsed_ms": 249,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 46
+    },
+    {
+      "name": "12586.kstore.space",
+      "url": "https://12586.kstore.space/123.txt",
+      "score": 98.93,
+      "label": "快",
+      "elapsed_ms": 140,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false,
+      "format": "txt",
+      "valid_item_count": 8
+    }
+  ],
+  "adult": [
+    {
+      "name": "www.cnblogs.com",
+      "url": "https://www.cnblogs.com/johnjackson/p/17082254.html",
+      "score": 99.38,
+      "label": "快",
+      "elapsed_ms": 1249,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true,
+      "format": "txt",
+      "valid_item_count": 60
+    },
+    {
+      "name": "我不是.摸鱼儿.top",
+      "url": "http://我不是.摸鱼儿.top",
+      "score": 97.88,
+      "label": "快",
+      "elapsed_ms": 241,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true,
+      "format": "txt",
+      "valid_item_count": 6
+    },
+    {
+      "name": "chat2db-ai.com",
+      "url": "https://chat2db-ai.com/",
+      "score": 97.74,
+      "label": "快",
+      "elapsed_ms": 525,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true,
+      "format": "txt",
+      "valid_item_count": 6
+    },
+    {
+      "name": "cdn-www.cnblogs.com",
+      "url": "https://cdn-www.cnblogs.com/js/blog-common.min.js?v=RFetZGrSQTwmcW6anQWlU044F8CCvhZ7MkLSxIC9Yng",
+      "score": 97.47,
+      "label": "快",
+      "elapsed_ms": 1057,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": true,
+      "format": "txt",
+      "valid_item_count": 6
+    }
+  ]
+}
