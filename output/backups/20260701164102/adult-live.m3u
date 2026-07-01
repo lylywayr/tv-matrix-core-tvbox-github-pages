@@ -1,5 +1,3 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="gh.927223.xyz",gh.927223.xyz [快]
 https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-#EXTINF:-1 tvg-name="davidlee6628",davidlee6628 [快]
-https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json

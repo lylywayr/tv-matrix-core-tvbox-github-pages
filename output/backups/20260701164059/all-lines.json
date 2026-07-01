@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-07-01T16:40:59.498896+00:00",
+  "normal": [
+    {
+      "name": "freedtv-box",
+      "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
+      "score": 100.0,
+      "label": "快",
+      "elapsed_ms": 3,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 53
+    },
+    {
+      "name": "cnnbgo",
+      "url": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json",
+      "score": 100.0,
+      "label": "快",
+      "elapsed_ms": 5,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 115
+    },
+    {
+      "name": "dxawi.github.io",
+      "url": "https://dxawi.github.io/0/0.json",
+      "score": 99.99,
+      "label": "快",
+      "elapsed_ms": 19,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 53
+    },
+    {
+      "name": "tiantaiyx-0",
+      "url": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json",
+      "score": 99.94,
+      "label": "快",
+      "elapsed_ms": 113,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 60
+    }
+  ],
+  "adult": [
+    {
+      "name": "skyyaman18",
+      "url": "https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json",
+      "score": 99.96,
+      "label": "快",
+      "elapsed_ms": 71,
+      "origin": "seed",
+      "adult": true,
+      "format": "tvbox_json",
+      "valid_item_count": 15
+    },
+    {
+      "name": "davidlee6628",
+      "url": "https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json",
+      "score": 96.5,
+      "label": "快",
+      "elapsed_ms": 3,
+      "origin": "seed",
+      "adult": true,
+      "format": "tvbox_json",
+      "valid_item_count": 3
+    }
+  ]
+}
