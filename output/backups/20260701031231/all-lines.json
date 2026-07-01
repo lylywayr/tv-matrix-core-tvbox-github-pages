@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T03:07:39.848293+00:00",
+  "generated_at": "2026-07-01T03:12:31.680575+00:00",
   "normal": [
     {
       "name": "dxawi.github.io",
       "url": "https://dxawi.github.io/0/0.json",
-      "score": 99.94,
+      "score": 100.0,
       "label": "快",
-      "elapsed_ms": 122,
+      "elapsed_ms": 10,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false,
       "format": "tvbox_json",

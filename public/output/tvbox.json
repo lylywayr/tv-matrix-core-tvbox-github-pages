@@ -1,9 +1,9 @@
 {
   "name": "TV-Matrix-Core",
-  "generated_at": "2026-07-01T03:09:13.760594+00:00",
+  "generated_at": "2026-07-01T03:14:05.293938+00:00",
   "sites": [
     {
-      "key": "5267847731006821799",
+      "key": "6876124147986681037",
       "name": "dxawi.github.io [快]",
       "type": 3,
       "api": "https://dxawi.github.io/0/0.json",
@@ -11,12 +11,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 99.99,
-        "latency_ms": 14
+        "health_score": 100.0,
+        "latency_ms": 7
       }
     },
     {
-      "key": "4579426005927938866",
+      "key": "4572185313890170752",
       "name": "www.yingm.cc [快]",
       "type": 3,
       "api": "https://www.yingm.cc/dm/dm.json",
@@ -25,11 +25,11 @@
       "filterable": 1,
       "ext": {
         "health_score": 99.88,
-        "latency_ms": 241
+        "latency_ms": 248
       }
     },
     {
-      "key": "670428718077832772",
+      "key": "8913123784520293792",
       "name": "12586.kstore.space [快]",
       "type": 3,
       "api": "https://12586.kstore.space/123.txt",
@@ -38,7 +38,7 @@
       "filterable": 1,
       "ext": {
         "health_score": 98.94,
-        "latency_ms": 115
+        "latency_ms": 128
       }
     }
   ]
