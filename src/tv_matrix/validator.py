@@ -90,6 +90,7 @@ class SourceValidator:
                 valid_item_count=len(parsed.valid_items),
                 tcp_ok=tcp_ok,
                 error=None if ok else "no_valid_content",
+                adult=parsed.adult,
             )
 
     async def _tcp_probe(self, url: str) -> bool:

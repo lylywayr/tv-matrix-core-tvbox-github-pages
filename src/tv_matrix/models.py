@@ -44,6 +44,7 @@ class ParsedContent:
     format: SourceFormat
     valid_items: list[dict[str, Any]]
     raw_title: str | None = None
+    adult: bool = False
 
     @property
     def quality_ratio(self) -> float:
@@ -70,6 +71,7 @@ class ValidationResult:
     error: str | None = None
     score: float = 0.0
     label: str = "离线"
+    adult: bool = False
 
     @classmethod
     def failure(cls, candidate: SourceCandidate, error: str) -> "ValidationResult":

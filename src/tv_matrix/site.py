@@ -14,38 +14,63 @@ def render_site(root: Path, state: dict[str, Any]) -> None:
     public.mkdir(parents=True, exist_ok=True)
     output_public = public / "output"
     output_public.mkdir(parents=True, exist_ok=True)
-    for name in ("tvbox.json", "live.m3u", "summary.json"):
+    for name in (
+        "tvbox.json",
+        "warehouse.json",
+        "adult-warehouse.json",
+        "all-lines.json",
+        "live.m3u",
+        "adult-live.m3u",
+        "summary.json",
+    ):
         src = root / "output" / name
         if src.exists():
             (output_public / name).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
 
     summary = _read_json(root / "output" / "summary.json")
     sources = []
+    adult_sources = []
     for url, source in state.get("sources", {}).items():
         last = (source.get("records") or [{}])[-1]
         if last.get("ok"):
-            sources.append(
-                {
-                    "name": source.get("name", url),
-                    "url": url,
-                    "score": last.get("score", 0),
-                    "label": last.get("label", "稳定"),
-                    "elapsed_ms": last.get("elapsed_ms"),
-                    "origin": source.get("origin", ""),
-                }
+            target = adult_sources if last.get("adult") else sources
+            target.append(
+                _source_entry(url, source, last)
             )
     sources = sorted(
         sources,
         key=lambda item: (float(item.get("score", 0)), -(item.get("elapsed_ms") or 999999)),
         reverse=True,
     )[:50]
-    data = {"summary": summary, "sources": sources, "runs": state.get("runs", [])[-60:]}
+    adult_sources = sorted(
+        adult_sources,
+        key=lambda item: (float(item.get("score", 0)), -(item.get("elapsed_ms") or 999999)),
+        reverse=True,
+    )[:50]
+    data = {
+        "summary": summary,
+        "sources": sources,
+        "adult_sources": adult_sources,
+        "runs": state.get("runs", [])[-60:],
+    }
     (public / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     (public / "index.html").write_text(_html(), encoding="utf-8")
 
 
 def _read_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def _source_entry(url: str, source: dict[str, Any], last: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "name": source.get("name", url),
+        "url": url,
+        "score": last.get("score", 0),
+        "label": last.get("label", "稳定"),
+        "elapsed_ms": last.get("elapsed_ms"),
+        "origin": source.get("origin", ""),
+        "adult": bool(last.get("adult")),
+    }
 
 
 def _html() -> str:
@@ -67,13 +92,15 @@ def _html() -> str:
     .stats { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:10px; margin-top:16px; }
     .stat, .panel { background:#fff; border:1px solid var(--line); border-radius:8px; padding:14px; }
     .stat b { display:block; font-size:24px; margin-top:4px; }
-    .actions { display:flex; gap:8px; flex-wrap:wrap; margin:16px 0; }
+    .actions, .tools { display:flex; gap:8px; flex-wrap:wrap; margin:16px 0; }
     button, a.button { border:1px solid var(--brand); background:var(--brand); color:#fff; border-radius:6px; padding:9px 12px; cursor:pointer; text-decoration:none; font-size:14px; }
     .grid { display:grid; grid-template-columns:1fr 360px; gap:14px; align-items:start; }
     table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     th, td { padding:10px; border-bottom:1px solid var(--line); text-align:left; font-size:14px; word-break:break-word; }
     th { background:#f1f3f4; color:#3c4043; }
     .tag { color:var(--ok); font-weight:700; }
+    .muted { color:var(--muted); font-size:13px; }
+    textarea { width:100%; min-height:120px; border:1px solid var(--line); border-radius:8px; padding:10px; font-family:Consolas, monospace; }
     canvas { width:100%; min-height:260px; }
     @media (max-width: 820px) { .stats, .grid { grid-template-columns:1fr; } h1 { font-size:24px; } th:nth-child(4), td:nth-child(4) { display:none; } }
   </style>
@@ -89,13 +116,28 @@ def _html() -> str:
     </section>
     <div class="actions">
       <button onclick="copyText(location.origin + location.pathname.replace(/index\\.html$/, '') + 'output/tvbox.json')">复制 TVBox</button>
+      <button onclick="copyText(location.origin + location.pathname.replace(/index\\.html$/, '') + 'output/warehouse.json')">复制普通聚合仓</button>
+      <button onclick="copyText(location.origin + location.pathname.replace(/index\\.html$/, '') + 'output/adult-warehouse.json')">复制18+聚合仓</button>
       <button onclick="copyText(location.origin + location.pathname.replace(/index\\.html$/, '') + 'output/live.m3u')">复制 M3U</button>
       <a class="button" href="output/tvbox.json">打开 JSON</a>
+      <a class="button" href="output/warehouse.json">打开普通仓</a>
+      <a class="button" href="output/adult-warehouse.json">打开18+仓</a>
       <a class="button" href="output/live.m3u">打开 M3U</a>
     </div>
+    <section class="panel">
+      <div class="tools">
+        <button id="speedAll">本地测速并排序</button>
+        <button id="selectFast">选择前10条</button>
+        <button id="buildCustom">生成自定义聚合仓</button>
+        <button id="copyCustom">复制自定义仓JSON</button>
+        <button id="downloadCustom">下载自定义仓JSON</button>
+      </div>
+      <div class="muted">本地测速在当前浏览器执行，受跨域、网络和设备影响；永久在线入口请使用上方普通聚合仓或18+聚合仓。</div>
+      <textarea id="customJson" placeholder="勾选线路后生成自定义聚合仓 JSON"></textarea>
+    </section>
     <section class="grid">
       <table>
-        <thead><tr><th>名称</th><th>健康</th><th>延迟</th><th>地址</th><th>操作</th></tr></thead>
+        <thead><tr><th>选</th><th>名称</th><th>健康</th><th>CI延迟</th><th>本地测速</th><th>地址</th><th>操作</th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
       <aside class="panel"><canvas id="trend"></canvas></aside>
@@ -103,21 +145,59 @@ def _html() -> str:
   </main>
   <script>
     async function copyText(text) { await navigator.clipboard.writeText(text); }
+    let lineData = [];
     fetch('data.json').then(r => r.json()).then(data => {
       const s = data.summary || {};
+      lineData = [...(data.sources || []), ...(data.adult_sources || [])];
       total.textContent = s.total || 0;
       online.textContent = s.online || 0;
       rate.textContent = (((s.online_rate || 0) * 100).toFixed(1)) + '%';
       score.textContent = s.average_score || 0;
       updated.textContent = '最后更新: ' + (s.generated_at || '-');
-      rows.innerHTML = (data.sources || []).map(item => `<tr><td>${escapeHtml(item.name)}</td><td class="tag">${item.label} ${item.score}</td><td>${item.elapsed_ms || '-'}ms</td><td>${escapeHtml(item.url)}</td><td><button data-url="${escapeHtml(item.url)}">复制</button></td></tr>`).join('') || '<tr><td colspan="5">暂无可用线路</td></tr>';
-      rows.querySelectorAll('button[data-url]').forEach(button => button.addEventListener('click', () => copyText(button.dataset.url)));
+      renderRows(lineData);
       new Chart(document.getElementById('trend'), {
         type: 'line',
         data: { labels: (data.runs || []).map((_, i) => i + 1), datasets: [{ label: '在线率', data: (data.runs || []).map(r => (r.online_rate || 0) * 100), borderColor: '#0b57d0', backgroundColor: 'rgba(11,87,208,.12)', tension: .25, fill: true }] },
         options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { min: 0, max: 100 } } }
       });
     });
+    function renderRows(items) {
+      rows.innerHTML = items.map((item, index) => `<tr><td><input type="checkbox" data-index="${index}"></td><td>${escapeHtml(item.name)}${item.adult ? ' <span class="muted">18+</span>' : ''}</td><td class="tag">${item.label} ${item.score}</td><td>${item.elapsed_ms || '-'}ms</td><td>${item.local_ms ? item.local_ms + 'ms' : '-'}</td><td>${escapeHtml(item.url)}</td><td><button data-url="${escapeHtml(item.url)}">复制</button></td></tr>`).join('') || '<tr><td colspan="7">暂无可用线路</td></tr>';
+      rows.querySelectorAll('button[data-url]').forEach(button => button.addEventListener('click', () => copyText(button.dataset.url)));
+    }
+    speedAll.addEventListener('click', async () => {
+      speedAll.disabled = true;
+      for (const item of lineData) item.local_ms = await probe(item.url);
+      lineData.sort((a, b) => (a.local_ms || 999999) - (b.local_ms || 999999));
+      renderRows(lineData);
+      speedAll.disabled = false;
+    });
+    selectFast.addEventListener('click', () => {
+      rows.querySelectorAll('input[type=checkbox]').forEach((box, index) => box.checked = index < 10);
+    });
+    buildCustom.addEventListener('click', () => {
+      const picked = [...rows.querySelectorAll('input[type=checkbox]:checked')].map(box => lineData[Number(box.dataset.index)]).filter(Boolean);
+      const payload = { name: 'TV-Matrix-Core 自定义聚合仓', generated_at: new Date().toISOString(), urls: picked.map((item, index) => ({ name: `${String(index + 1).padStart(2, '0')}. ${item.name} [${item.local_ms ? item.local_ms + 'ms' : item.label}]`, url: item.url })) };
+      customJson.value = JSON.stringify(payload, null, 2);
+    });
+    copyCustom.addEventListener('click', () => copyText(customJson.value));
+    downloadCustom.addEventListener('click', () => {
+      const blob = new Blob([customJson.value || '{}'], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'custom-warehouse.json';
+      link.click();
+      URL.revokeObjectURL(link.href);
+    });
+    async function probe(url) {
+      const start = performance.now();
+      try {
+        await fetch(url, { mode: 'no-cors', cache: 'no-store' });
+        return Math.round(performance.now() - start);
+      } catch (_) {
+        return 999999;
+      }
+    }
     function escapeHtml(v) { return String(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
   </script>
 </body>

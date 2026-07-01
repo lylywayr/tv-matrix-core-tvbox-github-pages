@@ -15,6 +15,17 @@ def test_parse_tvbox_json_sites():
 
 
 def test_parse_txt_urls():
-    parsed = parse_content("线路 https://example.com/tvbox.json")
+    parsed = parse_content("线路 https://example.com/tvbox.json\n备用 https://example.com/live.m3u")
     assert parsed.format == SourceFormat.TXT
     assert parsed.valid_items[0]["url"] == "https://example.com/tvbox.json"
+
+
+def test_detect_adult_source():
+    parsed = parse_content('{"sites":[{"name":"18+福利","api":"https://example.com/api.php"}]}')
+    assert parsed.adult is True
+
+
+def test_parse_multi_warehouse_urls():
+    parsed = parse_content('{"urls":[{"name":"A","url":"https://example.com/tvbox.json"}]}')
+    assert parsed.format == SourceFormat.TVBOX_JSON
+    assert parsed.valid_items

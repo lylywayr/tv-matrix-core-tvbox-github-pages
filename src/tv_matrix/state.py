@@ -52,6 +52,7 @@ class HistoryStore:
                 "label": result.label,
                 "http_status": result.http_status,
                 "valid_item_count": result.valid_item_count,
+                "adult": result.adult,
             }
         )
         source["records"] = source["records"][-120:]

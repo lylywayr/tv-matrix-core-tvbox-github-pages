@@ -4,7 +4,22 @@ fixed_sources: []
 discovery:
   enabled: true
   max_candidates_per_run: 120
-  pages: []
+  pages:
+    - name: xduo-api-index
+      url: https://xduo.app/box/api/
+      priority: 5
+    - name: cnblogs-tvbox-index
+      url: https://www.cnblogs.com/johnjackson/p/17082254.html
+      priority: 4
+    - name: qipo-yingshicang-index
+      url: https://down.7po.com/article/2189.html
+      priority: 4
+    - name: github-noimank-tvbox
+      url: https://github.com/noimank/tvbox
+      priority: 4
+    - name: github-tushen6-tomorrow
+      url: https://github.com/tushen6/Tomorrow
+      priority: 4
   github_code_search:
     enabled: true
     max_files_per_query: 8
@@ -14,6 +29,8 @@ discovery:
       - '"影视仓" "sites" "api" extension:json'
       - '"TVBox" "m3u" extension:txt'
       - '"接口" "jar" "sites" extension:json'
+      - '"多仓" "影视仓" "url" extension:json'
+      - '"FongMi" "影视仓" "sites" extension:json'
 
 validation:
   concurrency: 18
