@@ -1,0 +1,84 @@
+name: TV Matrix
+
+on:
+  schedule:
+    - cron: "15 2,14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tv-matrix
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - name: Install dependencies
+        run: python -m pip install -e .
+      - name: Run shard
+        env:
+          TV_MATRIX_SHARD: ${{ matrix.shard }}
+          TV_MATRIX_SHARDS: 4
+        run: python -m tv_matrix.cli --root . run --config config/sources.yml
+      - name: Upload shard artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: |
+            output
+            public
+            state
+            README.md
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*
+          merge-multiple: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - name: Install dependencies
+        run: python -m pip install -e .
+      - name: Preserve previous summary
+        run: cp output/summary.json .old-summary.json 2>/dev/null || true
+      - name: Normalize generated files
+        run: python -m tv_matrix.cli --root . run --config config/sources.yml
+      - name: Commit changed artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md output public state
+          if python scripts/should_commit.py; then
+            git commit -m "chore: update tv matrix artifacts"
+            git push
+          else
+            echo "No effective artifact changes."
+          fi
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4

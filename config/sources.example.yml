@@ -1,0 +1,40 @@
+# Copy this file to config/sources.yml and replace the examples with sources
+# you are authorized to crawl and redistribute.
+fixed_sources:
+  - name: example-tvbox-json
+    url: https://example.com/tvbox.json
+    priority: 5
+  - name: example-m3u
+    url: https://example.com/live.m3u
+    priority: 3
+
+discovery:
+  enabled: false
+  max_candidates_per_run: 50
+  pages:
+    - name: example-directory
+      url: https://example.com/public-tvbox-directory
+
+validation:
+  concurrency: 24
+  base_timeout_seconds: 8
+  max_timeout_seconds: 20
+  retries: 2
+  backoff_base_seconds: 0.8
+  tcp_probe_priority_threshold: 7
+  tcp_ports: [80, 443, 8080]
+
+scoring:
+  sleep_after_failures: 5
+  revive_every_days: 30
+  recent_window: 3
+  weights:
+    recent_success: 0.45
+    lifetime_success: 0.35
+    latency: 0.15
+    content_quality: 0.05
+
+output:
+  site_base_url: ""
+  keep_backups: 3
+  change_threshold_online_rate: 0.02
