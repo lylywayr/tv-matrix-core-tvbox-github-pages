@@ -1,0 +1,34 @@
+{
+  "name": "TV-Matrix-Core 优选普通仓",
+  "generated_at": "2026-07-06T06:48:29.624808+00:00",
+  "urls": [
+    {
+      "name": "01. zhanghong1983 [快/100.0]",
+      "url": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json"
+    },
+    {
+      "name": "02. guot55 [快/99.99]",
+      "url": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json"
+    },
+    {
+      "name": "03. mcp2016 [快/99.99]",
+      "url": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json"
+    },
+    {
+      "name": "04. jihulab.com [快/99.79]",
+      "url": "https://jihulab.com/z-blog/xh2/-/raw/main/t3.json"
+    },
+    {
+      "name": "05. jihulab.com [快/99.79]",
+      "url": "https://jihulab.com/Liangmyjj/tvboxx/-/raw/main/yinzuo2.json?inline=false"
+    },
+    {
+      "name": "06. jihulab.com [快/99.71]",
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc.json"
+    },
+    {
+      "name": "07. yueer59 [快/91.22]",
+      "url": "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json"
+    }
+  ]
+}

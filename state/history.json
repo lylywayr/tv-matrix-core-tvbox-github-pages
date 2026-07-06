@@ -47,11 +47,22 @@
           "http_status": 200,
           "valid_item_count": 149,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.426552+00:00",
+          "ok": true,
+          "elapsed_ms": 132,
+          "content_quality": 1.0,
+          "score": 91.18,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 149,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.008378+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.426552+00:00"
     },
     "https://api.likepoems.com/img/bing": {
       "name": "api.likepoems.com",
@@ -1166,11 +1177,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:27.991069+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:06.931853+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:27.991069+00:00"
     },
     "https://www.kkvip2022.com/vip/jiexi1/?url=": {
       "name": "www.kkvip2022.com",
@@ -4355,11 +4377,22 @@
           "http_status": 200,
           "valid_item_count": 53,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.273526+00:00",
+          "ok": true,
+          "elapsed_ms": 86,
+          "content_quality": 1.0,
+          "score": 99.96,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 53,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:29.646654+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.273526+00:00"
     },
     "https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;55c157414346e3ff571baad0a223bf15": {
       "name": "fm.t4tv.hz.cz",
@@ -6723,11 +6756,33 @@
           "http_status": 200,
           "valid_item_count": 8,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:07.698816+00:00",
+          "ok": true,
+          "elapsed_ms": 122,
+          "content_quality": 0.8,
+          "score": 98.94,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 8,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.289336+00:00",
+          "ok": true,
+          "elapsed_ms": 123,
+          "content_quality": 0.8,
+          "score": 98.94,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 8,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.821528+00:00"
+      "last_checked_at": "2026-07-06T06:49:00.289336+00:00"
     },
     "http://www.饭太硬.com/tv": {
       "name": "www.饭太硬.com",
@@ -7515,11 +7570,33 @@
           "http_status": 200,
           "valid_item_count": 46,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.085277+00:00",
+          "ok": true,
+          "elapsed_ms": 197,
+          "content_quality": 1.0,
+          "score": 99.9,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 46,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:01.184014+00:00",
+          "ok": true,
+          "elapsed_ms": 228,
+          "content_quality": 1.0,
+          "score": 99.89,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 46,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:46.934797+00:00"
+      "last_checked_at": "2026-07-06T06:49:01.184014+00:00"
     },
     "https://ghproxy.com/raw.githubusercontent.com/zhanghong1983/TVBOXZY/main/tvbox.json": {
       "name": "ghproxy.com",
@@ -11253,11 +11330,22 @@
           "http_status": 200,
           "valid_item_count": 264,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.080121+00:00",
+          "ok": true,
+          "elapsed_ms": 2,
+          "content_quality": 1.0,
+          "score": 82.5,
+          "label": "稳定",
+          "http_status": 200,
+          "valid_item_count": 264,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.946140+00:00"
+      "last_checked_at": "2026-07-06T06:49:00.080121+00:00"
     },
     "http://home.jundie.top:81/top98.json": {
       "name": "home.jundie.top:81",
@@ -11373,11 +11461,22 @@
           "http_status": 200,
           "valid_item_count": 40,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:50:09.402837+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 20.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:46.646228+00:00"
+      "last_checked_at": "2026-07-06T06:50:09.402837+00:00"
     },
     "https://dxawi.github.io/0/0.json": {
       "name": "dxawi.github.io",
@@ -11471,11 +11570,22 @@
           "http_status": 200,
           "valid_item_count": 53,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.146144+00:00",
+          "ok": true,
+          "elapsed_ms": 3,
+          "content_quality": 1.0,
+          "score": 100.0,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 53,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:46.126184+00:00"
+      "last_checked_at": "2026-07-06T06:49:00.146144+00:00"
     },
     "http://101.34.67.237/config/3": {
       "name": "101.34.67.237",
@@ -14784,11 +14894,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.578530+00:00",
+          "ok": false,
+          "elapsed_ms": 213,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T03:53:22.604210+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:47:08.578530+00:00"
     },
     "https://www.trae.com.cn/?utm_source=advertising&amp;utm_medium=cnblogs_ug_cpa&amp;utm_term=hw_trae_cnblogs": {
       "name": "www.trae.com.cn",
@@ -14967,11 +15088,22 @@
           "http_status": 200,
           "valid_item_count": 312,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.278338+00:00",
+          "ok": true,
+          "elapsed_ms": 30,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 312,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:29.660375+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.278338+00:00"
     },
     "http://epg.112114.xyz/?ch={name}&date={date}": {
       "name": "epg.112114.xyz",
@@ -18418,11 +18550,33 @@
           "http_status": 200,
           "valid_item_count": 264,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.408975+00:00",
+          "ok": true,
+          "elapsed_ms": 9,
+          "content_quality": 1.0,
+          "score": 93.0,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 264,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.271471+00:00",
+          "ok": true,
+          "elapsed_ms": 4,
+          "content_quality": 1.0,
+          "score": 94.16,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 264,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.567407+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.271471+00:00"
     },
     "https://以下内容为互联网收集，只为自用。": {
       "name": "以下内容为互联网收集，只为自用。",
@@ -23655,11 +23809,22 @@
           "http_status": 200,
           "valid_item_count": 115,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.271608+00:00",
+          "ok": true,
+          "elapsed_ms": 25,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 115,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:29.535830+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.271608+00:00"
     },
     "https://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vYnJlYWRteXRoL3R2L3Jhdy9icmFuY2gvbWFpbi9saXZlL2h1eWEudHh0": {
       "name": "do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vYnJlYWRteXRoL3R2L3Jhdy9icmFuY2gvbWFpbi9saXZlL2h1eWEudHh0",
@@ -26886,11 +27051,22 @@
           "http_status": 200,
           "valid_item_count": 120,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.276326+00:00",
+          "ok": true,
+          "elapsed_ms": 37,
+          "content_quality": 1.0,
+          "score": 99.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 120,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.345875+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.276326+00:00"
     },
     "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json": {
       "name": "aliluya1977",
@@ -26929,11 +27105,33 @@
           "http_status": 200,
           "valid_item_count": 35,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.409816+00:00",
+          "ok": true,
+          "elapsed_ms": 25,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 35,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.276964+00:00",
+          "ok": true,
+          "elapsed_ms": 28,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 35,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:29.721989+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.276964+00:00"
     },
     "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json": {
       "name": "yw88075",
@@ -26972,11 +27170,22 @@
           "http_status": 200,
           "valid_item_count": 177,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.276924+00:00",
+          "ok": true,
+          "elapsed_ms": 39,
+          "content_quality": 1.0,
+          "score": 99.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 177,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:29.433268+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.276924+00:00"
     },
     "https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json": {
       "name": "davidlee6628",
@@ -27026,11 +27235,22 @@
           "http_status": 200,
           "valid_item_count": 3,
           "adult": true
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.272767+00:00",
+          "ok": true,
+          "elapsed_ms": 32,
+          "content_quality": 0.3,
+          "score": 96.48,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 3,
+          "adult": true
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.237146+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.272767+00:00"
     },
     "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json": {
       "name": "mcp2016",
@@ -27069,11 +27289,22 @@
           "http_status": 200,
           "valid_item_count": 57,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.271572+00:00",
+          "ok": true,
+          "elapsed_ms": 18,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 57,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.481453+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.271572+00:00"
     },
     "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json": {
       "name": "wlcmc1972",
@@ -27112,11 +27343,33 @@
           "http_status": 200,
           "valid_item_count": 151,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.408141+00:00",
+          "ok": true,
+          "elapsed_ms": 2,
+          "content_quality": 1.0,
+          "score": 100.0,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 151,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.278289+00:00",
+          "ok": true,
+          "elapsed_ms": 40,
+          "content_quality": 1.0,
+          "score": 99.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 151,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.048107+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.278289+00:00"
     },
     "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json": {
       "name": "myhomebox",
@@ -27155,11 +27408,22 @@
           "http_status": 200,
           "valid_item_count": 15,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.276291+00:00",
+          "ok": true,
+          "elapsed_ms": 49,
+          "content_quality": 1.0,
+          "score": 99.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 15,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.578384+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.276291+00:00"
     },
     "https://raw.githubusercontent.com/XZBTV/2021/e5e186f5e5846a327a039a2c4409d1e3ad60a5be/CAT.json": {
       "name": "XZBTV",
@@ -27209,11 +27473,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.271648+00:00",
+          "ok": false,
+          "elapsed_ms": 18,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:31.013635+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:48.271648+00:00"
     },
     "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json": {
       "name": "zhanghong1983",
@@ -27252,11 +27527,22 @@
           "http_status": 200,
           "valid_item_count": 146,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.275754+00:00",
+          "ok": true,
+          "elapsed_ms": 79,
+          "content_quality": 1.0,
+          "score": 99.96,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 146,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.460412+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.275754+00:00"
     },
     "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json": {
       "name": "jak0099",
@@ -27295,11 +27581,33 @@
           "http_status": 200,
           "valid_item_count": 554,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.474396+00:00",
+          "ok": true,
+          "elapsed_ms": 101,
+          "content_quality": 1.0,
+          "score": 99.95,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 554,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.276364+00:00",
+          "ok": true,
+          "elapsed_ms": 49,
+          "content_quality": 1.0,
+          "score": 99.98,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 554,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:29.261625+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.276364+00:00"
     },
     "https://raw.githubusercontent.com/yoyo82520/huaiptv/3f2dd11c22bdfb87f9f96e4e808894ff77c29c7e/mao.json": {
       "name": "yoyo82520",
@@ -27338,11 +27646,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.278397+00:00",
+          "ok": false,
+          "elapsed_ms": 32,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.282009+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.278397+00:00"
     },
     "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json": {
       "name": "tiantaiyx-0",
@@ -27392,11 +27711,22 @@
           "http_status": 200,
           "valid_item_count": 60,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.428574+00:00",
+          "ok": true,
+          "elapsed_ms": 156,
+          "content_quality": 1.0,
+          "score": 99.92,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 60,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.108934+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.428574+00:00"
     },
     "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json": {
       "name": "catvod-mj",
@@ -27435,11 +27765,33 @@
           "http_status": 200,
           "valid_item_count": 45,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.486098+00:00",
+          "ok": true,
+          "elapsed_ms": 153,
+          "content_quality": 1.0,
+          "score": 99.92,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 45,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.276987+00:00",
+          "ok": true,
+          "elapsed_ms": 90,
+          "content_quality": 1.0,
+          "score": 99.95,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 45,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:29.399486+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.276987+00:00"
     },
     "https://raw.githubusercontent.com/qirenzhidao/tvbox18/86e1e39338ae41fcbceb9d0d3896a7618ced6cd6/tv.json": {
       "name": "tvbox18",
@@ -27478,11 +27830,22 @@
           "http_status": 200,
           "valid_item_count": 20,
           "adult": true
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.276896+00:00",
+          "ok": true,
+          "elapsed_ms": 91,
+          "content_quality": 1.0,
+          "score": 99.95,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 20,
+          "adult": true
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:29.742564+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.276896+00:00"
     },
     "https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json": {
       "name": "skyyaman18",
@@ -27532,11 +27895,22 @@
           "http_status": 200,
           "valid_item_count": 15,
           "adult": true
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.427163+00:00",
+          "ok": true,
+          "elapsed_ms": 137,
+          "content_quality": 1.0,
+          "score": 99.93,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 15,
+          "adult": true
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:30.221342+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.427163+00:00"
     },
     "https://www.libvio.pro$$$null": {
       "name": "www.libvio.pro$$$null",
@@ -27575,11 +27949,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.474067+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.923340+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.474067+00:00"
     },
     "https://wogg.xyz/$$$null$$$1$$$./lib/wogg.json": {
       "name": "wogg.xyz",
@@ -27618,11 +28003,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.199846+00:00",
+          "ok": false,
+          "elapsed_ms": 98,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:32.262772+00:00"
+      "last_checked_at": "2026-07-06T06:48:49.199846+00:00"
     },
     "https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json": {
       "name": "wobge.run.goorm.io$$$null$$$1$$$.",
@@ -27672,11 +28068,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.473793+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.211802+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.473793+00:00"
     },
     "https://tv.yydsys.top/$$$null$$$1$$$./lib/wogg.json": {
       "name": "tv.yydsys.top",
@@ -27715,11 +28122,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.429019+00:00",
+          "ok": false,
+          "elapsed_ms": 22,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:32.561417+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.429019+00:00"
     },
     "https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json": {
       "name": "www.80yy3.com",
@@ -27758,11 +28176,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:10.420821+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.803644+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.707060+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.803644+00:00"
     },
     "https://www.weixine.link/$$$null$$$1$$$./lib/wogg.json": {
       "name": "www.weixine.link",
@@ -27801,11 +28241,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.623688+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.741455+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.623688+00:00"
     },
     "https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json": {
       "name": "www.hdmoli.pro",
@@ -27855,11 +28306,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.836128+00:00",
+          "ok": false,
+          "elapsed_ms": 4,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:32.339345+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:48.836128+00:00"
     },
     "https://ppxzy.net$$$null$$$1": {
       "name": "ppxzy.net$$$null$$$1",
@@ -27898,11 +28360,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.474707+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.666650+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.474707+00:00"
     },
     "https://xzyshd.com$$$null$$$1": {
       "name": "xzyshd.com$$$null$$$1",
@@ -27941,11 +28414,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.811396+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.474736+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.741644+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.474736+00:00"
     },
     "https://www.bdys10.com/$$$null$$$1": {
       "name": "www.bdys10.com",
@@ -27984,11 +28479,22 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.938842+00:00",
+          "ok": false,
+          "elapsed_ms": 105,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:32.689271+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.938842+00:00"
     },
     "https://dapanso.com$$$null$$$1": {
       "name": "dapanso.com$$$null$$$1",
@@ -28027,11 +28533,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.811612+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.474038+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.964808+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.474038+00:00"
     },
     "https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1": {
       "name": "pan.qianfan.app$$$null$$$.",
@@ -28081,11 +28609,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.474758+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.108680+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.474758+00:00"
     },
     "https://www.yunso.net$$$null$$$1": {
       "name": "www.yunso.net$$$null$$$1",
@@ -28124,11 +28663,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.679275+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.116766+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.679275+00:00"
     },
     "https://pan99.xyz$$$null$$$1": {
       "name": "pan99.xyz$$$null$$$1",
@@ -28167,11 +28717,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.811448+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.679317+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.141323+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.679317+00:00"
     },
     "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}": {
       "name": "api.zeqaht.com",
@@ -28210,11 +28782,22 @@
           "http_status": 500,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.823655+00:00",
+          "ok": false,
+          "elapsed_ms": 1036,
+          "content_quality": 0.0,
+          "score": 3.62,
+          "label": "离线",
+          "http_status": 500,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.636416+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.823655+00:00"
     },
     "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1724936798422/xpg1.jar;md5;d982e61fe8a00da65435afd86938d2da": {
       "name": "fs-im-kefu.7moor-fs1.com",
@@ -28264,11 +28847,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.512417+00:00",
+          "ok": false,
+          "elapsed_ms": 238,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.795933+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.512417+00:00"
     },
     "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oEb9EAiMhR67DA00fZCpIXMigA8LAkAI9enDAD~tplv-dy-aweme-images-v2:3000:3000:q75.webp?biz_tag=aweme_images&from=327834062&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1727452800&x-signature=Q6AiH8FOO86OfzLFvuUZpJbsV4s%3D": {
       "name": "p3-pc-sign.douyinpic.com",
@@ -28307,11 +28901,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.138638+00:00",
+          "ok": false,
+          "elapsed_ms": 8,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.773164+00:00"
+      "last_checked_at": "2026-07-06T06:48:49.138638+00:00"
     },
     "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/mpansou.php": {
       "name": "www.mpanso.com",
@@ -28350,11 +28955,33 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.497261+00:00",
+          "ok": false,
+          "elapsed_ms": 67,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.885344+00:00",
+          "ok": false,
+          "elapsed_ms": 110,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.332014+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:48.885344+00:00"
     },
     "https://wogg.xxooo.cf/": {
       "name": "wogg.xxooo.cf",
@@ -28393,11 +29020,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.682964+00:00",
+          "ok": false,
+          "elapsed_ms": 28,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.468588+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.682964+00:00"
     },
     "https://www.wogg.bf/": {
       "name": "www.wogg.bf",
@@ -28447,11 +29085,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.367135+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.164975+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.367135+00:00"
     },
     "http://mihdr.top": {
       "name": "mihdr.top",
@@ -28490,11 +29139,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.753360+00:00",
+          "ok": false,
+          "elapsed_ms": 157,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.571711+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.753360+00:00"
     },
     "http://mpanso.com": {
       "name": "mpanso.com",
@@ -28533,11 +29193,33 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.486431+00:00",
+          "ok": false,
+          "elapsed_ms": 42,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.859267+00:00",
+          "ok": false,
+          "elapsed_ms": 112,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.554011+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:48.859267+00:00"
     },
     "http://127.0.0.1:9978/file/fatcat/kk.txt": {
       "name": "127.0.0.1:9978",
@@ -28576,11 +29258,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.680108+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.870372+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.680108+00:00"
     },
     "http://122.228.85.203:1000/api.php/app/": {
       "name": "122.228.85.203:1000",
@@ -28630,11 +29323,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:57.403393+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:43.182110+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:57.403393+00:00"
     },
     "http://193.134.211.100:1888/tv/ijia/4kk/lib/drpy2.min.js": {
       "name": "193.134.211.100:1888",
@@ -28673,11 +29377,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.392584+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.566597+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.392584+00:00"
     },
     "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/tx.js": {
       "name": "www.mpanso.com",
@@ -28716,11 +29431,33 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.496679+00:00",
+          "ok": false,
+          "elapsed_ms": 66,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.885055+00:00",
+          "ok": false,
+          "elapsed_ms": 105,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.634057+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:48.885055+00:00"
     },
     "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/guoguo.js": {
       "name": "www.mpanso.com",
@@ -28759,11 +29496,22 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.883289+00:00",
+          "ok": false,
+          "elapsed_ms": 104,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.682650+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.883289+00:00"
     },
     "https://yigeg.pro": {
       "name": "yigeg.pro",
@@ -28813,11 +29561,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.154791+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.202496+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.154791+00:00"
     },
     "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json": {
       "name": "gitlab.com",
@@ -28856,11 +29615,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:48.810214+00:00",
+          "ok": false,
+          "elapsed_ms": 179,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:33.985610+00:00"
+      "last_checked_at": "2026-07-06T06:48:48.810214+00:00"
     },
     "https://1.qkw1.cc/": {
       "name": "1.qkw1.cc",
@@ -28899,11 +29669,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:16.272552+00:00",
+          "ok": false,
+          "elapsed_ms": 456,
+          "content_quality": 0.0,
+          "score": 3.69,
+          "label": "离线",
+          "http_status": 444,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:52.403545+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:38.183757+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:52.403545+00:00"
     },
     "https://360zy.com/api.php/provide/vod": {
       "name": "360zy.com",
@@ -28942,11 +29734,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.965744+00:00",
+          "ok": false,
+          "elapsed_ms": 377,
+          "content_quality": 0.0,
+          "score": 3.7,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.139477+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.965744+00:00"
     },
     "http://110.42.3.99:880/rmm.php/?url=": {
       "name": "110.42.3.99:880",
@@ -28996,11 +29799,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:58.399766+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:43.182026+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:58.399766+00:00"
     },
     "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c": {
       "name": "fs-im-kefu.7moor-fs1.com",
@@ -29039,11 +29853,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.523972+00:00",
+          "ok": false,
+          "elapsed_ms": 259,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.146112+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.523972+00:00"
     },
     "http://124.222.116.5/mb/api.php/provide/vod/?ac=list&ac=detail": {
       "name": "124.222.116.5",
@@ -29082,11 +29907,33 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:07.202331+00:00",
+          "ok": false,
+          "elapsed_ms": 200,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.680042+00:00",
+          "ok": false,
+          "elapsed_ms": 255,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.809541+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:49.680042+00:00"
     },
     "http://cj.lziapi.com/api.php/provide/vod/": {
       "name": "cj.lziapi.com",
@@ -29136,11 +29983,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.081121+00:00",
+          "ok": false,
+          "elapsed_ms": 123,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.012823+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:49.081121+00:00"
     },
     "https://m3u8.tiankongapi.com/api.php/provide/vod/from/tkm3u8/?ac=list": {
       "name": "m3u8.tiankongapi.com",
@@ -29179,11 +30037,22 @@
           "http_status": 525,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.704608+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.789337+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.704608+00:00"
     },
     "https://api.wujinapi.me/api.php/provide/vod/?ac=list": {
       "name": "api.wujinapi.me",
@@ -29222,11 +30091,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.079675+00:00",
+          "ok": false,
+          "elapsed_ms": 7,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.129883+00:00"
+      "last_checked_at": "2026-07-06T06:48:49.079675+00:00"
     },
     "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/": {
       "name": "api.guangsuapi.com",
@@ -29276,11 +30156,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.201215+00:00",
+          "ok": false,
+          "elapsed_ms": 1194,
+          "content_quality": 0.0,
+          "score": 3.6,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.419579+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.201215+00:00"
     },
     "https://api.1080zyku.com/inc/api_mac10.php?ac=list": {
       "name": "api.1080zyku.com",
@@ -29319,11 +30210,33 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:07.598268+00:00",
+          "ok": false,
+          "elapsed_ms": 137,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.037772+00:00",
+          "ok": false,
+          "elapsed_ms": 509,
+          "content_quality": 0.0,
+          "score": 3.69,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.432816+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.037772+00:00"
     },
     "https://api.xinlangapi.com/xinlangapi.php/provide//vod/": {
       "name": "api.xinlangapi.com",
@@ -29362,11 +30275,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.134799+00:00",
+          "ok": false,
+          "elapsed_ms": 145,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.381223+00:00"
+      "last_checked_at": "2026-07-06T06:48:49.134799+00:00"
     },
     "https://collect.wolongzyw.com/api.php/provide/vod/": {
       "name": "collect.wolongzyw.com",
@@ -29405,11 +30329,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.966448+00:00",
+          "ok": false,
+          "elapsed_ms": 109,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.381228+00:00"
+      "last_checked_at": "2026-07-06T06:48:49.966448+00:00"
     },
     "https://sdzyapi.com/api.php/provide/vod/?ac=list": {
       "name": "sdzyapi.com",
@@ -29448,11 +30383,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.491023+00:00",
+          "ok": false,
+          "elapsed_ms": 204,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.608389+00:00"
+      "last_checked_at": "2026-07-06T06:48:49.491023+00:00"
     },
     "https://api.yulecj.com/api.php/provide/vod/?ac=list": {
       "name": "api.yulecj.com",
@@ -29502,11 +30448,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.471813+00:00",
+          "ok": false,
+          "elapsed_ms": 178,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.841623+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:49.471813+00:00"
     },
     "https://ckzy.me/api.php/provide/vod/?ac=list": {
       "name": "ckzy.me",
@@ -29545,11 +30502,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.283292+00:00",
+          "ok": false,
+          "elapsed_ms": 93,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.752668+00:00"
+      "last_checked_at": "2026-07-06T06:48:49.283292+00:00"
     },
     "https://api.foxzyapi.com/api.php/provide/vod/?ac=list": {
       "name": "api.foxzyapi.com",
@@ -29588,11 +30556,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.527076+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.706715+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.512106+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:49.706715+00:00"
     },
     "https://bfzyapi.com/api.php/provide/vod/?ac=list": {
       "name": "bfzyapi.com",
@@ -29631,11 +30621,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:49.664568+00:00",
+          "ok": false,
+          "elapsed_ms": 259,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.019125+00:00"
+      "last_checked_at": "2026-07-06T06:48:49.664568+00:00"
     },
     "http://zy.xiaomaomi.vip/api.php/provide/vod/?ac=list": {
       "name": "zy.xiaomaomi.vip",
@@ -29685,11 +30686,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.702816+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.044855+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.702816+00:00"
     },
     "https://kuaikan-api.com/api.php/provide/vod/?ac=list": {
       "name": "kuaikan-api.com",
@@ -29728,11 +30740,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.891132+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.294512+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.203146+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.294512+00:00"
     },
     "http://tttv.oss-cn-hangzhou.aliyuncs.com/Tv/custom_spider.jar": {
       "name": "tttv.oss-cn-hangzhou.aliyuncs.com",
@@ -29771,11 +30805,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.312624+00:00",
+          "ok": false,
+          "elapsed_ms": 231,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.565472+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.312624+00:00"
     },
     "http://110.42.1.95:7788/api.php/v1.vod": {
       "name": "110.42.1.95:7788",
@@ -29825,11 +30870,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:59.400297+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:44.178461+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:59.400297+00:00"
     },
     "https://do=live&type=txt&ext=aHR0cHM6Ly9rZHMyLmNvZGluZy5uZXQvcC9rL2Qvay9naXQvcmF3L21hc3Rlci9tYW9saXZlLnR4dA==": {
       "name": "do=live&type=txt&ext=aHR0cHM6Ly9rZHMyLmNvZGluZy5uZXQvcC9rL2Qvay9naXQvcmF3L21hc3Rlci9tYW9saXZlLnR4dA==",
@@ -29868,11 +30924,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.086726+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.155451+00:00"
+      "last_checked_at": "2026-07-06T06:48:52.086726+00:00"
     },
     "https://file.icve.com.cn/file_doc/292/340/4905535609A9C0CE9CC2F652D6D90BDA.jpg;md5;4905535609a9c0ce9cc2f652d6d90bda": {
       "name": "file.icve.com.cn",
@@ -29911,11 +30978,33 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:09.043463+00:00",
+          "ok": false,
+          "elapsed_ms": 595,
+          "content_quality": 0.0,
+          "score": 3.68,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.768937+00:00",
+          "ok": false,
+          "elapsed_ms": 567,
+          "content_quality": 0.0,
+          "score": 3.68,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.832238+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.768937+00:00"
     },
     "http://107.173.211.148/": {
       "name": "107.173.211.148",
@@ -29954,11 +31043,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.106993+00:00",
+          "ok": false,
+          "elapsed_ms": 46,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:34.828832+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.106993+00:00"
     },
     "https://www.libvio.run": {
       "name": "www.libvio.run",
@@ -30008,11 +31108,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.391548+00:00",
+          "ok": false,
+          "elapsed_ms": 620,
+          "content_quality": 0.0,
+          "score": 3.67,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.935678+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.391548+00:00"
     },
     "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt": {
       "name": "nos.netease.com",
@@ -30051,11 +31162,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.354553+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.813517+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.354553+00:00"
     },
     "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js": {
       "name": "gh-proxy.com",
@@ -30094,11 +31216,33 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.858822+00:00",
+          "ok": false,
+          "elapsed_ms": 74,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.745554+00:00",
+          "ok": false,
+          "elapsed_ms": 24,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.243839+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.745554+00:00"
     },
     "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/虎牙.js": {
       "name": "gh-proxy.com",
@@ -30137,11 +31281,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.947725+00:00",
+          "ok": false,
+          "elapsed_ms": 19,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.246914+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.947725+00:00"
     },
     "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js": {
       "name": "git.yylx.win",
@@ -30191,11 +31346,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.049929+00:00",
+          "ok": false,
+          "elapsed_ms": 14,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.591985+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.049929+00:00"
     },
     "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js": {
       "name": "git.yylx.win",
@@ -30234,11 +31400,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.708090+00:00",
+          "ok": false,
+          "elapsed_ms": 34,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.590526+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.708090+00:00"
     },
     "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt": {
       "name": "nos.netease.com",
@@ -30277,11 +31454,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.066602+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.184786+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.374086+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.184786+00:00"
     },
     "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt": {
       "name": "nos.netease.com",
@@ -30320,11 +31519,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.456349+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.984677+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.456349+00:00"
     },
     "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js": {
       "name": "git.yylx.win",
@@ -30374,11 +31584,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.853597+00:00",
+          "ok": false,
+          "elapsed_ms": 9,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.623764+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:50.853597+00:00"
     },
     "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt": {
       "name": "nos.netease.com",
@@ -30417,11 +31638,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.488998+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.985555+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.488998+00:00"
     },
     "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt": {
       "name": "nos.netease.com",
@@ -30460,11 +31692,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:07.395840+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.519091+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.213807+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.519091+00:00"
     },
     "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt": {
       "name": "nos.netease.com",
@@ -30503,11 +31757,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.626144+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.284999+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.626144+00:00"
     },
     "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt": {
       "name": "nos.netease.com",
@@ -30557,11 +31822,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.676377+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.288034+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.676377+00:00"
     },
     "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif": {
       "name": "bdcache1-f1.v3mh.com",
@@ -30600,11 +31876,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.914135+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.561505+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.914135+00:00"
     },
     "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt": {
       "name": "gh.927223.xyz",
@@ -30643,11 +31930,33 @@
           "http_status": 200,
           "valid_item_count": 303,
           "adult": true
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.805650+00:00",
+          "ok": true,
+          "elapsed_ms": 16,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 295,
+          "adult": true
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.124284+00:00",
+          "ok": true,
+          "elapsed_ms": 75,
+          "content_quality": 1.0,
+          "score": 99.96,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 295,
+          "adult": true
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.306756+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.124284+00:00"
     },
     "http://diyp5.112114.xyz/?ch={name}&date={date}": {
       "name": "diyp5.112114.xyz",
@@ -30686,11 +31995,22 @@
           "http_status": 522,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:16.366415+00:00",
+          "ok": false,
+          "elapsed_ms": 19966,
+          "content_quality": 0.0,
+          "score": 1.25,
+          "label": "离线",
+          "http_status": 522,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:00.701828+00:00"
+      "last_checked_at": "2026-07-06T06:49:16.366415+00:00"
     },
     "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}": {
       "name": "epg.51zmt.top:8000",
@@ -30740,11 +32060,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.817007+00:00",
+          "ok": false,
+          "elapsed_ms": 287,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.601363+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.817007+00:00"
     },
     "https://live.fanmingming.cn/tv/{name}.png": {
       "name": "live.fanmingming.cn",
@@ -30783,11 +32114,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:50.963115+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:35.921886+00:00"
+      "last_checked_at": "2026-07-06T06:48:50.963115+00:00"
     },
     "https://❤️自建资源区🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁": {
       "name": "❤️自建资源区🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁",
@@ -30826,11 +32168,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.697830+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:53.230838+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:38.217864+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:53.230838+00:00"
     },
     "https://fm.t4tv.hz.cz/jar/custom_spider.jar": {
       "name": "fm.t4tv.hz.cz",
@@ -30869,11 +32233,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.905148+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:41.488469+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.905148+00:00"
     },
     "https://bfzyapi.com/api.php/provide/vod": {
       "name": "bfzyapi.com",
@@ -30923,11 +32298,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.081952+00:00",
+          "ok": false,
+          "elapsed_ms": 134,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.164540+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.081952+00:00"
     },
     "http://cj.ffzyapi.com/api.php/provide/vod": {
       "name": "cj.ffzyapi.com",
@@ -30966,11 +32352,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.066798+00:00",
+          "ok": false,
+          "elapsed_ms": 87,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.074019+00:00"
+      "last_checked_at": "2026-07-06T06:48:52.066798+00:00"
     },
     "https://suoniapi.com/api.php/provide/vod": {
       "name": "suoniapi.com",
@@ -31009,11 +32406,33 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.477340+00:00",
+          "ok": false,
+          "elapsed_ms": 8,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.225618+00:00",
+          "ok": false,
+          "elapsed_ms": 9,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.107267+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.225618+00:00"
     },
     "https://jyzyapi.com/provide/vod/": {
       "name": "jyzyapi.com",
@@ -31052,11 +32471,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.276938+00:00",
+          "ok": false,
+          "elapsed_ms": 94,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.180945+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.276938+00:00"
     },
     "https://ikunzyapi.com/api.php/provide/vod/": {
       "name": "ikunzyapi.com",
@@ -31106,11 +32536,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.626009+00:00",
+          "ok": false,
+          "elapsed_ms": 351,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.422627+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.626009+00:00"
     },
     "https://api.wujinapi.me/api.php/provide/vod/": {
       "name": "api.wujinapi.me",
@@ -31149,11 +32590,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.195677+00:00",
+          "ok": false,
+          "elapsed_ms": 71,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.190507+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.195677+00:00"
     },
     "https://api.tiankongapi.com/api.php/provide/vod/": {
       "name": "api.tiankongapi.com",
@@ -31192,11 +32644,33 @@
           "http_status": 525,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.911574+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:53.899968+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.869543+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:53.899968+00:00"
     },
     "https://hhzyapi.com/api.php/provide/vod/?ac=list": {
       "name": "hhzyapi.com",
@@ -31235,11 +32709,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.625619+00:00",
+          "ok": false,
+          "elapsed_ms": 310,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.342434+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.625619+00:00"
     },
     "https://49zyw.com/api.php/provide/vod/?ac=list": {
       "name": "49zyw.com",
@@ -31289,11 +32774,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.649468+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.416143+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:55.649468+00:00"
     },
     "https://taopianapi.com/cjapi/mc10/vod/xml.html": {
       "name": "taopianapi.com",
@@ -31332,11 +32828,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.884088+00:00",
+          "ok": false,
+          "elapsed_ms": 53,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.369365+00:00"
+      "last_checked_at": "2026-07-06T06:48:51.884088+00:00"
     },
     "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06": {
       "name": "files.zohopublic.com.cn",
@@ -31375,11 +32882,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.283404+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:53.129222+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.255096+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:53.129222+00:00"
     },
     "https://❤️爱优腾资源区🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁": {
       "name": "❤️爱优腾资源区🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁",
@@ -31418,11 +32947,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:53.770924+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:38.688803+00:00"
+      "last_checked_at": "2026-07-06T06:48:53.770924+00:00"
     },
     "https://❤️FongMi资源区🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁": {
       "name": "❤️FongMi资源区🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁",
@@ -31461,11 +33001,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:53.796125+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:38.709838+00:00"
+      "last_checked_at": "2026-07-06T06:48:53.796125+00:00"
     },
     "https://raw.githubusercontent.com/myhomebox/TV/main/JAR/yt32.jar": {
       "name": "raw.githubusercontent.com",
@@ -31504,11 +33055,33 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": true
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.778310+00:00",
+          "ok": false,
+          "elapsed_ms": 385,
+          "content_quality": 0.0,
+          "score": 3.7,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": true
+        },
+        {
+          "checked_at": "2026-07-06T06:48:51.624030+00:00",
+          "ok": false,
+          "elapsed_ms": 145,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": true
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:36.831801+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:51.624030+00:00"
     },
     "https://tuapi.eees.cc/api.php?category=fengjing&type=302": {
       "name": "tuapi.eees.cc",
@@ -31547,11 +33120,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.927524+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.950250+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.927524+00:00"
     },
     "http://127.0.0.1:1988": {
       "name": "127.0.0.1:1988",
@@ -31601,11 +33185,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:53.896337+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:38.825047+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:53.896337+00:00"
     },
     "http://127.0.0.1:1988/lb?lb=0": {
       "name": "127.0.0.1:1988",
@@ -31644,11 +33239,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.030895+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:38.969423+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.030895+00:00"
     },
     "http://127.0.0.1:1988/lb?lb=1": {
       "name": "127.0.0.1:1988",
@@ -31687,11 +33293,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.701624+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.030960+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.040240+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:54.030960+00:00"
     },
     "http://127.0.0.1:1988/lb?lb=3": {
       "name": "127.0.0.1:1988",
@@ -31730,11 +33358,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.030997+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.236114+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.030997+00:00"
     },
     "http://127.0.0.1:1988/lb?lb=2": {
       "name": "127.0.0.1:1988",
@@ -31784,11 +33423,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.031032+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.236175+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:54.031032+00:00"
     },
     "http://127.0.0.1:1988/lb?lb=4": {
       "name": "127.0.0.1:1988",
@@ -31827,11 +33477,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.079136+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.274232+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.079136+00:00"
     },
     "http://127.0.0.1:1988/lb?lb=5": {
       "name": "127.0.0.1:1988",
@@ -31870,11 +33531,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.701679+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.107243+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.421875+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:54.107243+00:00"
     },
     "http://127.0.0.1:1988/lb?lb=6": {
       "name": "127.0.0.1:1988",
@@ -31913,11 +33596,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.107310+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.447663+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.107310+00:00"
     },
     "https://jx.777jiexi.com/player/?url=": {
       "name": "jx.777jiexi.com",
@@ -31967,11 +33661,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.097602+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.389492+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.097602+00:00"
     },
     "http://kmp.us.kg/api/?key=A2gODYCEHBd4tVLsbv&url=": {
       "name": "kmp.us.kg",
@@ -32010,11 +33715,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.973417+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.788676+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.973417+00:00"
     },
     "https://dns.quad9.net/dns-query": {
       "name": "dns.quad9.net",
@@ -32053,11 +33769,33 @@
           "http_status": 505,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.818752+00:00",
+          "ok": false,
+          "elapsed_ms": 344,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 505,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.106550+00:00",
+          "ok": false,
+          "elapsed_ms": 10,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 505,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.284879+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.106550+00:00"
     },
     "https://json.doube.eu.org/XingHuo.txt": {
       "name": "json.doube.eu.org",
@@ -32096,11 +33834,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.933729+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.285211+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.933729+00:00"
     },
     "http://www.kuaibozy.com/api.php/provide/vod/at/xml/": {
       "name": "www.kuaibozy.com",
@@ -32150,11 +33899,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.304301+00:00",
+          "ok": false,
+          "elapsed_ms": 63,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:37.617387+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:52.304301+00:00"
     },
     "http://tv.aitesucai.xyz/api.php/provide/vod/at/xml": {
       "name": "tv.aitesucai.xyz",
@@ -32193,11 +33953,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.981010+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.982006+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.981010+00:00"
     },
     "https://cj.leduocaiji.com/inc/api.php": {
       "name": "cj.leduocaiji.com",
@@ -32236,11 +34007,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.952016+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.901430+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:39.885710+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:54.901430+00:00"
     },
     "https://api.xxctzy.com/1.php?vid=": {
       "name": "api.xxctzy.com",
@@ -32279,11 +34072,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:54.857763+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.192748+00:00"
+      "last_checked_at": "2026-07-06T06:48:54.857763+00:00"
     },
     "http://dy.51isu.com:11801/api.php/provide/vod/at/xml": {
       "name": "dy.51isu.com:11801",
@@ -32333,11 +34137,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.138027+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.253047+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:55.138027+00:00"
     },
     "http://zy.zcocc.com/api.php/provide/vod/": {
       "name": "zy.zcocc.com",
@@ -32376,11 +34191,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.460253+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.287856+00:00"
+      "last_checked_at": "2026-07-06T06:48:55.460253+00:00"
     },
     "http://www.moguzyw.com:520/moguzy.php/provide/vod/at/xml/": {
       "name": "www.moguzyw.com:520",
@@ -32419,11 +34245,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:08.941834+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.215477+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.297674+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:55.215477+00:00"
     },
     "http://www.88zyw.net/inc/api.php": {
       "name": "www.88zyw.net",
@@ -32462,11 +34310,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:52.865739+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:38.441629+00:00"
+      "last_checked_at": "2026-07-06T06:48:52.865739+00:00"
     },
     "https://www.39kan.com/api.php/provide/vod/at/xml": {
       "name": "www.39kan.com",
@@ -32516,11 +34375,22 @@
           "http_status": 523,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:56.437282+00:00",
+          "ok": false,
+          "elapsed_ms": 3069,
+          "content_quality": 0.0,
+          "score": 3.37,
+          "label": "离线",
+          "http_status": 523,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.049062+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:56.437282+00:00"
     },
     "http://www.huaxiab.com/api.php/provide/vod/at/xml": {
       "name": "www.huaxiab.com",
@@ -32559,11 +34429,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:53.092348+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:38.961628+00:00"
+      "last_checked_at": "2026-07-06T06:48:53.092348+00:00"
     },
     "http://zbbf2.ahtv.cn/live/750.m3u8": {
       "name": "zbbf2.ahtv.cn",
@@ -32602,11 +34483,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:09.550879+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.952679+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.061410+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:55.952679+00:00"
     },
     "http://zbbf2.ahtv.cn/live/758.m3u8": {
       "name": "zbbf2.ahtv.cn",
@@ -32645,11 +34548,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.953295+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.061359+00:00"
+      "last_checked_at": "2026-07-06T06:48:55.953295+00:00"
     },
     "http://zbbf2.ahtv.cn/live/756.m3u8": {
       "name": "zbbf2.ahtv.cn",
@@ -32699,11 +34613,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.952732+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.061386+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:55.952732+00:00"
     },
     "http://zbbf2.ahtv.cn/live/754.m3u8": {
       "name": "zbbf2.ahtv.cn",
@@ -32742,11 +34667,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:56.665889+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.061433+00:00"
+      "last_checked_at": "2026-07-06T06:48:56.665889+00:00"
     },
     "http://zbbf2.ahtv.cn/live/752.m3u8": {
       "name": "zbbf2.ahtv.cn",
@@ -32785,11 +34721,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:09.550938+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:56.665940+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.061308+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:56.665940+00:00"
     },
     "http://zbbf2.ahtv.cn/live/da9.m3u8": {
       "name": "zbbf2.ahtv.cn",
@@ -32828,11 +34786,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:56.666315+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.062219+00:00"
+      "last_checked_at": "2026-07-06T06:48:56.666315+00:00"
     },
     "http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-cctv1/HD-8000k-1080P-cctv1": {
       "name": "183.207.248.71:80",
@@ -32882,11 +34851,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:59.400130+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:47.179748+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:59.400130+00:00"
     },
     "http://39.134.24.24/PLTV/88888888/224/3221225684/index.m3u8": {
       "name": "39.134.24.24",
@@ -32925,11 +34905,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:50:03.402744+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:49.179267+00:00"
+      "last_checked_at": "2026-07-06T06:50:03.402744+00:00"
     },
     "http://39.134.24.24/PLTV/88888888/224/3221225829/index.m3u8": {
       "name": "39.134.24.24",
@@ -32968,11 +34959,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:15.683274+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:50:03.402885+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:49.179129+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:50:03.402885+00:00"
     },
     "http://39.134.24.24/PLTV/88888888/224/3221225652/index.m3u8": {
       "name": "39.134.24.24",
@@ -33011,11 +35024,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:50:03.402833+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:49.179216+00:00"
+      "last_checked_at": "2026-07-06T06:50:03.402833+00:00"
     },
     "https://www.6080yy3.com/": {
       "name": "www.6080yy3.com",
@@ -33054,11 +35078,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:56.685060+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:43.280319+00:00"
+      "last_checked_at": "2026-07-06T06:48:56.685060+00:00"
     },
     "https://api-aws.11ty.top": {
       "name": "api-aws.11ty.top",
@@ -33097,11 +35132,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:09.082244+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.579305+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.393814+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:57.579305+00:00"
     },
     "https://www.fantuanhd.com": {
       "name": "www.fantuanhd.com",
@@ -33140,11 +35197,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.937367+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:43.075738+00:00"
+      "last_checked_at": "2026-07-06T06:48:57.937367+00:00"
     },
     "https://tv.libvio.cc/": {
       "name": "tv.libvio.cc",
@@ -33194,11 +35262,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.641714+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:48.558715+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:58.641714+00:00"
     },
     "https://www.ysgc.vip": {
       "name": "www.ysgc.vip",
@@ -33237,11 +35316,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.429597+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.348398+00:00"
+      "last_checked_at": "2026-07-06T06:48:57.429597+00:00"
     },
     "https://www.lgyy.vip": {
       "name": "www.lgyy.vip",
@@ -33280,11 +35370,33 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.857209+00:00",
+          "ok": false,
+          "elapsed_ms": 74,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.427931+00:00",
+          "ok": false,
+          "elapsed_ms": 175,
+          "content_quality": 0.0,
+          "score": 3.73,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.135793+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:55.427931+00:00"
     },
     "https://www.zxzj.pro/": {
       "name": "www.zxzj.pro",
@@ -33323,11 +35435,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.546555+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.355845+00:00"
+      "last_checked_at": "2026-07-06T06:48:57.546555+00:00"
     },
     "https://www.lggys.cn/api.php/app/": {
       "name": "www.lggys.cn",
@@ -33377,11 +35500,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.872705+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:43.370854+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:57.872705+00:00"
     },
     "https://yk.shaozeyy.com/api.php/app/": {
       "name": "yk.shaozeyy.com",
@@ -33420,11 +35554,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:35.954815+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.211041+00:00"
+      "last_checked_at": "2026-07-06T06:49:35.954815+00:00"
     },
     "http://www.miniku.cc/xgapp.php/v1/": {
       "name": "www.miniku.cc",
@@ -33463,11 +35608,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:06.620093+00:00",
+          "ok": false,
+          "elapsed_ms": 36,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.339099+00:00",
+          "ok": false,
+          "elapsed_ms": 116,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.428557+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:55.339099+00:00"
     },
     "https://555yy1.com/api.php/app/": {
       "name": "555yy1.com",
@@ -33506,11 +35673,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:41.401871+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:46.227092+00:00"
+      "last_checked_at": "2026-07-06T06:49:41.401871+00:00"
     },
     "https://vip.lianfaka.com/vip/?url=": {
       "name": "vip.lianfaka.com",
@@ -33560,11 +35738,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:59.638825+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.657820+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:59.638825+00:00"
     },
     "https://www.dy6g.com/": {
       "name": "www.dy6g.com",
@@ -33603,11 +35792,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:55.518499+00:00",
+          "ok": false,
+          "elapsed_ms": 5,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:40.596833+00:00"
+      "last_checked_at": "2026-07-06T06:48:55.518499+00:00"
     },
     "https://AppMuou": {
       "name": "AppMuou",
@@ -33657,11 +35857,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.770438+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.855320+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:57.770438+00:00"
     },
     "http://zxys.gaozhoukj.cn": {
       "name": "zxys.gaozhoukj.cn",
@@ -33700,11 +35911,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:50:05.399425+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:50.177567+00:00"
+      "last_checked_at": "2026-07-06T06:50:05.399425+00:00"
     },
     "http://pqysdq.gxttkeji.cn:2026": {
       "name": "pqysdq.gxttkeji.cn:2026",
@@ -33743,11 +35965,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:15.683175+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:50:05.399514+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:51.177883+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:50:05.399514+00:00"
     },
     "https://Appfox": {
       "name": "Appfox",
@@ -33786,11 +36030,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.947922+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:43.910587+00:00"
+      "last_checked_at": "2026-07-06T06:48:57.947922+00:00"
     },
     "http://app.hktvyb.cc": {
       "name": "app.hktvyb.cc",
@@ -33840,11 +36095,22 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:56.028083+00:00",
+          "ok": false,
+          "elapsed_ms": 50,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.394234+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:56.028083+00:00"
     },
     "http://kumiao.yzbao.com.cn": {
       "name": "kumiao.yzbao.com.cn",
@@ -33883,11 +36149,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:59.580567+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.805149+00:00"
+      "last_checked_at": "2026-07-06T06:48:59.580567+00:00"
     },
     "http://115.190.136.55:1689": {
       "name": "115.190.136.55:1689",
@@ -33926,11 +36203,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:10.905385+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.432260+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.377039+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:00.432260+00:00"
     },
     "http://d.tv.tkbot.fun/api.php/appfox/vod?ac=videolist": {
       "name": "d.tv.tkbot.fun",
@@ -33969,11 +36268,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.454498+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.532967+00:00"
+      "last_checked_at": "2026-07-06T06:48:58.454498+00:00"
     },
     "https://yzysap.oss-cn-hangzhou.aliyuncs.com/yzysapp.json": {
       "name": "yzysap.oss-cn-hangzhou.aliyuncs.com",
@@ -34023,11 +36333,22 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.511719+00:00",
+          "ok": false,
+          "elapsed_ms": 232,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:43.891531+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:57.511719+00:00"
     },
     "http://www.yingsw.top": {
       "name": "www.yingsw.top",
@@ -34066,11 +36387,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.179255+00:00",
+          "ok": false,
+          "elapsed_ms": 248,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:42.763530+00:00"
+      "last_checked_at": "2026-07-06T06:48:57.179255+00:00"
     },
     "https://qh.70qh.top": {
       "name": "qh.70qh.top",
@@ -34109,11 +36441,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:10.258119+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.647880+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:46.151234+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:00.647880+00:00"
     },
     "https://skapp": {
       "name": "skapp",
@@ -34152,11 +36506,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:59.101092+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.822147+00:00"
+      "last_checked_at": "2026-07-06T06:48:59.101092+00:00"
     },
     "http://sk.13tv.top:6542/assets/dd.txt": {
       "name": "sk.13tv.top:6542",
@@ -34206,11 +36571,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:56.873782+00:00",
+          "ok": false,
+          "elapsed_ms": 25,
+          "content_quality": 0.0,
+          "score": 3.75,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:43.141251+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:56.873782+00:00"
     },
     "https://skyappdata-1321528676.cos.accelerate.myqcloud.com/4kapp/appipr.txt": {
       "name": "skyappdata-1321528676.cos.accelerate.myqcloud.com",
@@ -34249,11 +36625,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.063462+00:00",
+          "ok": false,
+          "elapsed_ms": 343,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:43.986990+00:00"
+      "last_checked_at": "2026-07-06T06:48:58.063462+00:00"
     },
     "https://kankelm.cn:2024/appdomain.txt": {
       "name": "kankelm.cn:2024",
@@ -34292,11 +36679,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:11.897546+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:03.203038+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.499129+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:03.203038+00:00"
     },
     "https://RJAPP": {
       "name": "RJAPP",
@@ -34335,11 +36744,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:59.600923+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.568123+00:00"
+      "last_checked_at": "2026-07-06T06:48:59.600923+00:00"
     },
     "https://XinJie": {
       "name": "XinJie",
@@ -34389,11 +36809,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:59.858309+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.738814+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:59.858309+00:00"
     },
     "https://picsum.photos/1280/720/?blur=10": {
       "name": "picsum.photos",
@@ -34432,11 +36863,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.675440+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:43.690003+00:00"
+      "last_checked_at": "2026-07-06T06:48:57.675440+00:00"
     },
     "https://github.com/catvod/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true": {
       "name": "github.com",
@@ -34475,11 +36917,33 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:07.278851+00:00",
+          "ok": false,
+          "elapsed_ms": 404,
+          "content_quality": 0.0,
+          "score": 3.7,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.886738+00:00",
+          "ok": false,
+          "elapsed_ms": 269,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.303209+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:57.886738+00:00"
     },
     "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/custom_spider.txt": {
       "name": "litecucumber.coding.net",
@@ -34518,11 +36982,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.697838+00:00",
+          "ok": false,
+          "elapsed_ms": 212,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.821486+00:00"
+      "last_checked_at": "2026-07-06T06:48:58.697838+00:00"
     },
     "https://github.com/YuanHsing/OneClickRun/raw/master/xpath/custom_spider.jar?raw=true": {
       "name": "github.com",
@@ -34572,11 +37047,22 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:57.912259+00:00",
+          "ok": false,
+          "elapsed_ms": 236,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.387811+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:57.912259+00:00"
     },
     "https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/Renjie.json": {
       "name": "cdn.jsdelivr.net",
@@ -34615,11 +37101,22 @@
           "http_status": 404,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.152665+00:00",
+          "ok": false,
+          "elapsed_ms": 335,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.936697+00:00"
+      "last_checked_at": "2026-07-06T06:48:58.152665+00:00"
     },
     "https://demo.if101.tv/api.php/provide/vod/at/xml": {
       "name": "demo.if101.tv",
@@ -34658,11 +37155,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:09.245737+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.344242+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:46.965934+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:00.344242+00:00"
     },
     "https://www.tkys.tv/xgapp.php/v2/": {
       "name": "www.tkys.tv",
@@ -34701,11 +37220,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.162565+00:00",
+          "ok": false,
+          "elapsed_ms": 112,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.467342+00:00"
+      "last_checked_at": "2026-07-06T06:48:58.162565+00:00"
     },
     "https://vipmv.co/xgapp.php/v1/": {
       "name": "vipmv.co",
@@ -34755,11 +37285,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.015064+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.655595+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:48:58.015064+00:00"
     },
     "https://szys5678.com/mogai_api.php/v1.vod": {
       "name": "szys5678.com",
@@ -34798,11 +37339,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.753705+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:46.931776+00:00"
+      "last_checked_at": "2026-07-06T06:49:00.753705+00:00"
     },
     "https://xays6677.com/mogai_api.php/v1.vod": {
       "name": "xays6677.com",
@@ -34841,11 +37393,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:09.320044+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.662854+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.039032+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:00.662854+00:00"
     },
     "http://ccxg.xazhutu.com/xgapp.php/v1/": {
       "name": "ccxg.xazhutu.com",
@@ -34884,11 +37458,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.729256+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.105863+00:00"
+      "last_checked_at": "2026-07-06T06:49:00.729256+00:00"
     },
     "https://ytys3456.com/mogai_api.php/v1.vod": {
       "name": "ytys3456.com",
@@ -34938,11 +37523,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.766738+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.187720+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:00.766738+00:00"
     },
     "https://tkys.tv/xgapp.php/v1/": {
       "name": "tkys.tv",
@@ -34981,11 +37577,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.377718+00:00",
+          "ok": false,
+          "elapsed_ms": 63,
+          "content_quality": 0.0,
+          "score": 3.74,
+          "label": "离线",
+          "http_status": 404,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:44.794491+00:00"
+      "last_checked_at": "2026-07-06T06:48:58.377718+00:00"
     },
     "https://xkys.tv/xgapp.php/v1/": {
       "name": "xkys.tv",
@@ -35024,11 +37631,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:09.287329+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.595196+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.281261+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:00.595196+00:00"
     },
     "http://js.66app.me/api.php/app/": {
       "name": "js.66app.me",
@@ -35067,11 +37696,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:00.858527+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.324981+00:00"
+      "last_checked_at": "2026-07-06T06:49:00.858527+00:00"
     },
     "http://www.lltpys.com/api.php/app/": {
       "name": "www.lltpys.com",
@@ -35121,11 +37761,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:01.131920+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.360999+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:01.131920+00:00"
     },
     "https://300ys.xyz/api.php/v1.vod": {
       "name": "300ys.xyz",
@@ -35164,11 +37815,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:48:58.899306+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:45.546187+00:00"
+      "last_checked_at": "2026-07-06T06:48:58.899306+00:00"
     },
     "http://360yy.cn/api.php/app/": {
       "name": "360yy.cn",
@@ -35207,11 +37869,33 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:47:51.666378+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:04.976036+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
-      "sleeping": false,
-      "last_checked_at": "2026-07-01T16:42:30.177932+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-07-06T06:49:04.976036+00:00"
     },
     "https://shangjihuoke.com/api.php/tv.vod": {
       "name": "shangjihuoke.com",
@@ -35250,11 +37934,22 @@
           "http_status": null,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:02.831492+00:00",
+          "ok": false,
+          "elapsed_ms": null,
+          "content_quality": 0.0,
+          "score": 0.0,
+          "label": "离线",
+          "http_status": null,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:48.746936+00:00"
+      "last_checked_at": "2026-07-06T06:49:02.831492+00:00"
     },
     "https://www.volcengine.com/activity/codingplan?utm_campaign=hw&amp;utm_content=hw&amp;utm_medium=devrel_tool_web&amp;utm_source=OWO&amp;utm_term=cnblogs": {
       "name": "www.volcengine.com",
@@ -35282,11 +37977,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:01.329518+00:00",
+          "ok": false,
+          "elapsed_ms": 330,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.005693+00:00"
+      "last_checked_at": "2026-07-06T06:49:01.329518+00:00"
     },
     "https://img2024.cnblogs.com/blog/35695/202606/35695-20260609221536870-1777800795.webp": {
       "name": "img2024.cnblogs.com",
@@ -35314,11 +38020,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": true
+        },
+        {
+          "checked_at": "2026-07-06T06:49:03.577629+00:00",
+          "ok": false,
+          "elapsed_ms": 301,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": true
         }
       ],
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.404491+00:00"
+      "last_checked_at": "2026-07-06T06:49:03.577629+00:00"
     },
     "https://www.volcengine.com/activity/codingplan?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=cnblogs": {
       "name": "www.volcengine.com",
@@ -35346,11 +38063,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:01.357487+00:00",
+          "ok": false,
+          "elapsed_ms": 354,
+          "content_quality": 0.0,
+          "score": 3.71,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:47.114795+00:00"
+      "last_checked_at": "2026-07-06T06:49:01.357487+00:00"
     },
     "https://gitee.com/xxoooo/fan/raw/master/in.bmp": {
       "name": "gitee.com",
@@ -35367,11 +38095,54 @@
           "http_status": 423,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:02.169115+00:00",
+          "ok": false,
+          "elapsed_ms": 419,
+          "content_quality": 0.0,
+          "score": 3.7,
+          "label": "离线",
+          "http_status": 423,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "sleeping": false,
-      "last_checked_at": "2026-07-01T16:41:48.788810+00:00"
+      "last_checked_at": "2026-07-06T06:49:02.169115+00:00"
+    },
+    "https://cdn-www.cnblogs.com/js/blog-common.min.js?v=AAx9TEhJfBaf4vBoJvZwrTdidca6gIK_x4Q-Er7vnbs": {
+      "name": "cdn-www.cnblogs.com",
+      "origin": "discovery:cnblogs-tvbox-index",
+      "priority": 4,
+      "records": [
+        {
+          "checked_at": "2026-07-06T06:47:08.633223+00:00",
+          "ok": false,
+          "elapsed_ms": 833,
+          "content_quality": 0.0,
+          "score": 3.65,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-07-06T06:49:01.087615+00:00",
+          "ok": false,
+          "elapsed_ms": 978,
+          "content_quality": 0.0,
+          "score": 3.63,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
+        }
+      ],
+      "consecutive_failures": 2,
+      "sleeping": false,
+      "last_checked_at": "2026-07-06T06:49:01.087615+00:00"
     }
   },
   "runs": [
@@ -35654,6 +38425,44 @@
         "adult_m3u": "output/adult-live.m3u",
         "summary": "output/summary.json",
         "selected": "20",
+        "adult_selected": "4"
+      }
+    },
+    {
+      "generated_at": "2026-07-06T06:48:15.684872+00:00",
+      "total": 51,
+      "online": 8,
+      "offline": 43,
+      "online_rate": 0.1569,
+      "average_score": 16.69,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "7",
+        "adult_selected": "1"
+      }
+    },
+    {
+      "generated_at": "2026-07-06T06:50:09.406825+00:00",
+      "total": 200,
+      "online": 23,
+      "offline": 177,
+      "online_rate": 0.115,
+      "average_score": 12.72,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "19",
         "adult_selected": "4"
       }
     }
