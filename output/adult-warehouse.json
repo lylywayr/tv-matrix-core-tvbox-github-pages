@@ -1,21 +1,21 @@
 {
   "name": "TV-Matrix-Core 18+ 独立仓",
-  "generated_at": "2026-07-06T06:50:09.406825+00:00",
+  "generated_at": "2026-07-13T05:51:09.579686+00:00",
   "urls": [
     {
-      "name": "01. gh.927223.xyz [快/99.96]",
-      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
-    },
-    {
-      "name": "02. tvbox18 [快/99.95]",
+      "name": "01. tvbox18 [快/99.96]",
       "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/86e1e39338ae41fcbceb9d0d3896a7618ced6cd6/tv.json"
     },
     {
-      "name": "03. skyyaman18 [快/99.93]",
+      "name": "02. skyyaman18 [快/99.96]",
       "url": "https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json"
     },
     {
-      "name": "04. davidlee6628 [快/96.48]",
+      "name": "03. gh.927223.xyz [快/99.96]",
+      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+    },
+    {
+      "name": "04. davidlee6628 [快/96.49]",
       "url": "https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json"
     }
   ]

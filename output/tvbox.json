@@ -1,9 +1,35 @@
 {
   "name": "TV-Matrix-Core",
-  "generated_at": "2026-07-06T06:50:09.406825+00:00",
+  "generated_at": "2026-07-13T05:51:09.579686+00:00",
   "sites": [
     {
-      "key": "4596179908260365437",
+      "key": "3769863755126352861",
+      "name": "aliluya1977 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 5
+      }
+    },
+    {
+      "key": "3728659025494907187",
+      "name": "zhanghong1983 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 6
+      }
+    },
+    {
+      "key": "2540895431726162667",
       "name": "dxawi.github.io [快]",
       "type": 3,
       "api": "https://dxawi.github.io/0/0.json",
@@ -11,41 +37,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 100.0,
-        "latency_ms": 3
-      }
-    },
-    {
-      "key": "53074702089392299",
-      "name": "mcp2016 [快]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
         "health_score": 99.99,
-        "latency_ms": 18
+        "latency_ms": 16
       }
     },
     {
-      "key": "137492191091235805",
-      "name": "cnnbgo [快]",
+      "key": "3731422998989744032",
+      "name": "freedtv-box [快]",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "health_score": 99.99,
-        "latency_ms": 25
-      }
-    },
-    {
-      "key": "417917311736121213",
-      "name": "aliluya1977 [快]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
+      "api": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -55,23 +55,36 @@
       }
     },
     {
-      "key": "8547976432626672295",
-      "name": "gaotianliuyun-js [快]",
+      "key": "1589500362190623879",
+      "name": "wlcmc1972 [快]",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json",
+      "api": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
         "health_score": 99.99,
-        "latency_ms": 30
+        "latency_ms": 28
       }
     },
     {
-      "key": "98379213823861967",
-      "name": "guot55 [快]",
+      "key": "8768991132165054614",
+      "name": "cnnbgo [快]",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json",
+      "api": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.98,
+        "latency_ms": 36
+      }
+    },
+    {
+      "key": "1404204690446782801",
+      "name": "mcp2016 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -81,7 +94,20 @@
       }
     },
     {
-      "key": "6519099990562133503",
+      "key": "2080357351071842085",
+      "name": "myhomebox [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.98,
+        "latency_ms": 37
+      }
+    },
+    {
+      "key": "9207109805654871911",
       "name": "yw88075 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json",
@@ -94,10 +120,10 @@
       }
     },
     {
-      "key": "6833609298073401435",
-      "name": "wlcmc1972 [快]",
+      "key": "175029171201209495",
+      "name": "jak0099 [快]",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
+      "api": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -107,72 +133,33 @@
       }
     },
     {
-      "key": "8062966460334891418",
-      "name": "myhomebox [快]",
+      "key": "6638385071989589780",
+      "name": "gaotianliuyun-js [快]",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "health_score": 99.98,
-        "latency_ms": 49
-      }
-    },
-    {
-      "key": "1374145797411106399",
-      "name": "jak0099 [快]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "health_score": 99.98,
-        "latency_ms": 49
-      }
-    },
-    {
-      "key": "8411922793705566000",
-      "name": "zhanghong1983 [快]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json",
+      "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
         "health_score": 99.96,
-        "latency_ms": 79
+        "latency_ms": 71
       }
     },
     {
-      "key": "6825517149562924219",
-      "name": "freedtv-box [快]",
+      "key": "8119618072769755618",
+      "name": "guot55 [快]",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
+      "api": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
         "health_score": 99.96,
-        "latency_ms": 86
+        "latency_ms": 72
       }
     },
     {
-      "key": "8704800467618675866",
-      "name": "catvod-mj [快]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "health_score": 99.95,
-        "latency_ms": 90
-      }
-    },
-    {
-      "key": "1250311513517859368",
+      "key": "49774759516495112",
       "name": "tiantaiyx-0 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json",
@@ -180,12 +167,25 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 99.92,
-        "latency_ms": 156
+        "health_score": 99.96,
+        "latency_ms": 81
       }
     },
     {
-      "key": "5436904801648627693",
+      "key": "6062589568437073101",
+      "name": "catvod-mj [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.96,
+        "latency_ms": 82
+      }
+    },
+    {
+      "key": "2725611964338640695",
       "name": "www.yingm.cc [快]",
       "type": 3,
       "api": "https://www.yingm.cc/dm/dm.json",
@@ -193,12 +193,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 99.89,
-        "latency_ms": 228
+        "health_score": 99.88,
+        "latency_ms": 249
       }
     },
     {
-      "key": "8047858781360430478",
+      "key": "487598055563879831",
       "name": "12586.kstore.space [快]",
       "type": 3,
       "api": "https://12586.kstore.space/123.txt",
@@ -206,12 +206,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 98.94,
-        "latency_ms": 123
+        "health_score": 99.45,
+        "latency_ms": 93
       }
     },
     {
-      "key": "8792235841060181591",
+      "key": "4879241031854345179",
       "name": "liu673cn-box [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json",
@@ -219,12 +219,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 94.16,
-        "latency_ms": 4
+        "health_score": 94.99,
+        "latency_ms": 15
       }
     },
     {
-      "key": "410619735507146326",
+      "key": "342629056442506626",
       "name": "yueer59 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json",
@@ -232,12 +232,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 91.18,
-        "latency_ms": 132
+        "health_score": 92.96,
+        "latency_ms": 84
       }
     },
     {
-      "key": "5804924121710843010",
+      "key": "5223300136072854407",
       "name": "raw.liucn.cc [稳定]",
       "type": 3,
       "api": "https://raw.liucn.cc/box/m.json",
@@ -245,8 +245,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 82.5,
-        "latency_ms": 2
+        "health_score": 84.44,
+        "latency_ms": 4
       }
     }
   ]

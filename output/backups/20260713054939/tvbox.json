@@ -1,0 +1,45 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-07-13T05:49:39.358529+00:00",
+  "sites": [
+    {
+      "key": "4036906043342949849",
+      "name": "myhomebox [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 9
+      }
+    },
+    {
+      "key": "7374075654680161480",
+      "name": "yw88075 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 10
+      }
+    },
+    {
+      "key": "9031229448561417328",
+      "name": "gaotianliuyun-js [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.99,
+        "latency_ms": 14
+      }
+    }
+  ]
+}
