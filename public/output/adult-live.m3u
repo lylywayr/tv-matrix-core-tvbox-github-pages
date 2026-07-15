@@ -1,9 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="tvbox18",tvbox18 [快]
-https://raw.githubusercontent.com/qirenzhidao/tvbox18/86e1e39338ae41fcbceb9d0d3896a7618ced6cd6/tv.json
-#EXTINF:-1 tvg-name="skyyaman18",skyyaman18 [快]
-https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json
 #EXTINF:-1 tvg-name="gh.927223.xyz",gh.927223.xyz [快]
 https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
+#EXTINF:-1 tvg-name="skyyaman18",skyyaman18 [快]
+https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json
+#EXTINF:-1 tvg-name="tvbox18",tvbox18 [快]
+https://raw.githubusercontent.com/qirenzhidao/tvbox18/86e1e39338ae41fcbceb9d0d3896a7618ced6cd6/tv.json
 #EXTINF:-1 tvg-name="davidlee6628",davidlee6628 [快]
 https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json

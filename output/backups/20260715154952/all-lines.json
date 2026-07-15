@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-07-15T15:49:52.248547+00:00",
+  "normal": [
+    {
+      "name": "aliluya1977",
+      "url": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
+      "score": 100.0,
+      "label": "快",
+      "elapsed_ms": 3,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 35
+    },
+    {
+      "name": "jak0099",
+      "url": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
+      "score": 100.0,
+      "label": "快",
+      "elapsed_ms": 5,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 554
+    },
+    {
+      "name": "wlcmc1972",
+      "url": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
+      "score": 99.99,
+      "label": "快",
+      "elapsed_ms": 17,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 151
+    },
+    {
+      "name": "catvod-mj",
+      "url": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
+      "score": 99.97,
+      "label": "快",
+      "elapsed_ms": 66,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 45
+    },
+    {
+      "name": "www.yingm.cc",
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "score": 99.87,
+      "label": "快",
+      "elapsed_ms": 261,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 46
+    },
+    {
+      "name": "12586.kstore.space",
+      "url": "https://12586.kstore.space/123.txt",
+      "score": 99.45,
+      "label": "快",
+      "elapsed_ms": 97,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false,
+      "format": "txt",
+      "valid_item_count": 9
+    },
+    {
+      "name": "liu673cn-box",
+      "url": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json",
+      "score": 95.62,
+      "label": "快",
+      "elapsed_ms": 3,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 264
+    }
+  ],
+  "adult": [
+    {
+      "name": "gh.927223.xyz",
+      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "score": 99.96,
+      "label": "快",
+      "elapsed_ms": 71,
+      "origin": "seed-nested:mcp2016",
+      "adult": true,
+      "format": "m3u",
+      "valid_item_count": 305
+    }
+  ]
+}
