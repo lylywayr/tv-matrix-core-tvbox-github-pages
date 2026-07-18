@@ -1,0 +1,58 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-07-18T05:05:29.183928+00:00",
+  "sites": [
+    {
+      "key": "4751943526677031671",
+      "name": "freedtv-box [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 9
+      }
+    },
+    {
+      "key": "7628121991519078010",
+      "name": "cnnbgo [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 9
+      }
+    },
+    {
+      "key": "2164497423976546763",
+      "name": "tiantaiyx-0 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.93,
+        "latency_ms": 148
+      }
+    },
+    {
+      "key": "1244840670690108602",
+      "name": "dxawi.github.io [快]",
+      "type": 3,
+      "api": "https://dxawi.github.io/0/0.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.88,
+        "latency_ms": 235
+      }
+    }
+  ]
+}
