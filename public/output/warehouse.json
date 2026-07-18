@@ -1,86 +1,86 @@
 {
   "name": "TV-Matrix-Core 优选普通仓",
-  "generated_at": "2026-07-18T05:05:57.878698+00:00",
+  "generated_at": "2026-07-18T15:15:17.236562+00:00",
   "urls": [
     {
-      "name": "01. zhanghong1983 [快/100.0]",
-      "url": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json"
+      "name": "01. catvod-mj [快/99.99]",
+      "url": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json"
     },
     {
-      "name": "02. yw88075 [快/99.99]",
-      "url": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json"
+      "name": "02. zhanghong1983 [快/99.99]",
+      "url": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json"
     },
     {
       "name": "03. wlcmc1972 [快/99.99]",
       "url": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json"
     },
     {
-      "name": "04. freedtv-box [快/99.99]",
-      "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json"
-    },
-    {
-      "name": "05. aliluya1977 [快/99.99]",
-      "url": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json"
-    },
-    {
-      "name": "06. myhomebox [快/99.99]",
-      "url": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json"
-    },
-    {
-      "name": "07. gaotianliuyun-js [快/99.99]",
+      "name": "04. gaotianliuyun-js [快/99.98]",
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json"
     },
     {
-      "name": "08. guot55 [快/99.98]",
+      "name": "05. guot55 [快/99.98]",
       "url": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json"
     },
     {
-      "name": "09. mcp2016 [快/99.98]",
-      "url": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json"
+      "name": "06. aliluya1977 [快/99.98]",
+      "url": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json"
     },
     {
-      "name": "10. cnnbgo [快/99.98]",
-      "url": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json"
-    },
-    {
-      "name": "11. jak0099 [快/99.98]",
+      "name": "07. jak0099 [快/99.97]",
       "url": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json"
     },
     {
-      "name": "12. dxawi.github.io [快/99.96]",
+      "name": "08. myhomebox [快/99.96]",
+      "url": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json"
+    },
+    {
+      "name": "09. yw88075 [快/99.96]",
+      "url": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json"
+    },
+    {
+      "name": "10. mcp2016 [快/99.96]",
+      "url": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json"
+    },
+    {
+      "name": "11. cnnbgo [快/99.96]",
+      "url": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json"
+    },
+    {
+      "name": "12. freedtv-box [快/99.96]",
+      "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json"
+    },
+    {
+      "name": "13. dxawi.github.io [快/99.95]",
       "url": "https://dxawi.github.io/0/0.json"
     },
     {
-      "name": "13. catvod-mj [快/99.95]",
-      "url": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json"
-    },
-    {
-      "name": "14. tiantaiyx-0 [快/99.94]",
-      "url": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json"
-    },
-    {
-      "name": "15. www.yingm.cc [快/99.91]",
+      "name": "14. www.yingm.cc [快/99.92]",
       "url": "https://www.yingm.cc/dm/dm.json"
     },
     {
-      "name": "16. 12586.kstore.space [快/99.47]",
+      "name": "15. 12586.kstore.space [快/99.47]",
       "url": "https://12586.kstore.space/123.txt"
     },
     {
-      "name": "17. liu673cn-box [快/96.47]",
+      "name": "16. liu673cn-box [快/96.81]",
       "url": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json"
     },
     {
-      "name": "18. yueer59 [快/94.95]",
+      "name": "17. tiantaiyx-0 [稳定/96.76]",
+      "url": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json"
+    },
+    {
+      "name": "18. yueer59 [快/96.07]",
       "url": "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json"
     },
     {
-      "name": "19. raw.liucn.cc [快/87.23]",
-      "url": "https://raw.liucn.cc/box/m.json"
+      "name": "19. home.jundie.top:81 [快/95.24]",
+      "url": "http://home.jundie.top:81/top98.json"
     },
     {
-      "name": "20. home.jundie.top:81 [稳定/79.89]",
-      "url": "http://home.jundie.top:81/top98.json"
+      "name": "20. raw.liucn.cc [快/89.19]",
+      "url": "https://raw.liucn.cc/box/m.json"
     }
   ]
 }

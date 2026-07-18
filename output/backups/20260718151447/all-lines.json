@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-07-18T15:14:47.278874+00:00",
+  "normal": [
+    {
+      "name": "mcp2016",
+      "url": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json",
+      "score": 100.0,
+      "label": "快",
+      "elapsed_ms": 9,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 57
+    },
+    {
+      "name": "guot55",
+      "url": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json",
+      "score": 100.0,
+      "label": "快",
+      "elapsed_ms": 10,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 120
+    },
+    {
+      "name": "zhanghong1983",
+      "url": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json",
+      "score": 99.85,
+      "label": "快",
+      "elapsed_ms": 295,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 146
+    },
+    {
+      "name": "yueer59",
+      "url": "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json",
+      "score": 95.54,
+      "label": "快",
+      "elapsed_ms": 166,
+      "origin": "seed",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 149
+    },
+    {
+      "name": "raw.liucn.cc",
+      "url": "https://raw.liucn.cc/box/m.json",
+      "score": 88.26,
+      "label": "快",
+      "elapsed_ms": 138,
+      "origin": "discovery:cnblogs-tvbox-index",
+      "adult": false,
+      "format": "tvbox_json",
+      "valid_item_count": 264
+    }
+  ],
+  "adult": []
+}
