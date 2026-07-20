@@ -1,10 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="mcp2016",mcp2016 [快]
 https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json
-#EXTINF:-1 tvg-name="guot55",guot55 [快]
-https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json
 #EXTINF:-1 tvg-name="zhanghong1983",zhanghong1983 [快]
 https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json
+#EXTINF:-1 tvg-name="guot55",guot55 [快]
+https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json
 #EXTINF:-1 tvg-name="yueer59",yueer59 [快]
 https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json
 #EXTINF:-1 tvg-name="raw.liucn.cc",raw.liucn.cc [快]

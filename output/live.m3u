@@ -1,38 +1,38 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="catvod-mj",catvod-mj [快]
-https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json
 #EXTINF:-1 tvg-name="zhanghong1983",zhanghong1983 [快]
 https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json
+#EXTINF:-1 tvg-name="freedtv-box",freedtv-box [快]
+https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json
+#EXTINF:-1 tvg-name="cnnbgo",cnnbgo [快]
+https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json
+#EXTINF:-1 tvg-name="tiantaiyx-0",tiantaiyx-0 [快]
+https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json
+#EXTINF:-1 tvg-name="myhomebox",myhomebox [快]
+https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json
+#EXTINF:-1 tvg-name="aliluya1977",aliluya1977 [快]
+https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json
+#EXTINF:-1 tvg-name="yw88075",yw88075 [快]
+https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json
+#EXTINF:-1 tvg-name="catvod-mj",catvod-mj [快]
+https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json
 #EXTINF:-1 tvg-name="wlcmc1972",wlcmc1972 [快]
 https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json
 #EXTINF:-1 tvg-name="gaotianliuyun-js",gaotianliuyun-js [快]
 https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json
-#EXTINF:-1 tvg-name="guot55",guot55 [快]
-https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json
-#EXTINF:-1 tvg-name="aliluya1977",aliluya1977 [快]
-https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json
-#EXTINF:-1 tvg-name="jak0099",jak0099 [快]
-https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json
-#EXTINF:-1 tvg-name="myhomebox",myhomebox [快]
-https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json
-#EXTINF:-1 tvg-name="yw88075",yw88075 [快]
-https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json
-#EXTINF:-1 tvg-name="mcp2016",mcp2016 [快]
-https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json
-#EXTINF:-1 tvg-name="cnnbgo",cnnbgo [快]
-https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json
-#EXTINF:-1 tvg-name="freedtv-box",freedtv-box [快]
-https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json
 #EXTINF:-1 tvg-name="dxawi.github.io",dxawi.github.io [快]
 https://dxawi.github.io/0/0.json
+#EXTINF:-1 tvg-name="jak0099",jak0099 [快]
+https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json
+#EXTINF:-1 tvg-name="guot55",guot55 [快]
+https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json
+#EXTINF:-1 tvg-name="mcp2016",mcp2016 [快]
+https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json
 #EXTINF:-1 tvg-name="www.yingm.cc",www.yingm.cc [快]
 https://www.yingm.cc/dm/dm.json
 #EXTINF:-1 tvg-name="12586.kstore.space",12586.kstore.space [快]
 https://12586.kstore.space/123.txt
 #EXTINF:-1 tvg-name="liu673cn-box",liu673cn-box [快]
 https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json
-#EXTINF:-1 tvg-name="tiantaiyx-0",tiantaiyx-0 [稳定]
-https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json
 #EXTINF:-1 tvg-name="yueer59",yueer59 [快]
 https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json
 #EXTINF:-1 tvg-name="home.jundie.top:81",home.jundie.top:81 [快]
