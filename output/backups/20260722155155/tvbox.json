@@ -1,9 +1,9 @@
 {
   "name": "TV-Matrix-Core",
-  "generated_at": "2026-07-20T16:01:35.637127+00:00",
+  "generated_at": "2026-07-22T15:51:55.512576+00:00",
   "sites": [
     {
-      "key": "8784111508852112717",
+      "key": "8359366998640292671",
       "name": "mcp2016 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json",
@@ -12,11 +12,11 @@
       "filterable": 1,
       "ext": {
         "health_score": 100.0,
-        "latency_ms": 7
+        "latency_ms": 2
       }
     },
     {
-      "key": "2723996612565181140",
+      "key": "5048694949830029957",
       "name": "zhanghong1983 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json",
@@ -25,11 +25,11 @@
       "filterable": 1,
       "ext": {
         "health_score": 100.0,
-        "latency_ms": 8
+        "latency_ms": 3
       }
     },
     {
-      "key": "7426143045391707301",
+      "key": "1143888405743022551",
       "name": "guot55 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json",
@@ -37,12 +37,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 99.99,
-        "latency_ms": 15
+        "health_score": 99.93,
+        "latency_ms": 143
       }
     },
     {
-      "key": "1891134588303197897",
+      "key": "236354832789243650",
       "name": "yueer59 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json",
@@ -50,12 +50,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 96.46,
-        "latency_ms": 86
+        "health_score": 96.75,
+        "latency_ms": 146
       }
     },
     {
-      "key": "4056301484160845440",
+      "key": "1570739239002045662",
       "name": "raw.liucn.cc [快]",
       "type": 3,
       "api": "https://raw.liucn.cc/box/m.json",
@@ -63,8 +63,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 89.99,
-        "latency_ms": 18
+        "health_score": 90.62,
+        "latency_ms": 97
       }
     }
   ]

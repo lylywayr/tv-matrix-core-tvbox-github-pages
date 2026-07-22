@@ -1,0 +1,22 @@
+{
+  "name": "TV-Matrix-Core 优选普通仓",
+  "generated_at": "2026-07-22T15:53:05.547151+00:00",
+  "urls": [
+    {
+      "name": "01. yw88075 [快/100.0]",
+      "url": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json"
+    },
+    {
+      "name": "02. myhomebox [快/100.0]",
+      "url": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json"
+    },
+    {
+      "name": "03. gaotianliuyun-js [快/100.0]",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json"
+    },
+    {
+      "name": "04. www.ywsj.cf [快/99.68]",
+      "url": "https://www.ywsj.cf/upload/2023/10/yyzq4k.json"
+    }
+  ]
+}
