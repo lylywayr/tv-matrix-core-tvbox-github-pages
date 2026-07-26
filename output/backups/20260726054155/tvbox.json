@@ -1,0 +1,97 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-07-26T05:41:55.847830+00:00",
+  "sites": [
+    {
+      "key": "6299011503848188449",
+      "name": "wlcmc1972 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.99,
+        "latency_ms": 16
+      }
+    },
+    {
+      "key": "4365700797376715047",
+      "name": "jak0099 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.99,
+        "latency_ms": 26
+      }
+    },
+    {
+      "key": "474421553145419837",
+      "name": "aliluya1977 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.97,
+        "latency_ms": 53
+      }
+    },
+    {
+      "key": "296939091703162159",
+      "name": "catvod-mj [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.96,
+        "latency_ms": 85
+      }
+    },
+    {
+      "key": "2655394302897570208",
+      "name": "www.yingm.cc [快]",
+      "type": 3,
+      "api": "https://www.yingm.cc/dm/dm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.89,
+        "latency_ms": 227
+      }
+    },
+    {
+      "key": "8335432766232514753",
+      "name": "12586.kstore.space [快]",
+      "type": 3,
+      "api": "https://12586.kstore.space/123.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.45,
+        "latency_ms": 103
+      }
+    },
+    {
+      "key": "8777724640843980741",
+      "name": "liu673cn-box [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 97.81,
+        "latency_ms": 2
+      }
+    }
+  ]
+}
