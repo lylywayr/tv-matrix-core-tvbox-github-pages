@@ -1,0 +1,123 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-08-02T05:37:23.759621+00:00",
+  "sites": [
+    {
+      "key": "2495641025761287076",
+      "name": "wlcmc1972 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 2
+      }
+    },
+    {
+      "key": "1627644416230766835",
+      "name": "aliluya1977 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.99,
+        "latency_ms": 22
+      }
+    },
+    {
+      "key": "97636337469718524",
+      "name": "catvod-mj [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.92,
+        "latency_ms": 165
+      }
+    },
+    {
+      "key": "7431630495306805639",
+      "name": "jak0099 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.89,
+        "latency_ms": 226
+      }
+    },
+    {
+      "key": "1713523570982296657",
+      "name": "www.yingm.cc [快]",
+      "type": 3,
+      "api": "https://www.yingm.cc/dm/dm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.89,
+        "latency_ms": 229
+      }
+    },
+    {
+      "key": "5024249140801557816",
+      "name": "12586.kstore.space [快]",
+      "type": 3,
+      "api": "https://12586.kstore.space/123.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.47,
+        "latency_ms": 54
+      }
+    },
+    {
+      "key": "5444687832387960943",
+      "name": "liu673cn-box [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 98.48,
+        "latency_ms": 4
+      }
+    },
+    {
+      "key": "6390726646694241309",
+      "name": "gh-proxy.com [慢]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 19.95,
+        "latency_ms": 98
+      }
+    },
+    {
+      "key": "1592818053296580692",
+      "name": "home.jundie.top:81 [慢]",
+      "type": 3,
+      "api": "http://home.jundie.top:81/TVBox/yosakoi.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 19.89,
+        "latency_ms": 219
+      }
+    }
+  ]
+}
