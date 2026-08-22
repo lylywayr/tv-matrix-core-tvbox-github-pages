@@ -1,6 +1,6 @@
 {
   "name": "TV-Matrix-Core 优选普通仓",
-  "generated_at": "2026-08-19T03:11:58.709648+00:00",
+  "generated_at": "2026-08-22T14:37:28.150769+00:00",
   "urls": [
     {
       "name": "01. guot55 [快/100.0]",
@@ -15,11 +15,11 @@
       "url": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json"
     },
     {
-      "name": "04. yueer59 [快/97.98]",
+      "name": "04. yueer59 [快/98.12]",
       "url": "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json"
     },
     {
-      "name": "05. raw.liucn.cc [快/93.33]",
+      "name": "05. raw.liucn.cc [快/93.63]",
       "url": "https://raw.liucn.cc/box/m.json"
     }
   ]
