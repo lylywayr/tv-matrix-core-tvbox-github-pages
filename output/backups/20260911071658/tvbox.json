@@ -1,35 +1,9 @@
 {
   "name": "TV-Matrix-Core",
-  "generated_at": "2026-09-09T07:23:52.460523+00:00",
+  "generated_at": "2026-09-11T07:16:58.104942+00:00",
   "sites": [
     {
-      "key": "6392671009796431969",
-      "name": "aliluya1977 [快]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "health_score": 100.0,
-        "latency_ms": 7
-      }
-    },
-    {
-      "key": "8450821662906771196",
-      "name": "wlcmc1972 [快]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "health_score": 99.99,
-        "latency_ms": 20
-      }
-    },
-    {
-      "key": "1357095113879686823",
+      "key": "3901928710526508350",
       "name": "jak0099 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
@@ -38,11 +12,37 @@
       "filterable": 1,
       "ext": {
         "health_score": 99.99,
-        "latency_ms": 30
+        "latency_ms": 18
       }
     },
     {
-      "key": "2473019155290784567",
+      "key": "7730887675327874797",
+      "name": "wlcmc1972 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.98,
+        "latency_ms": 46
+      }
+    },
+    {
+      "key": "2492728812411228284",
+      "name": "aliluya1977 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.97,
+        "latency_ms": 54
+      }
+    },
+    {
+      "key": "4393761934690203428",
       "name": "catvod-mj [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
@@ -51,11 +51,11 @@
       "filterable": 1,
       "ext": {
         "health_score": 99.94,
-        "latency_ms": 123
+        "latency_ms": 122
       }
     },
     {
-      "key": "1439913188805588385",
+      "key": "3039892372619210633",
       "name": "www.yingm.cc [快]",
       "type": 3,
       "api": "https://www.yingm.cc/dm/dm.json",
@@ -63,12 +63,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 99.87,
-        "latency_ms": 267
+        "health_score": 99.73,
+        "latency_ms": 535
       }
     },
     {
-      "key": "1533117237284292503",
+      "key": "779145214412483639",
       "name": "12586.kstore.space [快]",
       "type": 3,
       "api": "https://12586.kstore.space/123.txt",
@@ -77,11 +77,11 @@
       "filterable": 1,
       "ext": {
         "health_score": 99.45,
-        "latency_ms": 110
+        "latency_ms": 92
       }
     },
     {
-      "key": "5426733192667855474",
+      "key": "1531297327894146719",
       "name": "liu673cn-box [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json",
@@ -89,12 +89,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 99.05,
-        "latency_ms": 7
+        "health_score": 99.1,
+        "latency_ms": 3
       }
     },
     {
-      "key": "32982146563914977",
+      "key": "2009693433757185066",
       "name": "gh-proxy.com [快]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
@@ -102,12 +102,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 90.75,
-        "latency_ms": 82
+        "health_score": 91.64,
+        "latency_ms": 49
       }
     },
     {
-      "key": "8205641248909555220",
+      "key": "3999930010156846122",
       "name": "home.jundie.top:81 [快]",
       "type": 3,
       "api": "http://home.jundie.top:81/TVBox/yosakoi.json",
@@ -115,8 +115,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 90.65,
-        "latency_ms": 279
+        "health_score": 91.54,
+        "latency_ms": 261
       }
     }
   ]

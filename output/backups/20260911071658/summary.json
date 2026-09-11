@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-09T07:25:19.406609+00:00",
-  "total": 72,
-  "online": 26,
-  "offline": 46,
-  "online_rate": 0.3611,
-  "average_score": 36.43,
+  "generated_at": "2026-09-11T07:16:58.104942+00:00",
+  "total": 11,
+  "online": 9,
+  "offline": 2,
+  "online_rate": 0.8182,
+  "average_score": 80.79,
   "artifacts": {
     "tvbox": "output/tvbox.json",
     "warehouse": "output/warehouse.json",
@@ -13,7 +13,7 @@
     "m3u": "output/live.m3u",
     "adult_m3u": "output/adult-live.m3u",
     "summary": "output/summary.json",
-    "selected": "23",
-    "adult_selected": "3"
+    "selected": "9",
+    "adult_selected": "0"
   }
 }
