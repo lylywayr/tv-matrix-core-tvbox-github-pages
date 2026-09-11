@@ -1,41 +1,41 @@
 {
   "name": "TV-Matrix-Core 优选普通仓",
-  "generated_at": "2026-09-11T07:16:58.104942+00:00",
+  "generated_at": "2026-09-11T17:44:56.540194+00:00",
   "urls": [
     {
-      "name": "01. jak0099 [快/99.99]",
-      "url": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json"
-    },
-    {
-      "name": "02. wlcmc1972 [快/99.98]",
+      "name": "01. wlcmc1972 [快/100.0]",
       "url": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json"
     },
     {
-      "name": "03. aliluya1977 [快/99.97]",
+      "name": "02. jak0099 [快/99.99]",
+      "url": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json"
+    },
+    {
+      "name": "03. aliluya1977 [快/99.93]",
       "url": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json"
     },
     {
-      "name": "04. catvod-mj [快/99.94]",
+      "name": "04. catvod-mj [快/99.93]",
       "url": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json"
     },
     {
-      "name": "05. www.yingm.cc [快/99.73]",
+      "name": "05. www.yingm.cc [快/99.9]",
       "url": "https://www.yingm.cc/dm/dm.json"
     },
     {
-      "name": "06. 12586.kstore.space [快/99.45]",
+      "name": "06. 12586.kstore.space [快/99.48]",
       "url": "https://12586.kstore.space/123.txt"
     },
     {
-      "name": "07. liu673cn-box [快/99.1]",
+      "name": "07. liu673cn-box [快/99.14]",
       "url": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json"
     },
     {
-      "name": "08. gh-proxy.com [快/91.64]",
+      "name": "08. gh-proxy.com [快/92.29]",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
     },
     {
-      "name": "09. home.jundie.top:81 [快/91.54]",
+      "name": "09. home.jundie.top:81 [快/92.28]",
       "url": "http://home.jundie.top:81/TVBox/yosakoi.json"
     }
   ]
