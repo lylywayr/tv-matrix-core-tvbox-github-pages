@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generated_at": "2026-10-08T09:00:10.173999+00:00",
-    "total": 219,
+    "generated_at": "2026-10-10T08:31:48.929155+00:00",
+    "total": 98,
     "online": 26,
-    "offline": 193,
-    "online_rate": 0.1187,
-    "average_score": 13.68,
+    "offline": 72,
+    "online_rate": 0.2653,
+    "average_score": 27.83,
     "artifacts": {
       "tvbox": "output/tvbox.json",
       "warehouse": "output/warehouse.json",
@@ -20,29 +20,11 @@
   },
   "sources": [
     {
-      "name": "wlcmc1972",
-      "url": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
-      "score": 100.0,
-      "label": "快",
-      "elapsed_ms": 5,
-      "origin": "seed",
-      "adult": false
-    },
-    {
-      "name": "freedtv-box",
-      "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
+      "name": "yw88075",
+      "url": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json",
       "score": 100.0,
       "label": "快",
       "elapsed_ms": 6,
-      "origin": "seed",
-      "adult": false
-    },
-    {
-      "name": "mcp2016",
-      "url": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json",
-      "score": 99.99,
-      "label": "快",
-      "elapsed_ms": 12,
       "origin": "seed",
       "adult": false
     },
@@ -65,20 +47,38 @@
       "adult": false
     },
     {
+      "name": "wlcmc1972",
+      "url": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
+      "score": 99.99,
+      "label": "快",
+      "elapsed_ms": 20,
+      "origin": "seed",
+      "adult": false
+    },
+    {
       "name": "dxawi.github.io",
       "url": "https://dxawi.github.io/0/0.json",
       "score": 99.99,
       "label": "快",
-      "elapsed_ms": 20,
+      "elapsed_ms": 24,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
     {
-      "name": "zhanghong1983",
-      "url": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json",
+      "name": "guot55",
+      "url": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json",
       "score": 99.99,
       "label": "快",
-      "elapsed_ms": 27,
+      "elapsed_ms": 28,
+      "origin": "seed",
+      "adult": false
+    },
+    {
+      "name": "jak0099",
+      "url": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
+      "score": 99.99,
+      "label": "快",
+      "elapsed_ms": 29,
       "origin": "seed",
       "adult": false
     },
@@ -92,65 +92,83 @@
       "adult": false
     },
     {
-      "name": "jak0099",
-      "url": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
-      "score": 99.98,
+      "name": "aliluya1977",
+      "url": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
+      "score": 99.97,
       "label": "快",
-      "elapsed_ms": 34,
+      "elapsed_ms": 55,
       "origin": "seed",
       "adult": false
     },
     {
-      "name": "yw88075",
-      "url": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json",
-      "score": 99.98,
+      "name": "zhanghong1983",
+      "url": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json",
+      "score": 99.97,
       "label": "快",
-      "elapsed_ms": 36,
+      "elapsed_ms": 55,
       "origin": "seed",
       "adult": false
     },
     {
       "name": "myhomebox",
       "url": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json",
-      "score": 99.98,
+      "score": 99.97,
       "label": "快",
-      "elapsed_ms": 37,
+      "elapsed_ms": 56,
+      "origin": "seed",
+      "adult": false
+    },
+    {
+      "name": "catvod-mj",
+      "url": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
+      "score": 99.97,
+      "label": "快",
+      "elapsed_ms": 64,
+      "origin": "seed",
+      "adult": false
+    },
+    {
+      "name": "mcp2016",
+      "url": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json",
+      "score": 99.97,
+      "label": "快",
+      "elapsed_ms": 68,
+      "origin": "seed",
+      "adult": false
+    },
+    {
+      "name": "tiantaiyx-0",
+      "url": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json",
+      "score": 99.97,
+      "label": "快",
+      "elapsed_ms": 68,
       "origin": "seed",
       "adult": false
     },
     {
       "name": "gaotianliuyun-js",
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json",
-      "score": 99.98,
+      "score": 99.97,
       "label": "快",
-      "elapsed_ms": 38,
+      "elapsed_ms": 69,
       "origin": "seed",
       "adult": false
     },
     {
-      "name": "guot55",
-      "url": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json",
-      "score": 99.98,
+      "name": "freedtv-box",
+      "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
+      "score": 99.96,
       "label": "快",
-      "elapsed_ms": 41,
+      "elapsed_ms": 71,
       "origin": "seed",
       "adult": false
     },
     {
       "name": "cnnbgo",
       "url": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json",
-      "score": 99.97,
+      "score": 99.96,
       "label": "快",
-      "elapsed_ms": 62,
-      "origin": "seed",
-      "adult": false
-    },
-    {
-      "name": "aliluya1977",
-      "url": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
-      "score": 99.95,
-      "label": "快",
-      "elapsed_ms": 91,
+      "elapsed_ms": 79,
       "origin": "seed",
       "adult": false
     },
@@ -191,29 +209,11 @@
       "adult": false
     },
     {
-      "name": "tiantaiyx-0",
-      "url": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json",
-      "score": 99.93,
-      "label": "快",
-      "elapsed_ms": 150,
-      "origin": "seed",
-      "adult": false
-    },
-    {
-      "name": "catvod-mj",
-      "url": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
-      "score": 99.92,
-      "label": "快",
-      "elapsed_ms": 153,
-      "origin": "seed",
-      "adult": false
-    },
-    {
       "name": "www.yingm.cc",
       "url": "https://www.yingm.cc/dm/dm.json",
       "score": 99.87,
       "label": "快",
-      "elapsed_ms": 267,
+      "elapsed_ms": 258,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
@@ -274,18 +274,18 @@
     {
       "name": "12586.kstore.space",
       "url": "https://12586.kstore.space/123.txt",
-      "score": 99.43,
+      "score": 99.44,
       "label": "快",
-      "elapsed_ms": 143,
+      "elapsed_ms": 123,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
     {
       "name": "liu673cn-box",
       "url": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json",
-      "score": 99.25,
+      "score": 99.28,
       "label": "快",
-      "elapsed_ms": 14,
+      "elapsed_ms": 7,
       "origin": "seed",
       "adult": false
     },
@@ -301,9 +301,9 @@
     {
       "name": "yueer59",
       "url": "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json",
-      "score": 98.79,
+      "score": 98.83,
       "label": "快",
-      "elapsed_ms": 79,
+      "elapsed_ms": 87,
       "origin": "seed",
       "adult": false
     },
@@ -319,9 +319,9 @@
     {
       "name": "home.jundie.top:81",
       "url": "http://home.jundie.top:81/top98.json",
-      "score": 97.92,
+      "score": 97.98,
       "label": "快",
-      "elapsed_ms": 264,
+      "elapsed_ms": 266,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
@@ -355,36 +355,36 @@
     {
       "name": "raw.liucn.cc",
       "url": "https://raw.liucn.cc/box/m.json",
-      "score": 95.75,
+      "score": 96.0,
       "label": "快",
-      "elapsed_ms": 17,
+      "elapsed_ms": 3,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
     {
       "name": "gh-proxy.com",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
-      "score": 93.93,
+      "score": 94.12,
       "label": "快",
-      "elapsed_ms": 80,
+      "elapsed_ms": 98,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
     {
       "name": "home.jundie.top:81",
       "url": "http://home.jundie.top:81/TVBox/yosakoi.json",
-      "score": 93.2,
+      "score": 94.03,
       "label": "快",
-      "elapsed_ms": 1539,
+      "elapsed_ms": 271,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     },
     {
       "name": "liu673cn.github.io",
       "url": "https://liu673cn.github.io/box/m.json",
-      "score": 91.23,
+      "score": 91.66,
       "label": "快",
-      "elapsed_ms": 31,
+      "elapsed_ms": 14,
       "origin": "discovery:cnblogs-tvbox-index",
       "adult": false
     }
@@ -393,18 +393,18 @@
     {
       "name": "tvbox18",
       "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/86e1e39338ae41fcbceb9d0d3896a7618ced6cd6/tv.json",
-      "score": 99.92,
+      "score": 99.96,
       "label": "快",
-      "elapsed_ms": 154,
+      "elapsed_ms": 81,
       "origin": "seed",
       "adult": true
     },
     {
       "name": "skyyaman18",
       "url": "https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json",
-      "score": 99.91,
+      "score": 99.96,
       "label": "快",
-      "elapsed_ms": 187,
+      "elapsed_ms": 83,
       "origin": "seed",
       "adult": true
     },
@@ -429,52 +429,14 @@
     {
       "name": "davidlee6628",
       "url": "https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json",
-      "score": 96.49,
+      "score": 96.47,
       "label": "快",
-      "elapsed_ms": 13,
+      "elapsed_ms": 56,
       "origin": "seed",
       "adult": true
     }
   ],
   "runs": [
-    {
-      "generated_at": "2026-07-01T03:12:28.486309+00:00",
-      "total": 33,
-      "online": 3,
-      "offline": 30,
-      "online_rate": 0.0909,
-      "average_score": 13.38,
-      "artifacts": {
-        "tvbox": "output/tvbox.json",
-        "warehouse": "output/warehouse.json",
-        "adult_warehouse": "output/adult-warehouse.json",
-        "all_lines": "output/all-lines.json",
-        "m3u": "output/live.m3u",
-        "adult_m3u": "output/adult-live.m3u",
-        "summary": "output/summary.json",
-        "selected": "2",
-        "adult_selected": "1"
-      }
-    },
-    {
-      "generated_at": "2026-07-01T03:14:05.293938+00:00",
-      "total": 133,
-      "online": 5,
-      "offline": 128,
-      "online_rate": 0.0376,
-      "average_score": 6.89,
-      "artifacts": {
-        "tvbox": "output/tvbox.json",
-        "warehouse": "output/warehouse.json",
-        "adult_warehouse": "output/adult-warehouse.json",
-        "all_lines": "output/all-lines.json",
-        "m3u": "output/live.m3u",
-        "adult_m3u": "output/adult-live.m3u",
-        "summary": "output/summary.json",
-        "selected": "3",
-        "adult_selected": "2"
-      }
-    },
     {
       "generated_at": "2026-07-01T03:17:35.597068+00:00",
       "total": 33,
@@ -1565,6 +1527,44 @@
       "offline": 193,
       "online_rate": 0.1187,
       "average_score": 13.68,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "23",
+        "adult_selected": "3"
+      }
+    },
+    {
+      "generated_at": "2026-10-10T08:30:23.207903+00:00",
+      "total": 48,
+      "online": 6,
+      "offline": 42,
+      "online_rate": 0.125,
+      "average_score": 13.79,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "6",
+        "adult_selected": "0"
+      }
+    },
+    {
+      "generated_at": "2026-10-10T08:31:48.929155+00:00",
+      "total": 98,
+      "online": 26,
+      "offline": 72,
+      "online_rate": 0.2653,
+      "average_score": 27.83,
       "artifacts": {
         "tvbox": "output/tvbox.json",
         "warehouse": "output/warehouse.json",
