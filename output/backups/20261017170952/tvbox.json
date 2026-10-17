@@ -1,0 +1,71 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-10-17T17:09:52.162575+00:00",
+  "sites": [
+    {
+      "key": "5657053875812092776",
+      "name": "guot55 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 2
+      }
+    },
+    {
+      "key": "3463236691437251706",
+      "name": "mcp2016 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 4
+      }
+    },
+    {
+      "key": "2569967957218564374",
+      "name": "zhanghong1983 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.96,
+        "latency_ms": 75
+      }
+    },
+    {
+      "key": "6103457774011665718",
+      "name": "dxawi.github.io [快]",
+      "type": 3,
+      "api": "https://dxawi.github.io/0/0.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.95,
+        "latency_ms": 96
+      }
+    },
+    {
+      "key": "578483401167844962",
+      "name": "yueer59 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 98.9,
+        "latency_ms": 137
+      }
+    }
+  ]
+}
