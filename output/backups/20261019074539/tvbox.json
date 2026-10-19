@@ -1,0 +1,97 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-10-19T07:45:39.026745+00:00",
+  "sites": [
+    {
+      "key": "347854250880511853",
+      "name": "gaotianliuyun-js [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.97,
+        "latency_ms": 63
+      }
+    },
+    {
+      "key": "5906625559138180602",
+      "name": "myhomebox [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.97,
+        "latency_ms": 70
+      }
+    },
+    {
+      "key": "3180686427631778331",
+      "name": "yw88075 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.96,
+        "latency_ms": 76
+      }
+    },
+    {
+      "key": "802602485011267357",
+      "name": "www.yingm.cc [快]",
+      "type": 3,
+      "api": "https://www.yingm.cc/dm/dm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.89,
+        "latency_ms": 230
+      }
+    },
+    {
+      "key": "5289202838902402340",
+      "name": "12586.kstore.space [快]",
+      "type": 3,
+      "api": "https://12586.kstore.space/123.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.47,
+        "latency_ms": 61
+      }
+    },
+    {
+      "key": "7739918779950845876",
+      "name": "home.jundie.top:81 [快]",
+      "type": 3,
+      "api": "http://home.jundie.top:81/TVBox/yosakoi.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 95.29,
+        "latency_ms": 217
+      }
+    },
+    {
+      "key": "7450796999549852383",
+      "name": "gh-proxy.com [快]",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 95.07,
+        "latency_ms": 139
+      }
+    }
+  ]
+}
