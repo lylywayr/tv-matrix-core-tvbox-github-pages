@@ -421,11 +421,22 @@
           "http_status": 200,
           "valid_item_count": 149,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.699453+00:00",
+          "ok": true,
+          "elapsed_ms": 47,
+          "content_quality": 1.0,
+          "score": 99.06,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 149,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.356109+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.699453+00:00"
     },
     "https://api.likepoems.com/img/bing": {
       "name": "api.likepoems.com",
@@ -6115,11 +6126,22 @@
           "http_status": 200,
           "valid_item_count": 53,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.719384+00:00",
+          "ok": true,
+          "elapsed_ms": 64,
+          "content_quality": 1.0,
+          "score": 99.97,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 53,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.352799+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.719384+00:00"
     },
     "https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;55c157414346e3ff571baad0a223bf15": {
       "name": "fm.t4tv.hz.cz",
@@ -9990,11 +10012,22 @@
           "http_status": 200,
           "valid_item_count": 9,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:44.125521+00:00",
+          "ok": true,
+          "elapsed_ms": 91,
+          "content_quality": 0.9,
+          "score": 99.45,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 9,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:25.449439+00:00"
+      "last_checked_at": "2026-10-22T18:32:44.125521+00:00"
     },
     "http://www.饭太硬.com/tv": {
       "name": "www.饭太硬.com",
@@ -10767,11 +10800,22 @@
           "http_status": 200,
           "valid_item_count": 60,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.855285+00:00",
+          "ok": true,
+          "elapsed_ms": 100,
+          "content_quality": 1.0,
+          "score": 95.68,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 60,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:24.909167+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.855285+00:00"
     },
     "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json": {
       "name": "agit.ai",
@@ -12036,11 +12080,22 @@
           "http_status": 200,
           "valid_item_count": 46,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:44.635936+00:00",
+          "ok": true,
+          "elapsed_ms": 238,
+          "content_quality": 1.0,
+          "score": 99.88,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 46,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:26.166453+00:00"
+      "last_checked_at": "2026-10-22T18:32:44.635936+00:00"
     },
     "https://ghproxy.com/raw.githubusercontent.com/zhanghong1983/TVBOXZY/main/tvbox.json": {
       "name": "ghproxy.com",
@@ -12617,11 +12672,22 @@
           "http_status": 200,
           "valid_item_count": 112,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:44.559498+00:00",
+          "ok": true,
+          "elapsed_ms": 239,
+          "content_quality": 1.0,
+          "score": 95.81,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 112,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:25.915526+00:00"
+      "last_checked_at": "2026-10-22T18:32:44.559498+00:00"
     },
     "https://agit.ai/n/b/raw/branch/a/b/c.json&nbsp": {
       "name": "agit.ai",
@@ -18370,11 +18436,33 @@
           "http_status": 200,
           "valid_item_count": 264,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:14.823672+00:00",
+          "ok": true,
+          "elapsed_ms": 4,
+          "content_quality": 1.0,
+          "score": 96.74,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 264,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.907244+00:00",
+          "ok": true,
+          "elapsed_ms": 73,
+          "content_quality": 1.0,
+          "score": 96.78,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 264,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:25.012023+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.907244+00:00"
     },
     "http://home.jundie.top:81/top98.json": {
       "name": "home.jundie.top:81",
@@ -18875,11 +18963,22 @@
           "http_status": 200,
           "valid_item_count": 40,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:44.580563+00:00",
+          "ok": true,
+          "elapsed_ms": 245,
+          "content_quality": 1.0,
+          "score": 98.32,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 40,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:25.826515+00:00"
+      "last_checked_at": "2026-10-22T18:32:44.580563+00:00"
     },
     "https://dxawi.github.io/0/0.json": {
       "name": "dxawi.github.io",
@@ -19336,11 +19435,22 @@
           "http_status": 200,
           "valid_item_count": 53,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.812213+00:00",
+          "ok": true,
+          "elapsed_ms": 71,
+          "content_quality": 1.0,
+          "score": 99.96,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 53,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:25.119572+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.812213+00:00"
     },
     "http://101.34.67.237/config/3": {
       "name": "101.34.67.237",
@@ -22420,11 +22530,22 @@
           "http_status": 200,
           "valid_item_count": 264,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.925507+00:00",
+          "ok": true,
+          "elapsed_ms": 92,
+          "content_quality": 1.0,
+          "score": 93.92,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 264,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:25.176643+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.925507+00:00"
     },
     "http://饭太硬.ga": {
       "name": "饭太硬.ga",
@@ -25307,11 +25428,22 @@
           "http_status": 200,
           "valid_item_count": 312,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.827227+00:00",
+          "ok": true,
+          "elapsed_ms": 175,
+          "content_quality": 1.0,
+          "score": 99.91,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 312,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.352569+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.827227+00:00"
     },
     "http://epg.112114.xyz/?ch={name}&date={date}": {
       "name": "epg.112114.xyz",
@@ -30188,11 +30320,33 @@
           "http_status": 200,
           "valid_item_count": 264,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:14.790983+00:00",
+          "ok": true,
+          "elapsed_ms": 3,
+          "content_quality": 1.0,
+          "score": 99.38,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 264,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.834616+00:00",
+          "ok": true,
+          "elapsed_ms": 163,
+          "content_quality": 1.0,
+          "score": 99.32,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 264,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.352734+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.834616+00:00"
     },
     "https://以下内容为互联网收集，只为自用。": {
       "name": "以下内容为互联网收集，只为自用。",
@@ -37163,11 +37317,22 @@
           "http_status": 200,
           "valid_item_count": 115,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.756229+00:00",
+          "ok": true,
+          "elapsed_ms": 105,
+          "content_quality": 1.0,
+          "score": 99.95,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 115,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.352692+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.756229+00:00"
     },
     "https://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vYnJlYWRteXRoL3R2L3Jhdy9icmFuY2gvbWFpbi9saXZlL2h1eWEudHh0": {
       "name": "do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vYnJlYWRteXRoL3R2L3Jhdy9icmFuY2gvbWFpbi9saXZlL2h1eWEudHh0",
@@ -41428,11 +41593,22 @@
           "http_status": 200,
           "valid_item_count": 120,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.708371+00:00",
+          "ok": true,
+          "elapsed_ms": 64,
+          "content_quality": 1.0,
+          "score": 99.97,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 120,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.351459+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.708371+00:00"
     },
     "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json": {
       "name": "aliluya1977",
@@ -42043,11 +42219,33 @@
           "http_status": 200,
           "valid_item_count": 35,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:14.790446+00:00",
+          "ok": true,
+          "elapsed_ms": 16,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 35,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.687798+00:00",
+          "ok": true,
+          "elapsed_ms": 23,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 35,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.350075+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.687798+00:00"
     },
     "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json": {
       "name": "yw88075",
@@ -42515,11 +42713,22 @@
           "http_status": 200,
           "valid_item_count": 177,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.667975+00:00",
+          "ok": true,
+          "elapsed_ms": 12,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 177,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.352850+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.667975+00:00"
     },
     "https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json": {
       "name": "davidlee6628",
@@ -42954,11 +43163,22 @@
           "http_status": 200,
           "valid_item_count": 3,
           "adult": true
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.662728+00:00",
+          "ok": true,
+          "elapsed_ms": 9,
+          "content_quality": 0.3,
+          "score": 96.5,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 3,
+          "adult": true
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.351525+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.662728+00:00"
     },
     "https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json": {
       "name": "mcp2016",
@@ -43371,11 +43591,22 @@
           "http_status": 200,
           "valid_item_count": 57,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.689081+00:00",
+          "ok": true,
+          "elapsed_ms": 14,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 57,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.350205+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.689081+00:00"
     },
     "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json": {
       "name": "wlcmc1972",
@@ -43986,11 +44217,33 @@
           "http_status": 200,
           "valid_item_count": 151,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:14.782631+00:00",
+          "ok": true,
+          "elapsed_ms": 16,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 151,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.687892+00:00",
+          "ok": true,
+          "elapsed_ms": 22,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 151,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.352640+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.687892+00:00"
     },
     "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json": {
       "name": "myhomebox",
@@ -44458,11 +44711,22 @@
           "http_status": 200,
           "valid_item_count": 15,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.703930+00:00",
+          "ok": true,
+          "elapsed_ms": 61,
+          "content_quality": 1.0,
+          "score": 99.97,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 15,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.351575+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.703930+00:00"
     },
     "https://raw.githubusercontent.com/XZBTV/2021/e5e186f5e5846a327a039a2c4409d1e3ad60a5be/CAT.json": {
       "name": "XZBTV",
@@ -44973,11 +45237,22 @@
           "http_status": 200,
           "valid_item_count": 146,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.674949+00:00",
+          "ok": true,
+          "elapsed_ms": 17,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 146,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.350286+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.674949+00:00"
     },
     "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json": {
       "name": "jak0099",
@@ -45588,11 +45863,33 @@
           "http_status": 200,
           "valid_item_count": 554,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:14.782560+00:00",
+          "ok": true,
+          "elapsed_ms": 22,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 554,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.826271+00:00",
+          "ok": true,
+          "elapsed_ms": 135,
+          "content_quality": 1.0,
+          "score": 99.93,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 554,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.352953+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.826271+00:00"
     },
     "https://raw.githubusercontent.com/yoyo82520/huaiptv/3f2dd11c22bdfb87f9f96e4e808894ff77c29c7e/mao.json": {
       "name": "yoyo82520",
@@ -46125,11 +46422,22 @@
           "http_status": 200,
           "valid_item_count": 60,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.672895+00:00",
+          "ok": true,
+          "elapsed_ms": 11,
+          "content_quality": 1.0,
+          "score": 99.99,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 60,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.350253+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.672895+00:00"
     },
     "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json": {
       "name": "catvod-mj",
@@ -46740,11 +47048,33 @@
           "http_status": 200,
           "valid_item_count": 45,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:15.013449+00:00",
+          "ok": true,
+          "elapsed_ms": 289,
+          "content_quality": 1.0,
+          "score": 99.86,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 45,
+          "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.746544+00:00",
+          "ok": true,
+          "elapsed_ms": 86,
+          "content_quality": 1.0,
+          "score": 99.96,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 45,
+          "adult": false
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.819795+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.746544+00:00"
     },
     "https://raw.githubusercontent.com/qirenzhidao/tvbox18/86e1e39338ae41fcbceb9d0d3896a7618ced6cd6/tv.json": {
       "name": "tvbox18",
@@ -47212,11 +47542,22 @@
           "http_status": 200,
           "valid_item_count": 20,
           "adult": true
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.746493+00:00",
+          "ok": true,
+          "elapsed_ms": 95,
+          "content_quality": 1.0,
+          "score": 99.95,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 20,
+          "adult": true
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.352828+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.746493+00:00"
     },
     "https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json": {
       "name": "skyyaman18",
@@ -47651,11 +47992,22 @@
           "http_status": 200,
           "valid_item_count": 15,
           "adult": true
+        },
+        {
+          "checked_at": "2026-10-22T18:32:43.812886+00:00",
+          "ok": true,
+          "elapsed_ms": 109,
+          "content_quality": 1.0,
+          "score": 99.95,
+          "label": "快",
+          "http_status": 200,
+          "valid_item_count": 15,
+          "adult": true
         }
       ],
       "consecutive_failures": 0,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:22.350151+00:00"
+      "last_checked_at": "2026-10-22T18:32:43.812886+00:00"
     },
     "https://www.libvio.pro$$$null": {
       "name": "www.libvio.pro$$$null",
@@ -54546,11 +54898,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:21.537769+00:00",
+          "ok": false,
+          "elapsed_ms": 1079,
+          "content_quality": 0.0,
+          "score": 10.55,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 6,
+      "consecutive_failures": 7,
       "sleeping": true,
-      "last_checked_at": "2026-09-22T18:05:23.319640+00:00"
+      "last_checked_at": "2026-10-22T18:32:21.537769+00:00"
     },
     "http://diyp5.112114.xyz/?ch={name}&date={date}": {
       "name": "diyp5.112114.xyz",
@@ -71598,11 +71961,22 @@
           "http_status": 403,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:16.161269+00:00",
+          "ok": false,
+          "elapsed_ms": 249,
+          "content_quality": 0.0,
+          "score": 3.72,
+          "label": "离线",
+          "http_status": 403,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 4,
-      "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:26.552631+00:00"
+      "consecutive_failures": 5,
+      "sleeping": true,
+      "last_checked_at": "2026-10-22T18:32:16.161269+00:00"
     },
     "https://www.trae.cn/sem/?utm_source=advertising&utm_medium=cnblogs_ug_cpa&utm_term=hw_trae_cnblogs": {
       "name": "www.trae.cn",
@@ -73479,11 +73853,22 @@
           "http_status": 200,
           "valid_item_count": 0,
           "adult": false
+        },
+        {
+          "checked_at": "2026-10-22T18:32:45.919198+00:00",
+          "ok": false,
+          "elapsed_ms": 1314,
+          "content_quality": 0.0,
+          "score": 3.59,
+          "label": "离线",
+          "http_status": 200,
+          "valid_item_count": 0,
+          "adult": false
         }
       ],
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "sleeping": false,
-      "last_checked_at": "2026-10-21T07:40:26.752259+00:00"
+      "last_checked_at": "2026-10-22T18:32:45.919198+00:00"
     }
   },
   "runs": [
@@ -74973,6 +75358,44 @@
       "offline": 52,
       "online_rate": 0.3333,
       "average_score": 33.85,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "23",
+        "adult_selected": "3"
+      }
+    },
+    {
+      "generated_at": "2026-10-22T18:32:21.539486+00:00",
+      "total": 8,
+      "online": 6,
+      "offline": 2,
+      "online_rate": 0.75,
+      "average_score": 76.28,
+      "artifacts": {
+        "tvbox": "output/tvbox.json",
+        "warehouse": "output/warehouse.json",
+        "adult_warehouse": "output/adult-warehouse.json",
+        "all_lines": "output/all-lines.json",
+        "m3u": "output/live.m3u",
+        "adult_m3u": "output/adult-live.m3u",
+        "summary": "output/summary.json",
+        "selected": "6",
+        "adult_selected": "0"
+      }
+    },
+    {
+      "generated_at": "2026-10-22T18:32:45.922942+00:00",
+      "total": 27,
+      "online": 26,
+      "offline": 1,
+      "online_rate": 0.963,
+      "average_score": 95.47,
       "artifacts": {
         "tvbox": "output/tvbox.json",
         "warehouse": "output/warehouse.json",
