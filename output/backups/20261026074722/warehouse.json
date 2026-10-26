@@ -1,0 +1,34 @@
+{
+  "name": "TV-Matrix-Core 优选普通仓",
+  "generated_at": "2026-10-26T07:47:22.584935+00:00",
+  "urls": [
+    {
+      "name": "01. gaotianliuyun-js [快/100.0]",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json"
+    },
+    {
+      "name": "02. myhomebox [快/100.0]",
+      "url": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json"
+    },
+    {
+      "name": "03. yw88075 [快/100.0]",
+      "url": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json"
+    },
+    {
+      "name": "04. www.yingm.cc [快/99.87]",
+      "url": "https://www.yingm.cc/dm/dm.json"
+    },
+    {
+      "name": "05. 12586.kstore.space [快/99.45]",
+      "url": "https://12586.kstore.space/123.txt"
+    },
+    {
+      "name": "06. home.jundie.top:81 [快/95.89]",
+      "url": "http://home.jundie.top:81/TVBox/yosakoi.json"
+    },
+    {
+      "name": "07. gh-proxy.com [快/95.79]",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+    }
+  ]
+}
