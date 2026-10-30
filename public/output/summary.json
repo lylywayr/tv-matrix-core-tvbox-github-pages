@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T07:47:41.440316+00:00",
-  "total": 27,
+  "generated_at": "2026-10-30T19:21:47.739372+00:00",
+  "total": 29,
   "online": 26,
-  "offline": 1,
-  "online_rate": 0.963,
-  "average_score": 95.52,
+  "offline": 3,
+  "online_rate": 0.8966,
+  "average_score": 89.21,
   "artifacts": {
     "tvbox": "output/tvbox.json",
     "warehouse": "output/warehouse.json",
