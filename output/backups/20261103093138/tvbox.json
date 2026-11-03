@@ -1,9 +1,9 @@
 {
   "name": "TV-Matrix-Core",
-  "generated_at": "2026-11-02T22:46:38.177725+00:00",
+  "generated_at": "2026-11-03T09:31:38.750305+00:00",
   "sites": [
     {
-      "key": "6087061515566507337",
+      "key": "7469240457564656778",
       "name": "cnnbgo [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json",
@@ -12,24 +12,11 @@
       "filterable": 1,
       "ext": {
         "health_score": 100.0,
-        "latency_ms": 3
+        "latency_ms": 6
       }
     },
     {
-      "key": "4520027598550584315",
-      "name": "tiantaiyx-0 [快]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "health_score": 100.0,
-        "latency_ms": 3
-      }
-    },
-    {
-      "key": "7586434990666265417",
+      "key": "6216854393466672992",
       "name": "freedtv-box [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
@@ -38,11 +25,24 @@
       "filterable": 1,
       "ext": {
         "health_score": 100.0,
-        "latency_ms": 5
+        "latency_ms": 7
       }
     },
     {
-      "key": "4449036061481099098",
+      "key": "570924747658864665",
+      "name": "tiantaiyx-0 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 7
+      }
+    },
+    {
+      "key": "1560460160339549588",
       "name": "home.jundie.top:81 [快]",
       "type": 3,
       "api": "http://home.jundie.top:81/top98.json",
@@ -50,12 +50,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 98.46,
-        "latency_ms": 273
+        "health_score": 98.55,
+        "latency_ms": 205
       }
     },
     {
-      "key": "5326283180865200954",
+      "key": "7961553120648903800",
       "name": "liu673cn.github.io [快]",
       "type": 3,
       "api": "https://liu673cn.github.io/box/m.json",
@@ -63,8 +63,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 94.83,
-        "latency_ms": 49
+        "health_score": 95.05,
+        "latency_ms": 174
       }
     }
   ]
