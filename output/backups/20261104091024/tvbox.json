@@ -1,9 +1,9 @@
 {
   "name": "TV-Matrix-Core",
-  "generated_at": "2026-11-03T09:31:38.750305+00:00",
+  "generated_at": "2026-11-04T09:10:24.698213+00:00",
   "sites": [
     {
-      "key": "7469240457564656778",
+      "key": "5411841671037040475",
       "name": "cnnbgo [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json",
@@ -11,12 +11,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 100.0,
-        "latency_ms": 6
+        "health_score": 99.99,
+        "latency_ms": 12
       }
     },
     {
-      "key": "6216854393466672992",
+      "key": "6579715964340840643",
       "name": "freedtv-box [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json",
@@ -24,12 +24,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 100.0,
-        "latency_ms": 7
+        "health_score": 99.99,
+        "latency_ms": 14
       }
     },
     {
-      "key": "570924747658864665",
+      "key": "3941013241218395297",
       "name": "tiantaiyx-0 [快]",
       "type": 3,
       "api": "https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json",
@@ -37,12 +37,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 100.0,
-        "latency_ms": 7
+        "health_score": 99.99,
+        "latency_ms": 14
       }
     },
     {
-      "key": "1560460160339549588",
+      "key": "8599901597446520082",
       "name": "home.jundie.top:81 [快]",
       "type": 3,
       "api": "http://home.jundie.top:81/top98.json",
@@ -50,12 +50,12 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 98.55,
-        "latency_ms": 205
+        "health_score": 98.56,
+        "latency_ms": 241
       }
     },
     {
-      "key": "7961553120648903800",
+      "key": "5900934891545272440",
       "name": "liu673cn.github.io [快]",
       "type": 3,
       "api": "https://liu673cn.github.io/box/m.json",
@@ -63,8 +63,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "health_score": 95.05,
-        "latency_ms": 174
+        "health_score": 95.24,
+        "latency_ms": 63
       }
     }
   ]
