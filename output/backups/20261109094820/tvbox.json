@@ -1,0 +1,84 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-11-09T09:48:20.346630+00:00",
+  "sites": [
+    {
+      "key": "5564347470376876503",
+      "name": "aliluya1977 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 3
+      }
+    },
+    {
+      "key": "5249628148366418209",
+      "name": "jak0099 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.99,
+        "latency_ms": 16
+      }
+    },
+    {
+      "key": "3479613910320331303",
+      "name": "wlcmc1972 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.98,
+        "latency_ms": 41
+      }
+    },
+    {
+      "key": "5696965814936200873",
+      "name": "catvod-mj [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.96,
+        "latency_ms": 78
+      }
+    },
+    {
+      "key": "4327450829873385555",
+      "name": "liu673cn-box [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.48,
+        "latency_ms": 4
+      }
+    },
+    {
+      "key": "8268493558856384020",
+      "name": "raw.liucn.cc [快]",
+      "type": 3,
+      "api": "https://raw.liucn.cc/box/m.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 97.34,
+        "latency_ms": 37
+      }
+    }
+  ]
+}
