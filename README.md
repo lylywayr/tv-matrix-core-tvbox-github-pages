@@ -2,9 +2,9 @@
 
 全自动影视仓线路聚合与健康度验证系统。系统默认以自动发现为主、手动配置为辅：会从 GitHub 公共代码搜索和用户配置的公开聚合页中搜集候选线路，验证后只发布评分较优的一小批结果，避免 GitHub Actions 运行时间过长。
 
-![线路总数](https://img.shields.io/badge/total-78-blue)
-![在线率](https://img.shields.io/badge/online_rate-33.33%-brightgreen)
-![最后更新](https://img.shields.io/badge/updated-2026--11--09T09:49:56.037662+00:00-lightgrey)
+![线路总数](https://img.shields.io/badge/total-27-blue)
+![在线率](https://img.shields.io/badge/online_rate-96.30%-brightgreen)
+![最后更新](https://img.shields.io/badge/updated-2026--11--10T20:49:30.096463+00:00-lightgrey)
 
 ## 快速引用
 
@@ -20,73 +20,73 @@
 
 ## 当前状态
 
-- 已验证候选数: 78
+- 已验证候选数: 27
 - 在线候选数: 26
-- 离线候选数: 52
-- 平均健康分: 34.1
+- 离线候选数: 1
+- 平均健康分: 95.66
 
 ## 近期在线率趋势
 
 ```text
-▇█████▇█████▇███▁▂▂▃
-83% 96% 100% 96% 10% 13% 14% 33%
+████▇█████▇███▁▂▂▃██
+100% 96% 10% 13% 14% 33% 100% 96%
 ```
 
 ## 本次普通可用线路
 
 | 名称 | 标签 | 健康分 | 延迟 | 线路链接 |
 | --- | --- | ---: | ---: | --- |
-| gaotianliuyun-js | 快 | 99.99 | 11ms | `https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json` |
-| zhanghong1983 | 快 | 99.99 | 13ms | `https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json` |
-| tiantaiyx-0 | 快 | 99.99 | 13ms | `https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json` |
+| zhanghong1983 | 快 | 99.99 | 12ms | `https://raw.githubusercontent.com/zhanghong1983/tvboxzy/f8261b0d32e893aa9372fd385f5fb5c421fcdde2/XBPQ.json` |
 | www.seedhub.cc | 快 | 99.99 | 14ms | `https://www.seedhub.cc` |
-| aliluya1977 | 快 | 99.99 | 14ms | `https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json` |
 | GitHub tvbox.json | 快 | 99.99 | 15ms | `https://raw.githubusercontent.com/phoenix7750/iptv/b5321a52539e837847f1e2c96578482dd3bf7915/tvbox.json` |
-| myhomebox | 快 | 99.99 | 18ms | `https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json` |
-| wlcmc1972 | 快 | 99.99 | 25ms | `https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json` |
-| cnnbgo | 快 | 99.99 | 30ms | `https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json` |
+| guot55 | 快 | 99.99 | 15ms | `https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json` |
+| aliluya1977 | 快 | 99.99 | 15ms | `https://raw.githubusercontent.com/aliluya1977/TVBox/35b1b50ee77ee4e422fc2b9cb83ac0668016305e/xm.json` |
+| tiantaiyx-0 | 快 | 99.99 | 15ms | `https://raw.githubusercontent.com/tiantaiyx/tvbox/d97a57c12bc0ac189cda5acfe530394e03d80371/0.json` |
+| freedtv-box | 快 | 99.99 | 16ms | `https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json` |
+| dxawi.github.io | 快 | 99.99 | 16ms | `https://dxawi.github.io/0/0.json` |
+| cnnbgo | 快 | 99.99 | 25ms | `https://raw.githubusercontent.com/cnnbgo/tvbox/f2afa9065deb1c2c2341df2776abdc6b02c5913f/x.json` |
+| mcp2016 | 快 | 99.99 | 26ms | `https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json` |
+| wlcmc1972 | 快 | 99.99 | 27ms | `https://raw.githubusercontent.com/wlcmc1972/tvbox/15df8ab0379d8a2ee58c4b86a957e36e2f796337/t1.json` |
 | m3u.ibert.me | 快 | 99.98 | 34ms | `https://m3u.ibert.me/txt/fmml_ipv6.txt` |
+| yw88075 | 快 | 99.98 | 34ms | `https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json` |
 | jak0099 | 快 | 99.98 | 35ms | `https://raw.githubusercontent.com/jak0099/dr/f2aa3691d11a6e198714fe14d445341576cba193/dr2.json` |
-| yw88075 | 快 | 99.97 | 56ms | `https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json` |
-| freedtv-box | 快 | 99.97 | 57ms | `https://raw.githubusercontent.com/FreeDTV/FreeD/2511407b95ec434cf5d9e65f36aac63141c4a7ba/box.json` |
-| guot55 | 快 | 99.97 | 62ms | `https://raw.githubusercontent.com/guot55/yg/d0879e44c351c7ede52709ae4194a0c1f692855f/jsm.json` |
-| mcp2016 | 快 | 99.97 | 63ms | `https://raw.githubusercontent.com/mcp2016/TVBox/848272f1eaf98a3e10042681919c2ad2fa92daea/pj.json` |
-| dxawi.github.io | 快 | 99.97 | 65ms | `https://dxawi.github.io/0/0.json` |
-| catvod-mj | 快 | 99.95 | 90ms | `https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json` |
+| myhomebox | 快 | 99.97 | 57ms | `https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json` |
+| gaotianliuyun-js | 快 | 99.97 | 58ms | `https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json` |
+| catvod-mj | 快 | 99.96 | 80ms | `https://raw.githubusercontent.com/CatVodTV/CatTV.github.io/337cd299e699ca0d49b7bf35e29b8b38068572d5/mj.json` |
 | www.xb6v.com | 快 | 99.95 | 96ms | `https://www.xb6v.com` |
 | tvbox.catvod.com | 快 | 99.93 | 138ms | `https://tvbox.catvod.com/js/bili.js` |
 | tvbox.catvod.com | 快 | 99.93 | 140ms | `https://tvbox.catvod.com/js/aqy.js` |
 | www.xb6v.com | 快 | 99.93 | 142ms | `http://www.xb6v.com` |
-| www.yingm.cc | 快 | 99.88 | 237ms | `https://www.yingm.cc/dm/dm.json` |
+| www.yingm.cc | 快 | 99.91 | 184ms | `https://www.yingm.cc/dm/dm.json` |
 | jihulab.com | 快 | 99.8 | 395ms | `https://jihulab.com/z-blog/xh2/-/raw/main/t3.json` |
 | jihulab.com | 快 | 99.8 | 407ms | `https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc.json` |
 | jihulab.com | 快 | 99.76 | 476ms | `https://jihulab.com/tvbox4431737/tvbox/-/raw/main/tv.json?ref_type=heads&amp;inline=false` |
 | www.ywsj.cf | 快 | 99.72 | 561ms | `https://www.ywsj.cf/upload/2023/10/yyzq4k.json` |
 | jihulab.com | 快 | 99.69 | 613ms | `https://jihulab.com/Liangmyjj/tvboxx/-/raw/main/yinzuo2.json?inline=false` |
+| liu673cn-box | 快 | 99.49 | 11ms | `https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json` |
 | tvbox.catvod.com | 快 | 99.48 | 46ms | `https://tvbox.catvod.com/js/tx.js` |
-| liu673cn-box | 快 | 99.47 | 49ms | `https://raw.githubusercontent.com/liu673cn/box/bac55898bcd4710a46245e37646b48c6a16ef0bd/m.json` |
-| yueer59 | 快 | 99.22 | 108ms | `https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json` |
+| yueer59 | 快 | 99.24 | 85ms | `https://raw.githubusercontent.com/yueer59/Tvbox/74ee1483b67e73767fe67bf3a2d4d6502c4cafcd/api.json` |
 | tvbox.catvod.com | 快 | 98.98 | 46ms | `https://tvbox.catvod.com/js/mgtv.js` |
-| 12586.kstore.space | 快 | 98.96 | 87ms | `https://12586.kstore.space/123.txt` |
-| home.jundie.top:81 | 快 | 98.64 | 261ms | `http://home.jundie.top:81/top98.json` |
+| 12586.kstore.space | 快 | 98.96 | 89ms | `https://12586.kstore.space/123.txt` |
+| home.jundie.top:81 | 快 | 98.71 | 216ms | `http://home.jundie.top:81/top98.json` |
 | tvbox.catvod.com | 快 | 98.47 | 51ms | `https://tvbox.catvod.com/js/yk.js` |
-| raw.liucn.cc | 快 | 97.4 | 10ms | `https://raw.liucn.cc/box/m.json` |
+| raw.liucn.cc | 快 | 97.45 | 12ms | `https://raw.liucn.cc/box/m.json` |
 | tvbox.catvod.com | 快 | 96.98 | 50ms | `https://tvbox.catvod.com/js/ik.js` |
-| home.jundie.top:81 | 快 | 96.58 | 241ms | `http://home.jundie.top:81/TVBox/yosakoi.json` |
-| gh-proxy.com | 快 | 96.53 | 77ms | `https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json` |
+| home.jundie.top:81 | 快 | 96.65 | 214ms | `http://home.jundie.top:81/TVBox/yosakoi.json` |
+| gh-proxy.com | 快 | 96.58 | 107ms | `https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json` |
 | tvbox.catvod.com | 快 | 96.48 | 47ms | `https://tvbox.catvod.com/js/sg.js` |
 | tvbox.catvod.com | 快 | 96.45 | 92ms | `https://tvbox.catvod.com/js/drpy2.min.js` |
-| liu673cn.github.io | 快 | 95.72 | 20ms | `https://liu673cn.github.io/box/m.json` |
+| liu673cn.github.io | 快 | 95.89 | 76ms | `https://liu673cn.github.io/box/m.json` |
 
 ## 本次18+可用线路
 
 | 名称 | 标签 | 健康分 | 延迟 | 线路链接 |
 | --- | --- | ---: | ---: | --- |
-| skyyaman18 | 快 | 99.99 | 18ms | `https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json` |
-| tvbox18 | 快 | 99.87 | 255ms | `https://raw.githubusercontent.com/qirenzhidao/tvbox18/86e1e39338ae41fcbceb9d0d3896a7618ced6cd6/tv.json` |
+| tvbox18 | 快 | 99.99 | 16ms | `https://raw.githubusercontent.com/qirenzhidao/tvbox18/86e1e39338ae41fcbceb9d0d3896a7618ced6cd6/tv.json` |
+| skyyaman18 | 快 | 99.94 | 115ms | `https://raw.githubusercontent.com/skyyaman/skyyaman.github.io/4ae60a8a2ccfe0444dea962d5ddb2f326fc640ed/s18.json` |
 | jihulab.com | 快 | 99.81 | 373ms | `https://jihulab.com/zhulr7765/tvbox/-/raw/main/tv.txt?ref_type=heads` |
 | jihulab.com | 快 | 99.43 | 1139ms | `https://jihulab.com/xz101522/tvbox/-/raw/main/live.txt?ref_type=heads&amp;inline=false` |
-| davidlee6628 | 快 | 96.49 | 21ms | `https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json` |
+| davidlee6628 | 快 | 96.47 | 59ms | `https://raw.githubusercontent.com/davidlee6628/ssr/e510212c6f9ac2fa918679ea90ef04b29501c9b4/tt.json` |
 
 ## 自动与手动来源
 
