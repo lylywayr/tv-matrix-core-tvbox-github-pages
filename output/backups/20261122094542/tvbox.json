@@ -1,0 +1,84 @@
+{
+  "name": "TV-Matrix-Core",
+  "generated_at": "2026-11-22T09:45:42.346233+00:00",
+  "sites": [
+    {
+      "key": "7244316867656261996",
+      "name": "gaotianliuyun-js [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/8213bb046f4dce746b5f2ddcddb13a336d0b0d60/js.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 6
+      }
+    },
+    {
+      "key": "3884122833625853946",
+      "name": "yw88075 [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/yw88075/tvbox/5df857abc263fda3c3e6cb1c285229f4d5e02230/yw.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 9
+      }
+    },
+    {
+      "key": "2849720759954013979",
+      "name": "myhomebox [快]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/myhomebox/tv/c5142631f61c4e649bc615f5625066783ef38883/yt.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 100.0,
+        "latency_ms": 9
+      }
+    },
+    {
+      "key": "8045527432139555541",
+      "name": "www.yingm.cc [快]",
+      "type": 3,
+      "api": "https://www.yingm.cc/dm/dm.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 99.9,
+        "latency_ms": 203
+      }
+    },
+    {
+      "key": "8243970390478911005",
+      "name": "12586.kstore.space [快]",
+      "type": 3,
+      "api": "https://12586.kstore.space/123.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 98.96,
+        "latency_ms": 80
+      }
+    },
+    {
+      "key": "8673509701483643808",
+      "name": "home.jundie.top:81 [快]",
+      "type": 3,
+      "api": "http://home.jundie.top:81/TVBox/yosakoi.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "health_score": 97.02,
+        "latency_ms": 218
+      }
+    }
+  ]
+}
